@@ -1,0 +1,132 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-21T17:01:53Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 163565688,
+  "lat": -22.9071717,
+  "lon": -43.3089882,
+  "tags": {
+    "barrier": "toll_booth",
+    "charge": "4.00BRL/motorcar;0.00BRL/motorcycle;3.00BRL/hgv/axle",
+    "direction": "95",
+    "note": "Água Santa - 3",
+    "operator": "LAMSA"
+  }
+},
+{
+  "type": "node",
+  "id": 163565909,
+  "lat": -22.9075174,
+  "lon": -43.3087731,
+  "tags": {
+    "barrier": "toll_booth",
+    "charge": "4.00BRL/motorcar;0.00BRL/motorcycle;3.00BRL/hgv/axle",
+    "direction": "276",
+    "note": "Água Santa - 1",
+    "operator": "LAMSA"
+  }
+},
+{
+  "type": "node",
+  "id": 1782117460,
+  "lat": -22.9077427,
+  "lon": -43.3086401,
+  "tags": {
+    "barrier": "toll_booth",
+    "charge": "4.00BRL/motorcar;0.00BRL/motorcycle;3.00BRL/hgv/axle",
+    "direction": "274",
+    "note": "Água Santa - 1",
+    "operator": "LAMSA"
+  }
+},
+{
+  "type": "node",
+  "id": 1782117475,
+  "lat": -22.9069353,
+  "lon": -43.3091365,
+  "tags": {
+    "barrier": "toll_booth",
+    "charge": "4.00BRL/motorcar;0.00BRL/motorcycle;3.00BRL/hgv/axle",
+    "direction": "90",
+    "note": "Água Santa - 4",
+    "operator": "LAMSA"
+  }
+},
+{
+  "type": "node",
+  "id": 4272327925,
+  "lat": -22.9194138,
+  "lon": -43.3967813,
+  "tags": {
+    "barrier": "toll_booth",
+    "charge": "7.80BRL/motorcar;3.10BRL/motorcycle;8.60BRL/hgv/axle",
+    "direction": "6",
+    "operator": "ViaRio"
+  }
+},
+{
+  "type": "node",
+  "id": 4272327934,
+  "lat": -22.9195607,
+  "lon": -43.3962455,
+  "tags": {
+    "barrier": "toll_booth",
+    "charge": "7.80BRL/motorcar;3.10BRL/motorcycle;8.60BRL/hgv/axle",
+    "direction": "178",
+    "operator": "ViaRio"
+  }
+},
+{
+  "type": "node",
+  "id": 4272344239,
+  "lat": -22.8957976,
+  "lon": -43.3989547,
+  "tags": {
+    "barrier": "toll_booth",
+    "charge": "7.80BRL/motorcar;3.10BRL/motorcycle;8.60BRL/hgv/axle",
+    "direction": "158",
+    "note": "Rio Grande - 1",
+    "operator": "ViaRio"
+  }
+},
+{
+  "type": "node",
+  "id": 4272344240,
+  "lat": -22.8960031,
+  "lon": -43.3994978,
+  "tags": {
+    "barrier": "toll_booth",
+    "charge": "7.80BRL/motorcar;3.10BRL/motorcycle;8.60BRL/hgv/axle",
+    "direction": "337",
+    "note": "Rio Grande - 2",
+    "operator": "ViaRio"
+  }
+},
+{
+  "type": "node",
+  "id": 7628788206,
+  "lat": -23.0016405,
+  "lon": -43.3955416,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+},
+{
+  "type": "node",
+  "id": 13253370275,
+  "lat": -23.0016407,
+  "lon": -43.3955847,
+  "tags": {
+    "barrier": "toll_booth"
+  }
+}
+
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-08T06:09:44Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1613993046,
+  "lat": -22.9997404,
+  "lon": -43.3659929,
+  "tags": {
+    "name": "Barra da Tijuca",
+    "place": "suburb",
+    "population": "135924",
+    "wikidata": "Q808789",
+    "wikimedia_commons": "Category:Barra da Tijuca",
+    "wikipedia": "pt:Barra da Tijuca (bairro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993276,
+  "lat": -23.0077797,
+  "lon": -43.2872344,
+  "tags": {
+    "name": "Joá",
+    "place": "suburb",
+    "wikidata": "Q519320",
+    "wikipedia": "pt:Joá"
+  }
+},
+{
+  "type": "node",
+  "id": 1762779921,
+  "lat": -23.0107002,
+  "lon": -43.3123519,
+  "tags": {
+    "name": "Jardim Oceânico",
+    "place": "quarter",
+    "wikidata": "Q10305906",
+    "wikimedia_commons": "Category:Jardim Oceânico",
+    "wikipedia": "pt:Jardim Oceânico"
+  }
+},
+{
+  "type": "node",
+  "id": 1762779931,
+  "lat": -23.0083992,
+  "lon": -43.2971685,
+  "tags": {
+    "alt_name": "Largo da Barra",
+    "name": "Barrinha",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 1797515227,
+  "lat": -23.0185151,
+  "lon": -43.4634021,
+  "tags": {
+    "name": "Recreio dos Bandeirantes",
+    "place": "suburb",
+    "population": "82240",
+    "wikidata": "Q1580587",
+    "wikimedia_commons": "Category:Recreio dos Bandeirantes",
+    "wikipedia": "pt:Recreio dos Bandeirantes"
+  }
+},
+{
+  "type": "node",
+  "id": 2663086435,
+  "lat": -23.0041760,
+  "lon": -43.4741460,
+  "tags": {
+    "name": "Campos de Sernambetiba",
+    "place": "neighbourhood",
+    "wikidata": "Q22066621"
+  }
+},
+{
+  "type": "node",
+  "id": 2685971929,
+  "lat": -23.0275806,
+  "lon": -43.4788881,
+  "tags": {
+    "name": "Gleba Finch",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2707745396,
+  "lat": -23.0019551,
+  "lon": -43.3900036,
+  "tags": {
+    "name": "Américas Park",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2707745400,
+  "lat": -23.0017246,
+  "lon": -43.3930859,
+  "tags": {
+    "name": "Mundo Novo",
+    "place": "neighbourhood"
+  }
+}
+
+  ]
+}

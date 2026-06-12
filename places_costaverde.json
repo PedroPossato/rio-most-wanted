@@ -1,0 +1,1230 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-04-21T17:01:53Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 416645404,
+  "lat": -22.9202000,
+  "lon": -43.9440000,
+  "tags": {
+    "name": "Vila Muriqui",
+    "place": "village",
+    "source": "IBGE",
+    "wikidata": "Q6938736",
+    "wikimedia_commons": "Category:Muriqui (Mangaratiba)",
+    "wikipedia": "pt:Muriqui (Mangaratiba)"
+  }
+},
+{
+  "type": "node",
+  "id": 416645407,
+  "lat": -22.9278000,
+  "lon": -43.9083000,
+  "tags": {
+    "name": "Itacuruçá",
+    "place": "village",
+    "source": "IBGE"
+  }
+},
+{
+  "type": "node",
+  "id": 416657191,
+  "lat": -22.9020519,
+  "lon": -43.8660897,
+  "tags": {
+    "name": "Coroa Grande",
+    "place": "suburb",
+    "source": "Prefeitura de Itaguaí"
+  }
+},
+{
+  "type": "node",
+  "id": 416657202,
+  "lat": -23.0048833,
+  "lon": -43.5402344,
+  "tags": {
+    "name": "Ilha de Guaratiba",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993044,
+  "lat": -22.8753053,
+  "lon": -43.4648805,
+  "tags": {
+    "name": "Bangu",
+    "place": "suburb",
+    "wikidata": "Q2419968",
+    "wikimedia_commons": "Category:Bangu",
+    "wikipedia": "pt:Bangu"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993048,
+  "lat": -23.0360036,
+  "lon": -43.5521395,
+  "tags": {
+    "name": "Barra de Guaratiba",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993097,
+  "lat": -22.9029530,
+  "lon": -43.5591295,
+  "tags": {
+    "name": "Campo Grande",
+    "place": "suburb",
+    "wikidata": "Q1762402",
+    "wikimedia_commons": "Category:Campo Grande (Rio de Janeiro)",
+    "wikipedia": "pt:Campo Grande (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993157,
+  "lat": -22.9078051,
+  "lon": -43.6144915,
+  "tags": {
+    "name": "Cosmos",
+    "place": "suburb",
+    "wikidata": "Q1762451",
+    "wikimedia_commons": "Category:Cosmos (Rio de Janeiro)",
+    "wikipedia": "pt:Cosmos (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993226,
+  "lat": -23.0470388,
+  "lon": -43.5334787,
+  "tags": {
+    "name": "Grumari",
+    "place": "suburb",
+    "population": "167",
+    "wikidata": "Q1762445",
+    "wikimedia_commons": "Category:Grumari",
+    "wikipedia": "pt:Grumari"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993230,
+  "lat": -22.9905839,
+  "lon": -43.5849230,
+  "tags": {
+    "name": "Guaratiba",
+    "place": "suburb",
+    "wikidata": "Q917292",
+    "wikimedia_commons": "Category:Ilha de Guaratiba",
+    "wikipedia": "pt:Guaratiba"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993245,
+  "lat": -22.9131775,
+  "lon": -43.5932975,
+  "tags": {
+    "name": "Inhoaíba",
+    "place": "suburb",
+    "wikidata": "Q302109",
+    "wikipedia": "pt:Inhoaíba"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993321,
+  "lat": -22.8987000,
+  "lon": -43.6369556,
+  "tags": {
+    "name": "Paciência",
+    "place": "suburb",
+    "wikidata": "Q3888669",
+    "wikimedia_commons": "Category:Paciência",
+    "wikipedia": "pt:Paciência (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993329,
+  "lat": -22.9983546,
+  "lon": -43.6388666,
+  "tags": {
+    "name": "Pedra de Guaratiba",
+    "place": "suburb",
+    "wikidata": "Q3898614",
+    "wikipedia": "pt:Pedra de Guaratiba"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993362,
+  "lat": -22.9176248,
+  "lon": -43.6834907,
+  "tags": {
+    "name": "Santa Cruz",
+    "place": "suburb",
+    "population": "217333",
+    "wikidata": "Q262842",
+    "wikimedia_commons": "Category:Santa Cruz (Rio de Janeiro)",
+    "wikipedia": "pt:Santa Cruz (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993367,
+  "lat": -22.8751928,
+  "lon": -43.5198512,
+  "tags": {
+    "name": "Santíssimo",
+    "place": "suburb",
+    "wikidata": "Q3950130",
+    "wikipedia": "pt:Santíssimo (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993374,
+  "lat": -22.8887520,
+  "lon": -43.4913887,
+  "tags": {
+    "name": "Senador Camará",
+    "place": "suburb",
+    "wikidata": "Q3955162",
+    "wikipedia": "pt:Senador Camará"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993376,
+  "lat": -22.8953684,
+  "lon": -43.5288566,
+  "tags": {
+    "name": "Senador Vasconcelos",
+    "place": "suburb",
+    "wikidata": "Q3955165",
+    "wikipedia": "pt:Senador Vasconcelos"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993377,
+  "lat": -22.9679803,
+  "lon": -43.6940872,
+  "tags": {
+    "name": "Sepetiba",
+    "place": "suburb",
+    "wikidata": "Q917297",
+    "wikimedia_commons": "Category:Sepetiba",
+    "wikipedia": "pt:Sepetiba"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993403,
+  "lat": -22.9707911,
+  "lon": -43.4968914,
+  "tags": {
+    "name": "Vargem Grande",
+    "place": "suburb",
+    "wikidata": "Q4008727",
+    "wikimedia_commons": "Category:Vargem Grande (Rio de Janeiro)",
+    "wikipedia": "pt:Vargem Grande (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993405,
+  "lat": -22.9818187,
+  "lon": -43.4578117,
+  "tags": {
+    "name": "Vargem Pequena",
+    "place": "suburb",
+    "wikidata": "Q4008730",
+    "wikipedia": "pt:Vargem Pequena"
+  }
+},
+{
+  "type": "node",
+  "id": 1736521580,
+  "lat": -22.8760565,
+  "lon": -43.5532380,
+  "tags": {
+    "name": "Esplanada",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1736560635,
+  "lat": -22.8722706,
+  "lon": -43.5581572,
+  "tags": {
+    "name": "Santa Cecília",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1737358944,
+  "lat": -22.8674456,
+  "lon": -43.5585787,
+  "tags": {
+    "name": "Jardim São Geraldo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1738641876,
+  "lat": -22.8744602,
+  "lon": -43.5556291,
+  "tags": {
+    "name": "São Judas Tadeu",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1762591142,
+  "lat": -22.8757593,
+  "lon": -43.5303650,
+  "tags": {
+    "name": "São Vítor",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1762591148,
+  "lat": -22.8808697,
+  "lon": -43.5365234,
+  "tags": {
+    "name": "Parque São Pedro",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1762591151,
+  "lat": -22.8810432,
+  "lon": -43.5657589,
+  "tags": {
+    "name": "Oiticica",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1762591152,
+  "lat": -22.8833898,
+  "lon": -43.5701052,
+  "tags": {
+    "name": "Amazonas",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1762591156,
+  "lat": -22.8888855,
+  "lon": -43.5561577,
+  "tags": {
+    "alt_name": "Jardim Angular",
+    "name": "Pedra Angular",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1762591160,
+  "lat": -22.8772322,
+  "lon": -43.5380469,
+  "tags": {
+    "name": "Carolina",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1762591161,
+  "lat": -22.8854863,
+  "lon": -43.5481754,
+  "tags": {
+    "name": "Adriana",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1762600157,
+  "lat": -22.8708567,
+  "lon": -43.5512439,
+  "tags": {
+    "name": "Silvestre",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1762779937,
+  "lat": -22.8807636,
+  "lon": -43.4931972,
+  "tags": {
+    "name": "Jabour",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 1797515227,
+  "lat": -23.0185151,
+  "lon": -43.4634021,
+  "tags": {
+    "name": "Recreio dos Bandeirantes",
+    "place": "suburb",
+    "population": "82240",
+    "wikidata": "Q1580587",
+    "wikimedia_commons": "Category:Recreio dos Bandeirantes",
+    "wikipedia": "pt:Recreio dos Bandeirantes"
+  }
+},
+{
+  "type": "node",
+  "id": 1797590310,
+  "lat": -22.8719841,
+  "lon": -43.4736517,
+  "tags": {
+    "fixme": "Conferir posição.",
+    "name": "Vila Aliança",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 1825427795,
+  "lat": -22.8905855,
+  "lon": -43.5795464,
+  "tags": {
+    "name": "Vila Nova",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 2076770809,
+  "lat": -22.8867434,
+  "lon": -43.5722158,
+  "tags": {
+    "name": "Alessandra",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2140205541,
+  "lat": -22.8755902,
+  "lon": -43.5421635,
+  "tags": {
+    "name": "Manoela",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2140205544,
+  "lat": -22.8827632,
+  "lon": -43.5413065,
+  "tags": {
+    "name": "Victoria",
+    "place": "neighbourhood",
+    "source": "ECIA"
+  }
+},
+{
+  "type": "node",
+  "id": 2140241045,
+  "lat": -22.8746843,
+  "lon": -43.5747639,
+  "tags": {
+    "name": "Jardim Letícia",
+    "place": "neighbourhood",
+    "source": "ECIA"
+  }
+},
+{
+  "type": "node",
+  "id": 2141522135,
+  "lat": -22.8813748,
+  "lon": -43.5418438,
+  "tags": {
+    "name": "Ipatinga",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2142612768,
+  "lat": -22.8802873,
+  "lon": -43.5397197,
+  "tags": {
+    "name": "Amanda",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2144172166,
+  "lat": -22.8806234,
+  "lon": -43.5943614,
+  "tags": {
+    "name": "Henriqueta",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2144172174,
+  "lat": -22.8773609,
+  "lon": -43.5929795,
+  "tags": {
+    "name": "Salim",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2165262970,
+  "lat": -22.8928989,
+  "lon": -43.5738569,
+  "tags": {
+    "name": "São Basílio",
+    "place": "neighbourhood",
+    "source": "IPP"
+  }
+},
+{
+  "type": "node",
+  "id": 2165262971,
+  "lat": -22.8730659,
+  "lon": -43.5813049,
+  "tags": {
+    "name": "Jardim Paulista",
+    "place": "neighbourhood",
+    "source": "IPP"
+  }
+},
+{
+  "type": "node",
+  "id": 2166271169,
+  "lat": -22.8719848,
+  "lon": -43.5795227,
+  "tags": {
+    "name": "Andréa",
+    "place": "neighbourhood",
+    "ref": "Andreia",
+    "source": "ECIA,IPP"
+  }
+},
+{
+  "type": "node",
+  "id": 2166271182,
+  "lat": -22.8739504,
+  "lon": -43.5726471,
+  "tags": {
+    "name": "Eliza Maria",
+    "place": "neighbourhood",
+    "source": "IPP"
+  }
+},
+{
+  "type": "node",
+  "id": 2167597290,
+  "lat": -22.8787646,
+  "lon": -43.5349671,
+  "tags": {
+    "name": "Isadora",
+    "place": "neighbourhood",
+    "source": "ECIA,survey"
+  }
+},
+{
+  "type": "node",
+  "id": 2283691405,
+  "lat": -22.9611632,
+  "lon": -43.6055830,
+  "tags": {
+    "name": "Jardim Maravilha",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 2352989404,
+  "lat": -22.9191591,
+  "lon": -43.8499535,
+  "tags": {
+    "name": "Ilha da Madeira",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 2439153539,
+  "lat": -22.8879378,
+  "lon": -43.6384464,
+  "tags": {
+    "name": "Jardim Palmares",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 2661760329,
+  "lat": -22.8902593,
+  "lon": -43.7392477,
+  "tags": {
+    "name": "Distrito Industrial de Santa Cruz",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 2663086435,
+  "lat": -23.0041760,
+  "lon": -43.4741460,
+  "tags": {
+    "name": "Campos de Sernambetiba",
+    "place": "neighbourhood",
+    "wikidata": "Q22066621"
+  }
+},
+{
+  "type": "node",
+  "id": 2685971929,
+  "lat": -23.0275806,
+  "lon": -43.4788881,
+  "tags": {
+    "name": "Gleba Finch",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2831821206,
+  "lat": -22.8807726,
+  "lon": -43.5436851,
+  "tags": {
+    "name": "Del Cima",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2831824249,
+  "lat": -22.8737088,
+  "lon": -43.5349831,
+  "tags": {
+    "name": "Parque Núbia",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4372198738,
+  "lat": -22.8921943,
+  "lon": -43.5661152,
+  "tags": {
+    "name": "Magali",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 4497814006,
+  "lat": -22.8731258,
+  "lon": -43.6293080,
+  "tags": {
+    "name": "Manguariba",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 5840807152,
+  "lat": -22.9954542,
+  "lon": -43.6246276,
+  "tags": {
+    "name": "Vila Mar de Guaratiba",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 5840807153,
+  "lat": -22.9871578,
+  "lon": -43.6317086,
+  "tags": {
+    "name": "Jardim Garrido",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6995600749,
+  "lat": -22.9157884,
+  "lon": -43.8988352,
+  "tags": {
+    "name": "Vila Benedita - Rua Aritana",
+    "place": "suburb",
+    "source": "IBGE"
+  }
+},
+{
+  "type": "node",
+  "id": 7590568745,
+  "lat": -22.9065582,
+  "lon": -43.8806606,
+  "tags": {
+    "fixme": "Incluir limites administrativos.",
+    "name": "Itingussu",
+    "place": "suburb",
+    "source": "Prefeitura de Itaguaí"
+  }
+},
+{
+  "type": "node",
+  "id": 7590568746,
+  "lat": -22.9043642,
+  "lon": -43.8758970,
+  "tags": {
+    "fixme": "Incluir limites administrativos.",
+    "name": "Itimirim",
+    "place": "suburb",
+    "source": "Prefeitura de Itaguaí"
+  }
+},
+{
+  "type": "node",
+  "id": 7590581309,
+  "lat": -22.8992250,
+  "lon": -43.8564992,
+  "tags": {
+    "name": "Vila Geny",
+    "note": "Confirmar limites.",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7590738403,
+  "lat": -22.8786661,
+  "lon": -43.8226605,
+  "tags": {
+    "name": "Chácaras Brisa Mar",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7590738405,
+  "lat": -22.8783301,
+  "lon": -43.8082624,
+  "tags": {
+    "name": "Brisa Mar",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7590738429,
+  "lat": -22.8934134,
+  "lon": -43.8288403,
+  "tags": {
+    "name": "Nuclep",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7590738460,
+  "lat": -22.8958844,
+  "lon": -43.8450623,
+  "tags": {
+    "name": "Somel",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7590813461,
+  "lat": -22.8626914,
+  "lon": -43.7852812,
+  "tags": {
+    "name": "Engenho",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7590813470,
+  "lat": -22.8722409,
+  "lon": -43.7848735,
+  "tags": {
+    "name": "São Francisco Xavier",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7590813475,
+  "lat": -22.8711832,
+  "lon": -43.7919653,
+  "tags": {
+    "name": "Vila Margarida",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7590813477,
+  "lat": -22.8763531,
+  "lon": -43.7885428,
+  "tags": {
+    "name": "Jardim Itaguaí Mar",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7590813482,
+  "lat": -22.8603978,
+  "lon": -43.7995291,
+  "tags": {
+    "name": "Ueda",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7590833687,
+  "lat": -22.8626123,
+  "lon": -43.8083375,
+  "tags": {
+    "name": "Leandro",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7593694337,
+  "lat": -22.8665666,
+  "lon": -43.7775296,
+  "tags": {
+    "name": "Centro",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7638018121,
+  "lat": -22.8849132,
+  "lon": -43.4544790,
+  "tags": {
+    "name": "Parque Leopoldina",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 7638018123,
+  "lat": -22.8822840,
+  "lon": -43.6161089,
+  "tags": {
+    "name": "Conjunto Campinho",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 7638018124,
+  "lat": -22.8975053,
+  "lon": -43.5701412,
+  "tags": {
+    "name": "São Cláudio",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 7638018125,
+  "lat": -22.9278045,
+  "lon": -43.6354638,
+  "tags": {
+    "name": "Sete de Abril",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 7638018126,
+  "lat": -22.9358673,
+  "lon": -43.6602688,
+  "tags": {
+    "name": "Cesarão",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 7638018127,
+  "lat": -22.9028620,
+  "lon": -43.6747313,
+  "tags": {
+    "name": "Lote 14",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 7638018128,
+  "lat": -22.9098788,
+  "lon": -43.6612344,
+  "tags": {
+    "name": "Saquaçu",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 7638018129,
+  "lat": -22.9204922,
+  "lon": -43.6596251,
+  "tags": {
+    "name": "Antares",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 7638018130,
+  "lat": -22.9140294,
+  "lon": -43.6545932,
+  "tags": {
+    "name": "Urucânia",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 7638018131,
+  "lat": -22.8916542,
+  "lon": -43.6086524,
+  "tags": {
+    "name": "Santa Margarida",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 7638018132,
+  "lat": -22.9221523,
+  "lon": -43.6017108,
+  "tags": {
+    "name": "Vilar Carioca",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 7638018133,
+  "lat": -22.8904780,
+  "lon": -43.5874093,
+  "tags": {
+    "name": "Santa Rosa",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 7638018134,
+  "lat": -22.8923164,
+  "lon": -43.5851991,
+  "tags": {
+    "name": "Califórnia",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 7638018135,
+  "lat": -22.8705703,
+  "lon": -43.5631514,
+  "tags": {
+    "name": "Pedregoso",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 7638183254,
+  "lat": -22.8859807,
+  "lon": -43.4696389,
+  "tags": {
+    "name": "Rio da Prata",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 7638183255,
+  "lat": -22.8924646,
+  "lon": -43.7208653,
+  "tags": {
+    "name": "São Fernando",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 7638183256,
+  "lat": -22.8732887,
+  "lon": -43.6761046,
+  "tags": {
+    "name": "Jesuítas",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 7638183257,
+  "lat": -22.9348521,
+  "lon": -43.6997751,
+  "tags": {
+    "name": "Vitor Dumas",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 7638183258,
+  "lat": -22.9290693,
+  "lon": -43.5846091,
+  "tags": {
+    "name": "Cantagalo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 7638183259,
+  "lat": -22.9223104,
+  "lon": -43.5466719,
+  "tags": {
+    "name": "Conjunto da Marinha",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 7638183267,
+  "lat": -22.9254527,
+  "lon": -43.5170174,
+  "tags": {
+    "name": "Rio da Prata",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 7638183268,
+  "lat": -22.9246622,
+  "lon": -43.5644388,
+  "tags": {
+    "name": "Brito",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 7638183269,
+  "lat": -22.9966788,
+  "lon": -43.6134053,
+  "tags": {
+    "name": "Piraquê",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 7638183270,
+  "lat": -22.9561013,
+  "lon": -43.6876488,
+  "tags": {
+    "name": "Nova Sepetiba",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 7638183271,
+  "lat": -22.9388513,
+  "lon": -43.6862111,
+  "tags": {
+    "name": "São Benedito",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 7638183272,
+  "lat": -22.9414004,
+  "lon": -43.6844731,
+  "tags": {
+    "name": "Areia Branca",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 9050976783,
+  "lat": -22.8948768,
+  "lon": -43.5984297,
+  "tags": {
+    "name": "Loteamento Village Tutoia",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9050976784,
+  "lat": -22.8941595,
+  "lon": -43.5958180,
+  "tags": {
+    "name": "Loteamento Bairro das Oliveiras",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9603296993,
+  "lat": -22.9167888,
+  "lon": -43.9484326,
+  "tags": {
+    "name": "Cachoeira II",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9603296994,
+  "lat": -22.9167707,
+  "lon": -43.9524233,
+  "tags": {
+    "name": "Cachoeira I",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9603346781,
+  "lat": -22.8802814,
+  "lon": -43.5057004,
+  "tags": {
+    "name": "Vila Fênix",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 10082694560,
+  "lat": -22.9436392,
+  "lon": -43.5947893,
+  "tags": {
+    "name": "Guaratiba",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 10819042571,
+  "lat": -22.9047763,
+  "lon": -43.6888539,
+  "tags": {
+    "name": "Recanto Feliz",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11234555562,
+  "lat": -22.8638151,
+  "lon": -43.6008199,
+  "tags": {
+    "name": "Km 31",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12222045088,
+  "lat": -22.8941162,
+  "lon": -43.7162856,
+  "tags": {
+    "name": "Conjunto Reta do Rio Grande",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 12222045089,
+  "lat": -22.9023699,
+  "lon": -43.7081297,
+  "tags": {
+    "name": "Conjunto Liberdade",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 12222045090,
+  "lat": -22.9017695,
+  "lon": -43.7116102,
+  "tags": {
+    "name": "Conjunto Miécimo da Silva",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 12563669627,
+  "lat": -22.8717457,
+  "lon": -43.4526870,
+  "tags": {
+    "name": "Ponto Chic",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13662014649,
+  "lat": -22.9197039,
+  "lon": -43.5336351,
+  "tags": {
+    "name": "Condomínio Vila Jardim",
+    "place": "neighbourhood"
+  }
+}
+
+  ]
+}

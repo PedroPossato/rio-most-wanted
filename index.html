@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>RIO MOST WANTED — Linha Amarela</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  html, body { margin:0; padding:0; overflow:hidden; background:#000;
+    font-family:'Arial Black','Segoe UI',Arial,sans-serif; user-select:none; }
+  #game { position:fixed; inset:0; }
+  /* filtro "Most Wanted": tom quente + vinheta */
+  #filtro { position:fixed; inset:0; pointer-events:none; z-index:5;
+    background: radial-gradient(ellipse at 50% 45%, rgba(0,0,0,0) 55%, rgba(20,12,0,.55) 100%),
+                linear-gradient(rgba(255,190,80,.07), rgba(255,160,40,.05)); }
+  #flash { position:fixed; inset:0; pointer-events:none; z-index:6; opacity:0;
+    background:rgba(255,40,10,.35); transition:opacity .25s; }
+
+  .hud { position:fixed; z-index:10; color:#f2d489;
+    text-shadow:0 0 6px #000, 2px 2px 2px #000; }
+  #vel { right:26px; bottom:18px; text-align:right; font-style:italic; }
+  #vel .num { font-size:64px; line-height:1; letter-spacing:-2px; color:#fff; }
+  #vel .kmh { font-size:18px; color:#f2d489; letter-spacing:4px; }
+  #nos { right:28px; bottom:108px; width:170px; height:10px;
+    border:2px solid #f2d489; border-radius:5px; background:rgba(0,0,0,.5);
+    transform:skewX(-18deg); }
+  #nosfill { height:100%; width:100%; border-radius:3px;
+    background:linear-gradient(90deg,#2da8ff,#9fe2ff); }
+  #topo { top:14px; left:50%; transform:translateX(-50%); text-align:center; }
+  #tempo { font-size:42px; font-style:italic; color:#fff; letter-spacing:1px; }
+  #tempo.pouco { color:#ff5040; }
+  #cpinfo { font-size:15px; letter-spacing:2px; margin-top:2px; }
+  #msg { top:26%; left:50%; transform:translate(-50%,-50%); font-size:54px;
+    font-style:italic; letter-spacing:2px; color:#ffd34d; text-align:center;
+    opacity:0; transition:opacity .3s; white-space:nowrap; }
+  #heat { top:64px; right:26px; font-size:20px; font-style:italic;
+    letter-spacing:2px; display:none; animation:sirene .5s infinite; }
+  @keyframes sirene { 0%,49% { color:#ff4040; } 50%,100% { color:#5599ff; } }
+  #local { left:24px; top:16px; font-size:14px; letter-spacing:2px; color:#cfc093; }
+
+  #minimapa { position:fixed; left:18px; bottom:18px; z-index:10;
+    border:2px solid rgba(242,212,137,.7); border-radius:8px;
+    background:rgba(8,10,8,.78); }
+
+  .tela { position:fixed; inset:0; z-index:20; display:flex; flex-direction:column;
+    align-items:center; justify-content:center; text-align:center;
+    background:radial-gradient(ellipse at 50% 40%, rgba(30,22,8,.88), rgba(0,0,0,.96));
+    color:#e8d9a8; }
+  .tela h1 { font-size:64px; font-style:italic; margin:0 0 4px; color:#ffd34d;
+    letter-spacing:2px; text-shadow:3px 3px 0 #000, 0 0 30px rgba(255,180,40,.4); }
+  .tela h2 { font-size:20px; font-weight:normal; letter-spacing:6px; margin:0 0 30px;
+    color:#cdbd8d; font-family:Arial,sans-serif; }
+  .tela .ctl { font-family:Consolas,monospace; font-size:15px; line-height:1.9;
+    color:#b8ac85; margin-bottom:34px; }
+  #menu { margin-bottom:26px; }
+  .mrow { font-size:22px; font-style:italic; letter-spacing:2px; padding:6px 18px;
+    color:#8d8467; transition:color .15s; }
+  .mrow.sel { color:#ffd34d; }
+  .mrow .mlabel { display:inline-block; width:160px; text-align:right;
+    margin-right:18px; font-size:16px; color:inherit; }
+  .mrow .mval { display:inline-block; min-width:300px; color:#fff; }
+  .mrow.sel .mval { color:#ffd34d; }
+  .mrow .arrow { opacity:.35; font-size:16px; }
+  .mrow.sel .arrow { opacity:1; }
+  .mdesc { font-size:13px; font-style:normal; font-family:Arial; color:#9a9070;
+    letter-spacing:1px; margin-top:2px; }
+  .lb { font-family:Consolas,monospace; font-size:14px; color:#b8ac85;
+    margin-top:18px; line-height:1.7; }
+  .lb b { color:#ffd34d; letter-spacing:3px; font-size:13px; }
+  .lb .me { color:#7dff8a; }
+  #nameRow { margin:10px 0 16px; font-size:20px; font-style:italic; color:#ffd34d; }
+  #nameRow input { background:rgba(0,0,0,.6); border:2px solid #f2d489; color:#fff;
+    font-family:'Arial Black'; font-size:20px; padding:4px 10px; width:200px;
+    border-radius:4px; outline:none; text-transform:uppercase; }
+  .tela .go { font-size:24px; font-style:italic; color:#fff; animation:pisca 1.1s infinite; }
+  @keyframes pisca { 50% { opacity:.25; } }
+  .tela small { margin-top:26px; color:#7a7158; font-family:Arial; letter-spacing:1px; }
+  #fim, #fail { display:none; }
+  #fim h1 { color:#7dff8a; }
+  #fail h1 { color:#ff5040; }
+  .resultado { font-size:30px; font-style:italic; color:#fff; margin-bottom:26px; }
+</style>
+</head>
+<body>
+<canvas id="game"></canvas>
+<div id="filtro"></div>
+<div id="flash"></div>
+
+<div class="hud" id="local">LINHA AMARELA &middot; RIO DE JANEIRO</div>
+<div class="hud" id="topo">
+  <div id="tempo">--</div>
+  <div id="cpinfo"></div>
+</div>
+<div class="hud" id="vel"><div class="num">0</div><div class="kmh">KM/H</div></div>
+<div class="hud" id="heat">&#128680; FUGA DA POL&Iacute;CIA</div>
+<div class="hud" id="nos"><div id="nosfill"></div></div>
+<div class="hud" id="msg"></div>
+<canvas id="minimapa" width="240" height="240"></canvas>
+
+<div class="tela" id="intro">
+  <h1>RIO MOST WANTED</h1>
+  <h2 id="subtitulo">PRAIA DA BARRA &rarr; ILHA DO FUND&Atilde;O &nbsp;&bull;&nbsp; PELA LINHA AMARELA</h2>
+  <div id="menu">
+    <div class="mrow sel" id="rowCar">
+      <span class="mlabel">CARRO</span>
+      <span class="arrow">&#9664;</span> <span class="mval" id="carName"></span> <span class="arrow">&#9654;</span>
+      <div class="mdesc" id="carDesc"></div>
+    </div>
+    <div class="mrow" id="rowTraf">
+      <span class="mlabel">TR&Acirc;NSITO</span>
+      <span class="arrow">&#9664;</span> <span class="mval" id="trafName"></span> <span class="arrow">&#9654;</span>
+      <div class="mdesc" id="trafDesc"></div>
+    </div>
+    <div class="mrow" id="rowAcc">
+      <span class="mlabel">ACELERA&Ccedil;&Atilde;O</span>
+      <span class="arrow">&#9664;</span> <span class="mval" id="accName"></span> <span class="arrow">&#9654;</span>
+      <div class="mdesc" id="accDesc"></div>
+    </div>
+    <div class="mrow" id="rowPol">
+      <span class="mlabel">POL&Iacute;CIA</span>
+      <span class="arrow">&#9664;</span> <span class="mval" id="polName"></span> <span class="arrow">&#9654;</span>
+      <div class="mdesc" id="polDesc"></div>
+    </div>
+    <div class="mrow" id="rowDiff">
+      <span class="mlabel">DIFICULDADE</span>
+      <span class="arrow">&#9664;</span> <span class="mval" id="diffName"></span> <span class="arrow">&#9654;</span>
+      <div class="mdesc" id="diffDesc"></div>
+    </div>
+    <div class="mrow" id="rowStart">
+      <span class="mlabel">LARGADA</span>
+      <span class="arrow">&#9664;</span> <span class="mval" id="startName"></span> <span class="arrow">&#9654;</span>
+    </div>
+    <div class="mrow" id="rowEnd">
+      <span class="mlabel">CHEGADA</span>
+      <span class="arrow">&#9664;</span> <span class="mval" id="endName"></span> <span class="arrow">&#9654;</span>
+      <div class="mdesc" id="endDesc"></div>
+    </div>
+  </div>
+  <div class="ctl">
+    &uarr;&darr; escolher op&ccedil;&atilde;o &nbsp;&nbsp; &larr;&rarr; mudar &nbsp;&nbsp;|&nbsp;&nbsp; W acelerar &nbsp; S frear &nbsp; A/D dire&ccedil;&atilde;o<br>
+    SHIFT nitro &nbsp;&nbsp; ESPA&Ccedil;O freio de m&atilde;o &nbsp;&nbsp; C c&acirc;mera &nbsp;&nbsp; M som &nbsp;&nbsp; R reiniciar
+  </div>
+  <div class="go">PRESSIONE ENTER</div>
+  <div class="lb" id="lbIntro"></div>
+  <small>tra&ccedil;ado, t&uacute;neis, sa&iacute;das e ped&aacute;gio reais &mdash; dados OpenStreetMap &copy; colaboradores OSM</small>
+</div>
+
+<div class="tela" id="fim">
+  <h1>VOC&Ecirc; VENCEU!</h1>
+  <h2 id="chegadaTitulo">CHEGADA</h2>
+  <div class="resultado" id="tempofinal"></div>
+  <div id="nameRow" style="display:none">TOP 5! SEU NOME: <input id="nameInput" maxlength="12" autocomplete="off"></div>
+  <div class="lb" id="lbWin"></div>
+  <div class="go">R CORRER DE NOVO &nbsp;&middot;&nbsp; ESC MENU</div>
+</div>
+
+<div class="tela" id="fail">
+  <h1 id="failTitle">TEMPO ESGOTADO</h1>
+  <h2 id="failSub">O REL&Oacute;GIO VENCEU DESSA VEZ</h2>
+  <div class="resultado" id="distfail"></div>
+  <div class="go">R TENTAR DE NOVO &nbsp;&middot;&nbsp; ESC MENU</div>
+</div>
+
+<script src="map_data.js"></script>
+<script type="module" src="game.js"></script>
+<script>
+  if (location.protocol === 'file:') {
+    // módulos ES não carregam via file:// — avisa para usar o servidor local
+    window.addEventListener('load', () => {
+      if (!window.__GAME_OK__) {
+        document.getElementById('intro').innerHTML =
+          '<h1 style="font-size:34px">ABRA PELO SERVIDOR LOCAL</h1>' +
+          '<h2>d&ecirc; dois cliques em <b>jogar.bat</b> (ou rode: python -m http.server)</h2>';
+      }
+    });
+  }
+</script>
+</body>
+</html>

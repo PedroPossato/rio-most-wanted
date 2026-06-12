@@ -1,0 +1,5491 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-08T06:09:44Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "way",
+  "id": 16168050,
+  "bounds": {
+    "minlat": -22.8719431,
+    "minlon": -43.2499458,
+    "maxlat": -22.8714720,
+    "maxlon": -43.2473367
+  },
+  "nodes": [
+    163581612,
+    163581613,
+    3804835437,
+    2984634249,
+    165249955
+  ],
+  "geometry": [
+    { "lat": -22.8714720, "lon": -43.2473367 },
+    { "lat": -22.8715498, "lon": -43.2475501 },
+    { "lat": -22.8716161, "lon": -43.2477846 },
+    { "lat": -22.8717572, "lon": -43.2485989 },
+    { "lat": -22.8719431, "lon": -43.2499458 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 16168084,
+  "bounds": {
+    "minlat": -22.9333773,
+    "minlon": -43.3453598,
+    "maxlat": -22.9315062,
+    "maxlon": -43.3443332
+  },
+  "nodes": [
+    163547578,
+    7803504528,
+    163547584
+  ],
+  "geometry": [
+    { "lat": -22.9333773, "lon": -43.3453598 },
+    { "lat": -22.9323893, "lon": -43.3447632 },
+    { "lat": -22.9315062, "lon": -43.3443332 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 16168100,
+  "bounds": {
+    "minlat": -22.9300675,
+    "minlon": -43.3436120,
+    "maxlat": -22.9294720,
+    "maxlon": -43.3432840
+  },
+  "nodes": [
+    163547946,
+    163547948
+  ],
+  "geometry": [
+    { "lat": -22.9300675, "lon": -43.3436120 },
+    { "lat": -22.9294720, "lon": -43.3432840 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 16168187,
+  "bounds": {
+    "minlat": -22.9249211,
+    "minlon": -43.3384502,
+    "maxlat": -22.9215193,
+    "maxlon": -43.3306981
+  },
+  "nodes": [
+    163549578,
+    3656253898,
+    799824148,
+    799824173,
+    1776099429,
+    163549584,
+    3656253917,
+    163567111
+  ],
+  "geometry": [
+    { "lat": -22.9215193, "lon": -43.3306981 },
+    { "lat": -22.9219094, "lon": -43.3314846 },
+    { "lat": -22.9221636, "lon": -43.3320910 },
+    { "lat": -22.9228595, "lon": -43.3338889 },
+    { "lat": -22.9234918, "lon": -43.3355171 },
+    { "lat": -22.9238175, "lon": -43.3362605 },
+    { "lat": -22.9243161, "lon": -43.3372799 },
+    { "lat": -22.9249211, "lon": -43.3384502 }
+  ],
+  "tags": {
+    "hgv": "discouraged",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 16168188,
+  "bounds": {
+    "minlat": -22.9292320,
+    "minlon": -43.3431305,
+    "maxlat": -22.9278839,
+    "maxlon": -43.3423081
+  },
+  "nodes": [
+    163549595,
+    1407542323,
+    7803504530,
+    7892013615,
+    163549596
+  ],
+  "geometry": [
+    { "lat": -22.9292320, "lon": -43.3431305 },
+    { "lat": -22.9286389, "lon": -43.3428032 },
+    { "lat": -22.9281818, "lon": -43.3425189 },
+    { "lat": -22.9280145, "lon": -43.3424042 },
+    { "lat": -22.9278839, "lon": -43.3423081 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 16168220,
+  "bounds": {
+    "minlat": -22.9270288,
+    "minlon": -43.3417897,
+    "maxlat": -22.9258111,
+    "maxlon": -43.3401451
+  },
+  "nodes": [
+    163550723,
+    1749444619,
+    163550724,
+    163550725,
+    546029069
+  ],
+  "geometry": [
+    { "lat": -22.9258111, "lon": -43.3401451 },
+    { "lat": -22.9260434, "lon": -43.3405237 },
+    { "lat": -22.9262723, "lon": -43.3408839 },
+    { "lat": -22.9265700, "lon": -43.3412845 },
+    { "lat": -22.9270288, "lon": -43.3417897 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 16168239,
+  "bounds": {
+    "minlat": -22.9332892,
+    "minlon": -43.3455474,
+    "maxlat": -22.9313987,
+    "maxlon": -43.3445141
+  },
+  "nodes": [
+    163551040,
+    7803504532,
+    7803504533,
+    163551042
+  ],
+  "geometry": [
+    { "lat": -22.9313987, "lon": -43.3445141 },
+    { "lat": -22.9319657, "lon": -43.3448316 },
+    { "lat": -22.9324288, "lon": -43.3450663 },
+    { "lat": -22.9332892, "lon": -43.3455474 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 16168305,
+  "bounds": {
+    "minlat": -22.9078813,
+    "minlon": -43.3141324,
+    "maxlat": -22.9069179,
+    "maxlon": -43.3113831
+  },
+  "nodes": [
+    3656253839,
+    3656253838,
+    799825292,
+    163552094,
+    799825300,
+    3656253834,
+    163552096,
+    799825304,
+    3656253833,
+    163552097,
+    3656253830,
+    799825309,
+    3656253829,
+    163552098
+  ],
+  "geometry": [
+    { "lat": -22.9078813, "lon": -43.3141324 },
+    { "lat": -22.9077540, "lon": -43.3140010 },
+    { "lat": -22.9076268, "lon": -43.3138427 },
+    { "lat": -22.9075057, "lon": -43.3136885 },
+    { "lat": -22.9073513, "lon": -43.3134270 },
+    { "lat": -22.9072587, "lon": -43.3132553 },
+    { "lat": -22.9071537, "lon": -43.3130179 },
+    { "lat": -22.9070771, "lon": -43.3128127 },
+    { "lat": -22.9070071, "lon": -43.3125718 },
+    { "lat": -22.9069614, "lon": -43.3123375 },
+    { "lat": -22.9069316, "lon": -43.3121002 },
+    { "lat": -22.9069179, "lon": -43.3118612 },
+    { "lat": -22.9069202, "lon": -43.3116217 },
+    { "lat": -22.9069387, "lon": -43.3113831 }
+  ],
+  "tags": {
+    "hgv": "discouraged",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 16168329,
+  "bounds": {
+    "minlat": -22.9379917,
+    "minlon": -43.3491755,
+    "maxlat": -22.9345298,
+    "maxlon": -43.3462760
+  },
+  "nodes": [
+    163552618,
+    3508603774,
+    3656097225,
+    163552621,
+    2702436955
+  ],
+  "geometry": [
+    { "lat": -22.9345298, "lon": -43.3462760 },
+    { "lat": -22.9349003, "lon": -43.3465375 },
+    { "lat": -22.9356080, "lon": -43.3471021 },
+    { "lat": -22.9366065, "lon": -43.3479799 },
+    { "lat": -22.9379917, "lon": -43.3491755 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 16169022,
+  "bounds": {
+    "minlat": -22.9255974,
+    "minlon": -43.3394961,
+    "maxlat": -22.9250217,
+    "maxlon": -43.3383808
+  },
+  "nodes": [
+    163549601,
+    163551312
+  ],
+  "geometry": [
+    { "lat": -22.9255974, "lon": -43.3394961 },
+    { "lat": -22.9250217, "lon": -43.3383808 }
+  ],
+  "tags": {
+    "alt_name": "Túnel Suíça Carioca",
+    "hgv": "discouraged",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Túnel da Suíça Carioca",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "source:alt_name": "https://youtu.be/nSJ4uU9Mj4U?t=192",
+    "surface": "asphalt",
+    "tunnel": "yes",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 16169031,
+  "bounds": {
+    "minlat": -22.9254955,
+    "minlon": -43.3395552,
+    "maxlat": -22.9249211,
+    "maxlon": -43.3384502
+  },
+  "nodes": [
+    163567111,
+    163550721
+  ],
+  "geometry": [
+    { "lat": -22.9249211, "lon": -43.3384502 },
+    { "lat": -22.9254955, "lon": -43.3395552 }
+  ],
+  "tags": {
+    "alt_name": "Túnel Suíça Carioca",
+    "hgv": "discouraged",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Túnel da Suíça Carioca",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "source:alt_name": "https://youtu.be/nSJ4uU9Mj4U?t=192",
+    "surface": "asphalt",
+    "tunnel": "yes",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 16169294,
+  "bounds": {
+    "minlat": -22.9313987,
+    "minlon": -43.3445141,
+    "maxlat": -22.9300512,
+    "maxlon": -43.3438099
+  },
+  "nodes": [
+    163550731,
+    163551040
+  ],
+  "geometry": [
+    { "lat": -22.9300512, "lon": -43.3438099 },
+    { "lat": -22.9313987, "lon": -43.3445141 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "tunnel": "yes",
+    "tunnel:name": "Túnel Geólogo Enzo Totis",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 16169314,
+  "bounds": {
+    "minlat": -22.9345298,
+    "minlon": -43.3462760,
+    "maxlat": -22.9332892,
+    "maxlon": -43.3455474
+  },
+  "nodes": [
+    163551042,
+    163552618
+  ],
+  "geometry": [
+    { "lat": -22.9332892, "lon": -43.3455474 },
+    { "lat": -22.9345298, "lon": -43.3462760 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "tunnel": "yes",
+    "tunnel:name": "Túnel Engenheiro Enaldo Cravo Peixoto",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 16169488,
+  "bounds": {
+    "minlat": -22.9346150,
+    "minlon": -43.3461028,
+    "maxlat": -22.9333773,
+    "maxlon": -43.3453598
+  },
+  "nodes": [
+    163546723,
+    163547578
+  ],
+  "geometry": [
+    { "lat": -22.9346150, "lon": -43.3461028 },
+    { "lat": -22.9333773, "lon": -43.3453598 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "tunnel": "yes",
+    "tunnel:name": "Túnel Engenheiro Enaldo Cravo Peixoto",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 16169503,
+  "bounds": {
+    "minlat": -22.9315062,
+    "minlon": -43.3443332,
+    "maxlat": -22.9300675,
+    "maxlon": -43.3436120
+  },
+  "nodes": [
+    163547584,
+    163547946
+  ],
+  "geometry": [
+    { "lat": -22.9315062, "lon": -43.3443332 },
+    { "lat": -22.9300675, "lon": -43.3436120 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "tunnel": "yes",
+    "tunnel:name": "Túnel Geólogo Enzo Totis",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 16169535,
+  "bounds": {
+    "minlat": -22.9294720,
+    "minlon": -43.3432840,
+    "maxlat": -22.9292320,
+    "maxlon": -43.3431305
+  },
+  "nodes": [
+    163547948,
+    163549595
+  ],
+  "geometry": [
+    { "lat": -22.9294720, "lon": -43.3432840 },
+    { "lat": -22.9292320, "lon": -43.3431305 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "tunnel": "yes",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 30105700,
+  "bounds": {
+    "minlat": -22.8772147,
+    "minlon": -43.2742844,
+    "maxlat": -22.8749383,
+    "maxlon": -43.2706860
+  },
+  "nodes": [
+    331667082,
+    3804744081,
+    1998904176,
+    331667097,
+    331667008,
+    5474971352,
+    331667007,
+    331667006,
+    1998904159,
+    8058223392,
+    5474971344,
+    8058223391,
+    331667005,
+    1998904167,
+    5474971373,
+    1998904162,
+    1998904165
+  ],
+  "geometry": [
+    { "lat": -22.8772147, "lon": -43.2742844 },
+    { "lat": -22.8770514, "lon": -43.2741777 },
+    { "lat": -22.8769349, "lon": -43.2740754 },
+    { "lat": -22.8767348, "lon": -43.2738764 },
+    { "lat": -22.8763755, "lon": -43.2734513 },
+    { "lat": -22.8763115, "lon": -43.2733776 },
+    { "lat": -22.8760838, "lon": -43.2730731 },
+    { "lat": -22.8759861, "lon": -43.2729229 },
+    { "lat": -22.8759083, "lon": -43.2727915 },
+    { "lat": -22.8758391, "lon": -43.2726386 },
+    { "lat": -22.8757697, "lon": -43.2724248 },
+    { "lat": -22.8756501, "lon": -43.2720472 },
+    { "lat": -22.8755611, "lon": -43.2717749 },
+    { "lat": -22.8754659, "lon": -43.2715470 },
+    { "lat": -22.8753990, "lon": -43.2714060 },
+    { "lat": -22.8753195, "lon": -43.2712647 },
+    { "lat": -22.8749383, "lon": -43.2706860 }
+  ],
+  "tags": {
+    "destination": "Linha Amarela",
+    "highway": "secondary",
+    "lit": "yes",
+    "maxspeed": "80",
+    "name": "Linha Amarela",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 39683139,
+  "bounds": {
+    "minlat": -22.8914664,
+    "minlon": -43.2983798,
+    "maxlat": -22.8879065,
+    "maxlon": -43.2938332
+  },
+  "nodes": [
+    8846146600,
+    163547009,
+    8227843498,
+    163547012,
+    163547014,
+    8011991459
+  ],
+  "geometry": [
+    { "lat": -22.8879065, "lon": -43.2938332 },
+    { "lat": -22.8891914, "lon": -43.2954274 },
+    { "lat": -22.8901657, "lon": -43.2966922 },
+    { "lat": -22.8905855, "lon": -43.2972372 },
+    { "lat": -22.8911533, "lon": -43.2979572 },
+    { "lat": -22.8914664, "lon": -43.2983798 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 39683156,
+  "bounds": {
+    "minlat": -22.8935865,
+    "minlon": -43.2999288,
+    "maxlat": -22.8933048,
+    "maxlon": -43.2997525
+  },
+  "nodes": [
+    163559152,
+    8011991437,
+    8011991436,
+    482503092
+  ],
+  "geometry": [
+    { "lat": -22.8935865, "lon": -43.2999288 },
+    { "lat": -22.8935154, "lon": -43.2998899 },
+    { "lat": -22.8934290, "lon": -43.2998376 },
+    { "lat": -22.8933048, "lon": -43.2997525 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 40096076,
+  "bounds": {
+    "minlat": -22.8980643,
+    "minlon": -43.3023903,
+    "maxlat": -22.8941820,
+    "maxlon": -43.3002815
+  },
+  "nodes": [
+    1999089037,
+    8011991473,
+    8011991474,
+    163547025,
+    8011991475,
+    8011991476,
+    1718623385,
+    3604190181,
+    8011991477,
+    163547028,
+    8011991478,
+    163547029,
+    8011991479,
+    8011991480,
+    8011991481,
+    163547032
+  ],
+  "geometry": [
+    { "lat": -22.8941820, "lon": -43.3002815 },
+    { "lat": -22.8942882, "lon": -43.3003177 },
+    { "lat": -22.8950270, "lon": -43.3005457 },
+    { "lat": -22.8952321, "lon": -43.3006114 },
+    { "lat": -22.8954953, "lon": -43.3007053 },
+    { "lat": -22.8958844, "lon": -43.3008648 },
+    { "lat": -22.8960574, "lon": -43.3009480 },
+    { "lat": -22.8962242, "lon": -43.3010365 },
+    { "lat": -22.8964243, "lon": -43.3011492 },
+    { "lat": -22.8965812, "lon": -43.3012457 },
+    { "lat": -22.8967776, "lon": -43.3013718 },
+    { "lat": -22.8969185, "lon": -43.3014777 },
+    { "lat": -22.8974868, "lon": -43.3019431 },
+    { "lat": -22.8977240, "lon": -43.3021376 },
+    { "lat": -22.8978957, "lon": -43.3022690 },
+    { "lat": -22.8980643, "lon": -43.3023903 }
+  ],
+  "tags": {
+    "bridge": "viaduct",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 40096097,
+  "bounds": {
+    "minlat": -22.8981477,
+    "minlon": -43.3022891,
+    "maxlat": -22.8935865,
+    "maxlon": -43.2999288
+  },
+  "nodes": [
+    3211749249,
+    8011991444,
+    8011991443,
+    8011991442,
+    8011991441,
+    163559145,
+    8021640964,
+    163559146,
+    8011991440,
+    163559147,
+    8011991439,
+    3211749248,
+    163559149,
+    3802280293,
+    482506290,
+    8011991438,
+    163559152
+  ],
+  "geometry": [
+    { "lat": -22.8981477, "lon": -43.3022891 },
+    { "lat": -22.8980254, "lon": -43.3021992 },
+    { "lat": -22.8978895, "lon": -43.3020960 },
+    { "lat": -22.8977153, "lon": -43.3019578 },
+    { "lat": -22.8974176, "lon": -43.3017097 },
+    { "lat": -22.8970433, "lon": -43.3014067 },
+    { "lat": -22.8968555, "lon": -43.3012712 },
+    { "lat": -22.8966492, "lon": -43.3011357 },
+    { "lat": -22.8964379, "lon": -43.3010030 },
+    { "lat": -22.8961278, "lon": -43.3008380 },
+    { "lat": -22.8959029, "lon": -43.3007240 },
+    { "lat": -22.8956027, "lon": -43.3005913 },
+    { "lat": -22.8951864, "lon": -43.3004531 },
+    { "lat": -22.8942289, "lon": -43.3001634 },
+    { "lat": -22.8939670, "lon": -43.3000736 },
+    { "lat": -22.8937940, "lon": -43.3000106 },
+    { "lat": -22.8935865, "lon": -43.2999288 }
+  ],
+  "tags": {
+    "bridge": "viaduct",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 40753675,
+  "bounds": {
+    "minlat": -22.9507739,
+    "minlon": -43.3567071,
+    "maxlat": -22.9396144,
+    "maxlon": -43.3503946
+  },
+  "nodes": [
+    163546704,
+    1765432747,
+    1765432721,
+    163546706,
+    1765432775,
+    1765432769,
+    163546708,
+    163546709,
+    163546710,
+    1772921479,
+    163546711,
+    163546713,
+    163546714,
+    163546715,
+    163546716
+  ],
+  "geometry": [
+    { "lat": -22.9507739, "lon": -43.3567071 },
+    { "lat": -22.9504911, "lon": -43.3566320 },
+    { "lat": -22.9501898, "lon": -43.3565421 },
+    { "lat": -22.9496835, "lon": -43.3563665 },
+    { "lat": -22.9492636, "lon": -43.3561733 },
+    { "lat": -22.9488326, "lon": -43.3559467 },
+    { "lat": -22.9479016, "lon": -43.3553884 },
+    { "lat": -22.9466269, "lon": -43.3546753 },
+    { "lat": -22.9450214, "lon": -43.3538800 },
+    { "lat": -22.9433616, "lon": -43.3529077 },
+    { "lat": -22.9427993, "lon": -43.3525523 },
+    { "lat": -22.9415881, "lon": -43.3519207 },
+    { "lat": -22.9411003, "lon": -43.3516149 },
+    { "lat": -22.9405435, "lon": -43.3512206 },
+    { "lat": -22.9396144, "lon": -43.3503946 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 42165975,
+  "bounds": {
+    "minlat": -22.8716127,
+    "minlon": -43.2576646,
+    "maxlat": -22.8713410,
+    "maxlon": -43.2565483
+  },
+  "nodes": [
+    163546946,
+    163546947
+  ],
+  "geometry": [
+    { "lat": -22.8716127, "lon": -43.2565483 },
+    { "lat": -22.8713410, "lon": -43.2576646 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 42165976,
+  "bounds": {
+    "minlat": -22.8718319,
+    "minlon": -43.2567713,
+    "maxlat": -22.8717394,
+    "maxlon": -43.2557189
+  },
+  "nodes": [
+    524850346,
+    1679205301
+  ],
+  "geometry": [
+    { "lat": -22.8717394, "lon": -43.2567713 },
+    { "lat": -22.8718319, "lon": -43.2557189 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 42165986,
+  "bounds": {
+    "minlat": -22.8716001,
+    "minlon": -43.2615815,
+    "maxlat": -22.8715091,
+    "maxlon": -43.2600215
+  },
+  "nodes": [
+    524850471,
+    163559205,
+    163559206
+  ],
+  "geometry": [
+    { "lat": -22.8716001, "lon": -43.2615815 },
+    { "lat": -22.8715710, "lon": -43.2611307 },
+    { "lat": -22.8715091, "lon": -43.2600215 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 42165992,
+  "bounds": {
+    "minlat": -22.8725256,
+    "minlon": -43.2668299,
+    "maxlat": -22.8716199,
+    "maxlon": -43.2649541
+  },
+  "nodes": [
+    163546957,
+    7848528592,
+    163546958,
+    7848528593,
+    163546959,
+    1679216854
+  ],
+  "geometry": [
+    { "lat": -22.8716199, "lon": -43.2649541 },
+    { "lat": -22.8717985, "lon": -43.2653376 },
+    { "lat": -22.8719011, "lon": -43.2655576 },
+    { "lat": -22.8720049, "lon": -43.2657923 },
+    { "lat": -22.8722310, "lon": -43.2662643 },
+    { "lat": -22.8725256, "lon": -43.2668299 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 42430295,
+  "bounds": {
+    "minlat": -22.8722488,
+    "minlon": -43.2525392,
+    "maxlat": -22.8721918,
+    "maxlon": -43.2511548
+  },
+  "nodes": [
+    529727094,
+    4014737389,
+    163559216,
+    1679205300
+  ],
+  "geometry": [
+    { "lat": -22.8721918, "lon": -43.2525392 },
+    { "lat": -22.8722265, "lon": -43.2520217 },
+    { "lat": -22.8722488, "lon": -43.2517111 },
+    { "lat": -22.8722411, "lon": -43.2511548 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 42430296,
+  "bounds": {
+    "minlat": -22.8720766,
+    "minlon": -43.2555918,
+    "maxlat": -22.8717472,
+    "maxlon": -43.2525898
+  },
+  "nodes": [
+    529727102,
+    529727103
+  ],
+  "geometry": [
+    { "lat": -22.8720766, "lon": -43.2525898 },
+    { "lat": -22.8717472, "lon": -43.2555918 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 42430297,
+  "bounds": {
+    "minlat": -22.8721818,
+    "minlon": -43.2556070,
+    "maxlat": -22.8718434,
+    "maxlon": -43.2526026
+  },
+  "nodes": [
+    529727107,
+    8923927570
+  ],
+  "geometry": [
+    { "lat": -22.8718434, "lon": -43.2556070 },
+    { "lat": -22.8721818, "lon": -43.2526026 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 42430298,
+  "bounds": {
+    "minlat": -22.8717036,
+    "minlon": -43.2565483,
+    "maxlat": -22.8716127,
+    "maxlon": -43.2559812
+  },
+  "nodes": [
+    524850867,
+    1679205274,
+    163546946
+  ],
+  "geometry": [
+    { "lat": -22.8717036, "lon": -43.2559812 },
+    { "lat": -22.8716624, "lon": -43.2562994 },
+    { "lat": -22.8716127, "lon": -43.2565483 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 42430300,
+  "bounds": {
+    "minlat": -22.8721529,
+    "minlon": -43.2525235,
+    "maxlat": -22.8720834,
+    "maxlon": -43.2511134
+  },
+  "nodes": [
+    529727122,
+    163581615,
+    163581616,
+    4014737289,
+    8923927571
+  ],
+  "geometry": [
+    { "lat": -22.8721241, "lon": -43.2511134 },
+    { "lat": -22.8721468, "lon": -43.2513704 },
+    { "lat": -22.8721529, "lon": -43.2517694 },
+    { "lat": -22.8721207, "lon": -43.2521707 },
+    { "lat": -22.8720834, "lon": -43.2525235 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 43368536,
+  "bounds": {
+    "minlat": -22.9300512,
+    "minlon": -43.3438099,
+    "maxlat": -22.9292836,
+    "maxlon": -43.3433956
+  },
+  "nodes": [
+    8240981144,
+    163550731
+  ],
+  "geometry": [
+    { "lat": -22.9292836, "lon": -43.3433956 },
+    { "lat": -22.9300512, "lon": -43.3438099 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 43368642,
+  "bounds": {
+    "minlat": -22.9270555,
+    "minlon": -43.3415891,
+    "maxlat": -22.9261085,
+    "maxlon": -43.3404114
+  },
+  "nodes": [
+    163549597,
+    7874343774,
+    3655891829,
+    8888380525,
+    163549599
+  ],
+  "geometry": [
+    { "lat": -22.9270555, "lon": -43.3415891 },
+    { "lat": -22.9267929, "lon": -43.3413099 },
+    { "lat": -22.9264607, "lon": -43.3409146 },
+    { "lat": -22.9262839, "lon": -43.3406776 },
+    { "lat": -22.9261085, "lon": -43.3404114 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 65583714,
+  "bounds": {
+    "minlat": -22.8792281,
+    "minlon": -43.2779205,
+    "maxlat": -22.8766608,
+    "maxlon": -43.2758259
+  },
+  "nodes": [
+    163559185,
+    8035184600,
+    3211750775,
+    163559186,
+    8035184599,
+    1998939361,
+    8035184598,
+    1998939355,
+    8035184597,
+    163559188,
+    1998939354
+  ],
+  "geometry": [
+    { "lat": -22.8792281, "lon": -43.2779205 },
+    { "lat": -22.8787712, "lon": -43.2775511 },
+    { "lat": -22.8785463, "lon": -43.2773942 },
+    { "lat": -22.8776456, "lon": -43.2768188 },
+    { "lat": -22.8774924, "lon": -43.2767102 },
+    { "lat": -22.8773812, "lon": -43.2766271 },
+    { "lat": -22.8772576, "lon": -43.2765144 },
+    { "lat": -22.8771439, "lon": -43.2764044 },
+    { "lat": -22.8770216, "lon": -43.2762757 },
+    { "lat": -22.8768675, "lon": -43.2760916 },
+    { "lat": -22.8766608, "lon": -43.2758259 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 85765011,
+  "bounds": {
+    "minlat": -22.9387557,
+    "minlon": -43.3496663,
+    "maxlat": -22.9379592,
+    "maxlon": -43.3489699
+  },
+  "nodes": [
+    163546717,
+    995524826
+  ],
+  "geometry": [
+    { "lat": -22.9387557, "lon": -43.3496663 },
+    { "lat": -22.9379592, "lon": -43.3489699 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "4",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 85765016,
+  "bounds": {
+    "minlat": -22.9518953,
+    "minlon": -43.3569941,
+    "maxlat": -22.9422921,
+    "maxlon": -43.3524317
+  },
+  "nodes": [
+    163552628,
+    163552629,
+    7803504536,
+    163552630,
+    163552632,
+    1765432746,
+    1765432695,
+    163552633,
+    163552634,
+    1765432739,
+    1765432720,
+    163552635,
+    2370492247,
+    495308928
+  ],
+  "geometry": [
+    { "lat": -22.9422921, "lon": -43.3524317 },
+    { "lat": -22.9436185, "lon": -43.3532095 },
+    { "lat": -22.9448152, "lon": -43.3539122 },
+    { "lat": -22.9462490, "lon": -43.3546190 },
+    { "lat": -22.9483213, "lon": -43.3557737 },
+    { "lat": -22.9487103, "lon": -43.3560084 },
+    { "lat": -22.9491648, "lon": -43.3562538 },
+    { "lat": -22.9495192, "lon": -43.3564201 },
+    { "lat": -22.9501330, "lon": -43.3566441 },
+    { "lat": -22.9504059, "lon": -43.3567299 },
+    { "lat": -22.9506949, "lon": -43.3568010 },
+    { "lat": -22.9510580, "lon": -43.3568801 },
+    { "lat": -22.9516496, "lon": -43.3569655 },
+    { "lat": -22.9518953, "lon": -43.3569941 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 85765017,
+  "bounds": {
+    "minlat": -22.9386750,
+    "minlon": -43.3497656,
+    "maxlat": -22.9379917,
+    "maxlon": -43.3491755
+  },
+  "nodes": [
+    2702436955,
+    1999137987
+  ],
+  "geometry": [
+    { "lat": -22.9379917, "lon": -43.3491755 },
+    { "lat": -22.9386750, "lon": -43.3497656 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 85765020,
+  "bounds": {
+    "minlat": -22.9379592,
+    "minlon": -43.3489699,
+    "maxlat": -22.9366365,
+    "maxlon": -43.3478248
+  },
+  "nodes": [
+    995524826,
+    163546719,
+    8881196236
+  ],
+  "geometry": [
+    { "lat": -22.9379592, "lon": -43.3489699 },
+    { "lat": -22.9368295, "lon": -43.3479899 },
+    { "lat": -22.9366365, "lon": -43.3478248 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 87103223,
+  "bounds": {
+    "minlat": -22.8753445,
+    "minlon": -43.2731623,
+    "maxlat": -22.8750120,
+    "maxlon": -43.2725280
+  },
+  "nodes": [
+    1013025949,
+    1013024323,
+    1013025345,
+    1013025605,
+    1013024748,
+    1013024844,
+    1013025705,
+    1013025681,
+    1013025400,
+    1013024632,
+    1013025949
+  ],
+  "geometry": [
+    { "lat": -22.8753445, "lon": -43.2727104 },
+    { "lat": -22.8752638, "lon": -43.2727492 },
+    { "lat": -22.8752867, "lon": -43.2728204 },
+    { "lat": -22.8752024, "lon": -43.2728613 },
+    { "lat": -22.8753006, "lon": -43.2730827 },
+    { "lat": -22.8751375, "lon": -43.2731623 },
+    { "lat": -22.8750120, "lon": -43.2728001 },
+    { "lat": -22.8751182, "lon": -43.2727430 },
+    { "lat": -22.8750767, "lon": -43.2726501 },
+    { "lat": -22.8752983, "lon": -43.2725280 },
+    { "lat": -22.8753445, "lon": -43.2727104 }
+  ],
+  "tags": {
+    "IPP:CodFavela": "901",
+    "landuse": "residential",
+    "name": "Linha Amarela (acesso à Av. Automóvel Clube)",
+    "source": "IPP"
+  }
+},
+{
+  "type": "way",
+  "id": 122256996,
+  "bounds": {
+    "minlat": -22.9088405,
+    "minlon": -43.3150618,
+    "maxlat": -22.9067917,
+    "maxlon": -43.3113861
+  },
+  "nodes": [
+    163548318,
+    3656253824,
+    163548320,
+    3656253826,
+    163548321,
+    3656253832,
+    163548322,
+    3656253835,
+    163548323,
+    3656253837,
+    7889442599,
+    163548325,
+    3656253840,
+    163548327,
+    163548328
+  ],
+  "geometry": [
+    { "lat": -22.9068100, "lon": -43.3113861 },
+    { "lat": -22.9067917, "lon": -43.3117908 },
+    { "lat": -22.9067966, "lon": -43.3121355 },
+    { "lat": -22.9068263, "lon": -43.3124171 },
+    { "lat": -22.9069078, "lon": -43.3128154 },
+    { "lat": -22.9070017, "lon": -43.3131051 },
+    { "lat": -22.9071500, "lon": -43.3134538 },
+    { "lat": -22.9073427, "lon": -43.3137985 },
+    { "lat": -22.9074996, "lon": -43.3140197 },
+    { "lat": -22.9077355, "lon": -43.3143027 },
+    { "lat": -22.9078936, "lon": -43.3144677 },
+    { "lat": -22.9080740, "lon": -43.3146219 },
+    { "lat": -22.9082939, "lon": -43.3147801 },
+    { "lat": -22.9085274, "lon": -43.3149196 },
+    { "lat": -22.9088405, "lon": -43.3150618 }
+  ],
+  "tags": {
+    "hgv": "discouraged",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 155531600,
+  "bounds": {
+    "minlat": -22.8715808,
+    "minlon": -43.2600215,
+    "maxlat": -22.8714691,
+    "maxlon": -43.2577385
+  },
+  "nodes": [
+    163559206,
+    6566669968,
+    6566669967,
+    163559207,
+    6566669966,
+    163559209,
+    3804835433
+  ],
+  "geometry": [
+    { "lat": -22.8715091, "lon": -43.2600215 },
+    { "lat": -22.8714757, "lon": -43.2594182 },
+    { "lat": -22.8714691, "lon": -43.2591151 },
+    { "lat": -22.8714734, "lon": -43.2588161 },
+    { "lat": -22.8714910, "lon": -43.2585090 },
+    { "lat": -22.8715134, "lon": -43.2581971 },
+    { "lat": -22.8715808, "lon": -43.2577385 }
+  ],
+  "tags": {
+    "bridge": "viaduct",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "2",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 155531601,
+  "bounds": {
+    "minlat": -22.8712323,
+    "minlon": -43.2611720,
+    "maxlat": -22.8711819,
+    "maxlon": -43.2600302
+  },
+  "nodes": [
+    1679205275,
+    163546953
+  ],
+  "geometry": [
+    { "lat": -22.8711819, "lon": -43.2600302 },
+    { "lat": -22.8712323, "lon": -43.2611720 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 155531606,
+  "bounds": {
+    "minlat": -22.8721815,
+    "minlon": -43.2506743,
+    "maxlat": -22.8717595,
+    "maxlon": -43.2479568
+  },
+  "nodes": [
+    163559218,
+    163559219,
+    163559220
+  ],
+  "geometry": [
+    { "lat": -22.8721815, "lon": -43.2506743 },
+    { "lat": -22.8719462, "lon": -43.2491287 },
+    { "lat": -22.8717595, "lon": -43.2479568 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 155531613,
+  "bounds": {
+    "minlat": -22.8717394,
+    "minlon": -43.2577385,
+    "maxlat": -22.8715808,
+    "maxlon": -43.2567713
+  },
+  "nodes": [
+    3804835433,
+    524850346
+  ],
+  "geometry": [
+    { "lat": -22.8715808, "lon": -43.2577385 },
+    { "lat": -22.8717394, "lon": -43.2567713 }
+  ],
+  "tags": {
+    "bridge": "viaduct",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 155531615,
+  "bounds": {
+    "minlat": -22.8713410,
+    "minlon": -43.2600302,
+    "maxlat": -22.8711562,
+    "maxlon": -43.2576646
+  },
+  "nodes": [
+    163546947,
+    1679205293,
+    6566669963,
+    163546949,
+    6566669964,
+    163546951,
+    6566669962,
+    1679205275
+  ],
+  "geometry": [
+    { "lat": -22.8713410, "lon": -43.2576646 },
+    { "lat": -22.8712440, "lon": -43.2581232 },
+    { "lat": -22.8712151, "lon": -43.2583011 },
+    { "lat": -22.8711943, "lon": -43.2584782 },
+    { "lat": -22.8711724, "lon": -43.2587479 },
+    { "lat": -22.8711562, "lon": -43.2590324 },
+    { "lat": -22.8711581, "lon": -43.2595311 },
+    { "lat": -22.8711819, "lon": -43.2600302 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "2",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 155532177,
+  "bounds": {
+    "minlat": -22.8765348,
+    "minlon": -43.2759874,
+    "maxlat": -22.8753992,
+    "maxlon": -43.2722027
+  },
+  "nodes": [
+    1679216890,
+    163546964,
+    8058012242,
+    1679216871,
+    8058012243,
+    8058012241,
+    163546965,
+    8058012244,
+    2807708959,
+    163546966,
+    8035184635,
+    163546968,
+    2807708956,
+    8035184636,
+    8035184637,
+    163546969
+  ],
+  "geometry": [
+    { "lat": -22.8753992, "lon": -43.2722027 },
+    { "lat": -22.8755018, "lon": -43.2724831 },
+    { "lat": -22.8755599, "lon": -43.2726614 },
+    { "lat": -22.8756006, "lon": -43.2728009 },
+    { "lat": -22.8756426, "lon": -43.2729726 },
+    { "lat": -22.8757007, "lon": -43.2732408 },
+    { "lat": -22.8757512, "lon": -43.2735057 },
+    { "lat": -22.8758799, "lon": -43.2741608 },
+    { "lat": -22.8759540, "lon": -43.2745068 },
+    { "lat": -22.8760170, "lon": -43.2747616 },
+    { "lat": -22.8760788, "lon": -43.2749829 },
+    { "lat": -22.8761443, "lon": -43.2751679 },
+    { "lat": -22.8762296, "lon": -43.2753785 },
+    { "lat": -22.8763309, "lon": -43.2755958 },
+    { "lat": -22.8764347, "lon": -43.2757969 },
+    { "lat": -22.8765348, "lon": -43.2759874 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 155532183,
+  "bounds": {
+    "minlat": -22.8732606,
+    "minlon": -43.2678898,
+    "maxlat": -22.8728023,
+    "maxlon": -43.2670552
+  },
+  "nodes": [
+    1679216901,
+    1679216924
+  ],
+  "geometry": [
+    { "lat": -22.8732606, "lon": -43.2678898 },
+    { "lat": -22.8728023, "lon": -43.2670552 }
+  ],
+  "tags": {
+    "bridge": "viaduct",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 155532194,
+  "bounds": {
+    "minlat": -22.8766608,
+    "minlon": -43.2758259,
+    "maxlat": -22.8755347,
+    "maxlon": -43.2722157
+  },
+  "nodes": [
+    1998939354,
+    163559189,
+    1679218761,
+    2807708958,
+    163559191,
+    8035184596,
+    1679218757,
+    2807708955,
+    163559192,
+    8058012252,
+    3804744050,
+    8058012251,
+    163559193
+  ],
+  "geometry": [
+    { "lat": -22.8766608, "lon": -43.2758259 },
+    { "lat": -22.8765483, "lon": -43.2756373 },
+    { "lat": -22.8764421, "lon": -43.2754241 },
+    { "lat": -22.8763334, "lon": -43.2751894 },
+    { "lat": -22.8762382, "lon": -43.2749520 },
+    { "lat": -22.8761777, "lon": -43.2747562 },
+    { "lat": -22.8761146, "lon": -43.2745430 },
+    { "lat": -22.8760603, "lon": -43.2743190 },
+    { "lat": -22.8758305, "lon": -43.2732461 },
+    { "lat": -22.8757736, "lon": -43.2730047 },
+    { "lat": -22.8757007, "lon": -43.2727191 },
+    { "lat": -22.8756488, "lon": -43.2725568 },
+    { "lat": -22.8755347, "lon": -43.2722157 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 155532204,
+  "bounds": {
+    "minlat": -22.8731283,
+    "minlon": -43.2679520,
+    "maxlat": -22.8726911,
+    "maxlon": -43.2671531
+  },
+  "nodes": [
+    1679216853,
+    8227843494,
+    1679216886
+  ],
+  "geometry": [
+    { "lat": -22.8726911, "lon": -43.2671531 },
+    { "lat": -22.8728015, "lon": -43.2673548 },
+    { "lat": -22.8731283, "lon": -43.2679520 }
+  ],
+  "tags": {
+    "bridge": "viaduct",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 155532861,
+  "bounds": {
+    "minlat": -22.8818786,
+    "minlon": -43.2839886,
+    "maxlat": -22.8765348,
+    "maxlon": -43.2759874
+  },
+  "nodes": [
+    163546969,
+    8035184638,
+    163546970,
+    2807708961,
+    8035184639,
+    2807708957,
+    8035184640,
+    8035184641,
+    163546971,
+    163546973,
+    8035184642,
+    3211750776,
+    3804744117,
+    8035184643,
+    163546975,
+    3804744121,
+    3804744123,
+    8035184644,
+    163546977,
+    3804744136,
+    8035184645,
+    163546980,
+    8035184646,
+    8035184647,
+    163546981,
+    163546982,
+    8035184648,
+    442044190
+  ],
+  "geometry": [
+    { "lat": -22.8765348, "lon": -43.2759874 },
+    { "lat": -22.8766040, "lon": -43.2760893 },
+    { "lat": -22.8767090, "lon": -43.2762381 },
+    { "lat": -22.8768511, "lon": -43.2764205 },
+    { "lat": -22.8769623, "lon": -43.2765479 },
+    { "lat": -22.8771316, "lon": -43.2767102 },
+    { "lat": -22.8772724, "lon": -43.2768296 },
+    { "lat": -22.8774306, "lon": -43.2769462 },
+    { "lat": -22.8776307, "lon": -43.2770737 },
+    { "lat": -22.8781085, "lon": -43.2773648 },
+    { "lat": -22.8783721, "lon": -43.2775337 },
+    { "lat": -22.8786007, "lon": -43.2777053 },
+    { "lat": -22.8788206, "lon": -43.2778837 },
+    { "lat": -22.8789813, "lon": -43.2780312 },
+    { "lat": -22.8791394, "lon": -43.2781921 },
+    { "lat": -22.8793000, "lon": -43.2783745 },
+    { "lat": -22.8794879, "lon": -43.2786065 },
+    { "lat": -22.8796077, "lon": -43.2787688 },
+    { "lat": -22.8797037, "lon": -43.2789093 },
+    { "lat": -22.8803231, "lon": -43.2799141 },
+    { "lat": -22.8805097, "lon": -43.2802293 },
+    { "lat": -22.8806704, "lon": -43.2805240 },
+    { "lat": -22.8807753, "lon": -43.2807362 },
+    { "lat": -22.8808668, "lon": -43.2809454 },
+    { "lat": -22.8809520, "lon": -43.2811600 },
+    { "lat": -22.8811219, "lon": -43.2816321 },
+    { "lat": -22.8812078, "lon": -43.2818708 },
+    { "lat": -22.8818786, "lon": -43.2839886 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 155533006,
+  "bounds": {
+    "minlat": -22.8844584,
+    "minlon": -43.2905902,
+    "maxlat": -22.8827016,
+    "maxlon": -43.2868830
+  },
+  "nodes": [
+    1679220132,
+    163559170,
+    1679220120,
+    163559171,
+    3804744219,
+    163559172,
+    163559173,
+    163559174
+  ],
+  "geometry": [
+    { "lat": -22.8844584, "lon": -43.2905902 },
+    { "lat": -22.8837961, "lon": -43.2897730 },
+    { "lat": -22.8835392, "lon": -43.2893262 },
+    { "lat": -22.8832441, "lon": -43.2887410 },
+    { "lat": -22.8830925, "lon": -43.2883545 },
+    { "lat": -22.8829575, "lon": -43.2879683 },
+    { "lat": -22.8828200, "lon": -43.2874775 },
+    { "lat": -22.8827016, "lon": -43.2868830 }
+  ],
+  "tags": {
+    "bridge": "viaduct",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 155533007,
+  "bounds": {
+    "minlat": -22.8860605,
+    "minlon": -43.2920712,
+    "maxlat": -22.8832489,
+    "maxlon": -43.2890588
+  },
+  "nodes": [
+    163546992,
+    163546994,
+    1679220130,
+    3802279822,
+    163546995,
+    163546997,
+    3802280112,
+    3802280126,
+    163546998,
+    163547000
+  ],
+  "geometry": [
+    { "lat": -22.8832489, "lon": -43.2890588 },
+    { "lat": -22.8834291, "lon": -43.2893926 },
+    { "lat": -22.8837661, "lon": -43.2899213 },
+    { "lat": -22.8839318, "lon": -43.2901572 },
+    { "lat": -22.8841923, "lon": -43.2904921 },
+    { "lat": -22.8845480, "lon": -43.2908822 },
+    { "lat": -22.8849169, "lon": -43.2912331 },
+    { "lat": -22.8852354, "lon": -43.2914944 },
+    { "lat": -22.8855000, "lon": -43.2916857 },
+    { "lat": -22.8860605, "lon": -43.2920712 }
+  ],
+  "tags": {
+    "bridge": "viaduct",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 155533010,
+  "bounds": {
+    "minlat": -22.8827016,
+    "minlon": -43.2868830,
+    "maxlat": -22.8826351,
+    "maxlon": -43.2865023
+  },
+  "nodes": [
+    163559174,
+    1999089024
+  ],
+  "geometry": [
+    { "lat": -22.8827016, "lon": -43.2868830 },
+    { "lat": -22.8826351, "lon": -43.2865023 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 155533089,
+  "bounds": {
+    "minlat": -22.8728023,
+    "minlon": -43.2670552,
+    "maxlat": -22.8717079,
+    "maxlon": -43.2638178
+  },
+  "nodes": [
+    1679216924,
+    3890738224,
+    7848528596,
+    7848528594,
+    1679216857,
+    7848528595,
+    163559200,
+    163559201,
+    1999058640
+  ],
+  "geometry": [
+    { "lat": -22.8728023, "lon": -43.2670552 },
+    { "lat": -22.8725338, "lon": -43.2665634 },
+    { "lat": -22.8723571, "lon": -43.2661758 },
+    { "lat": -22.8722421, "lon": -43.2659318 },
+    { "lat": -22.8721519, "lon": -43.2657266 },
+    { "lat": -22.8720308, "lon": -43.2654141 },
+    { "lat": -22.8718974, "lon": -43.2650222 },
+    { "lat": -22.8717851, "lon": -43.2644509 },
+    { "lat": -22.8717079, "lon": -43.2638178 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 166774036,
+  "bounds": {
+    "minlat": -22.9075030,
+    "minlon": -43.3104250,
+    "maxlat": -22.9070293,
+    "maxlon": -43.3089083
+  },
+  "nodes": [
+    163552100,
+    163552101,
+    1782117451,
+    7889442604,
+    1782117453,
+    7889442608,
+    7889442603,
+    1782117471,
+    7889442607,
+    8247664438
+  ],
+  "geometry": [
+    { "lat": -22.9070293, "lon": -43.3104250 },
+    { "lat": -22.9070530, "lon": -43.3102016 },
+    { "lat": -22.9070690, "lon": -43.3101010 },
+    { "lat": -22.9070789, "lon": -43.3100340 },
+    { "lat": -22.9070975, "lon": -43.3099602 },
+    { "lat": -22.9071524, "lon": -43.3097926 },
+    { "lat": -22.9072327, "lon": -43.3095867 },
+    { "lat": -22.9074421, "lon": -43.3091341 },
+    { "lat": -22.9074761, "lon": -43.3090335 },
+    { "lat": -22.9075030, "lon": -43.3089083 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "7",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "tool": "yes",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 166774039,
+  "bounds": {
+    "minlat": -22.9069849,
+    "minlon": -43.3113831,
+    "maxlat": -22.9069387,
+    "maxlon": -43.3108157
+  },
+  "nodes": [
+    163552098,
+    2200931040
+  ],
+  "geometry": [
+    { "lat": -22.9069387, "lon": -43.3113831 },
+    { "lat": -22.9069849, "lon": -43.3108157 }
+  ],
+  "tags": {
+    "hgv": "discouraged",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 166774043,
+  "bounds": {
+    "minlat": -22.9069782,
+    "minlon": -43.3069132,
+    "maxlat": -22.9056922,
+    "maxlon": -43.3051577
+  },
+  "nodes": [
+    163547043,
+    163547044,
+    7889442598,
+    1782117444,
+    1782117461,
+    163547045,
+    163547047
+  ],
+  "geometry": [
+    { "lat": -22.9056922, "lon": -43.3051577 },
+    { "lat": -22.9060307, "lon": -43.3054340 },
+    { "lat": -22.9062111, "lon": -43.3056217 },
+    { "lat": -22.9063779, "lon": -43.3058269 },
+    { "lat": -22.9065644, "lon": -43.3060992 },
+    { "lat": -22.9067225, "lon": -43.3063661 },
+    { "lat": -22.9069782, "lon": -43.3069132 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 166774047,
+  "bounds": {
+    "minlat": -22.9072411,
+    "minlon": -43.3088524,
+    "maxlat": -22.9069782,
+    "maxlon": -43.3069132
+  },
+  "nodes": [
+    163547047,
+    1782117439,
+    1782117447,
+    1782117458,
+    1782117478,
+    163547048,
+    1782117457,
+    4842599084,
+    8247664439
+  ],
+  "geometry": [
+    { "lat": -22.9069782, "lon": -43.3069132 },
+    { "lat": -22.9070162, "lon": -43.3070116 },
+    { "lat": -22.9071223, "lon": -43.3072814 },
+    { "lat": -22.9071792, "lon": -43.3074911 },
+    { "lat": -22.9072164, "lon": -43.3076931 },
+    { "lat": -22.9072411, "lon": -43.3079397 },
+    { "lat": -22.9072367, "lon": -43.3082383 },
+    { "lat": -22.9072167, "lon": -43.3085388 },
+    { "lat": -22.9071842, "lon": -43.3088524 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "7",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "tool": "yes",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 166775482,
+  "bounds": {
+    "minlat": -22.9070795,
+    "minlon": -43.3089931,
+    "maxlat": -22.9069440,
+    "maxlon": -43.3069132
+  },
+  "nodes": [
+    163547047,
+    1782117442,
+    1782117441,
+    1782117473,
+    1782117464,
+    1782117467,
+    4842599086
+  ],
+  "geometry": [
+    { "lat": -22.9069782, "lon": -43.3069132 },
+    { "lat": -22.9070301, "lon": -43.3072284 },
+    { "lat": -22.9070660, "lon": -43.3075878 },
+    { "lat": -22.9070795, "lon": -43.3077689 },
+    { "lat": -22.9070771, "lon": -43.3080035 },
+    { "lat": -22.9070499, "lon": -43.3082919 },
+    { "lat": -22.9069440, "lon": -43.3089931 }
+  ],
+  "tags": {
+    "access": "designated",
+    "highway": "motorway",
+    "lanes": "3",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "tool": "yes",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 166775484,
+  "bounds": {
+    "minlat": -22.9069035,
+    "minlon": -43.3105531,
+    "maxlat": -22.9068799,
+    "maxlon": -43.3100557
+  },
+  "nodes": [
+    1782117449,
+    2200931584,
+    163548316
+  ],
+  "geometry": [
+    { "lat": -22.9069035, "lon": -43.3100557 },
+    { "lat": -22.9068841, "lon": -43.3104866 },
+    { "lat": -22.9068799, "lon": -43.3105531 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 166775485,
+  "bounds": {
+    "minlat": -22.9074212,
+    "minlon": -43.3075537,
+    "maxlat": -22.9061518,
+    "maxlon": -43.3053455
+  },
+  "nodes": [
+    1679230314,
+    163559131,
+    163559133,
+    7889442602,
+    1782117465,
+    7889442601,
+    7889442600,
+    163559134
+  ],
+  "geometry": [
+    { "lat": -22.9074212, "lon": -43.3075537 },
+    { "lat": -22.9069412, "lon": -43.3064801 },
+    { "lat": -22.9067942, "lon": -43.3061796 },
+    { "lat": -22.9066743, "lon": -43.3059865 },
+    { "lat": -22.9065891, "lon": -43.3058430 },
+    { "lat": -22.9064742, "lon": -43.3056968 },
+    { "lat": -22.9063124, "lon": -43.3055104 },
+    { "lat": -22.9061518, "lon": -43.3053455 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 166776338,
+  "bounds": {
+    "minlat": -22.9044291,
+    "minlon": -43.3046588,
+    "maxlat": -22.9042921,
+    "maxlon": -43.3046199
+  },
+  "nodes": [
+    1782140331,
+    7889442597
+  ],
+  "geometry": [
+    { "lat": -22.9042921, "lon": -43.3046199 },
+    { "lat": -22.9044291, "lon": -43.3046588 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 166776340,
+  "bounds": {
+    "minlat": -22.9042921,
+    "minlon": -43.3046199,
+    "maxlat": -22.8980643,
+    "maxlon": -43.3023903
+  },
+  "nodes": [
+    163547032,
+    8011991482,
+    3211749251,
+    8011991483,
+    163547033,
+    8011991484,
+    3802280296,
+    1917939005,
+    163547039,
+    1782140331
+  ],
+  "geometry": [
+    { "lat": -22.8980643, "lon": -43.3023903 },
+    { "lat": -22.8982033, "lon": -43.3024809 },
+    { "lat": -22.8984208, "lon": -43.3026110 },
+    { "lat": -22.8986085, "lon": -43.3027075 },
+    { "lat": -22.8988186, "lon": -43.3028041 },
+    { "lat": -22.8990101, "lon": -43.3028832 },
+    { "lat": -22.8992003, "lon": -43.3029476 },
+    { "lat": -22.9000602, "lon": -43.3032323 },
+    { "lat": -22.9016613, "lon": -43.3037282 },
+    { "lat": -22.9042921, "lon": -43.3046199 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 166776343,
+  "bounds": {
+    "minlat": -22.9047341,
+    "minlon": -43.3045988,
+    "maxlat": -22.9044573,
+    "maxlon": -43.3045085
+  },
+  "nodes": [
+    1782140420,
+    1782140333
+  ],
+  "geometry": [
+    { "lat": -22.9047341, "lon": -43.3045988 },
+    { "lat": -22.9044573, "lon": -43.3045085 }
+  ],
+  "tags": {
+    "bridge": "viaduct",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 166776344,
+  "bounds": {
+    "minlat": -22.9056922,
+    "minlon": -43.3051577,
+    "maxlat": -22.9046966,
+    "maxlon": -43.3047486
+  },
+  "nodes": [
+    1782140345,
+    1782140376,
+    3211749250,
+    163547043
+  ],
+  "geometry": [
+    { "lat": -22.9046966, "lon": -43.3047486 },
+    { "lat": -22.9052423, "lon": -43.3049310 },
+    { "lat": -22.9054662, "lon": -43.3050236 },
+    { "lat": -22.9056922, "lon": -43.3051577 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 166776345,
+  "bounds": {
+    "minlat": -22.9044573,
+    "minlon": -43.3045085,
+    "maxlat": -22.9036620,
+    "maxlon": -43.3042428
+  },
+  "nodes": [
+    1782140333,
+    163559139
+  ],
+  "geometry": [
+    { "lat": -22.9044573, "lon": -43.3045085 },
+    { "lat": -22.9036620, "lon": -43.3042428 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "destination:lanes": "none|none|Meier;Madureira;Rua Dias da Cruz",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "turn:lanes": "none|none|slight_right",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 181348334,
+  "bounds": {
+    "minlat": -22.8957545,
+    "minlon": -43.3011552,
+    "maxlat": -22.8953800,
+    "maxlon": -43.3010940
+  },
+  "nodes": [
+    1917738613,
+    992459412,
+    1917738615
+  ],
+  "geometry": [
+    { "lat": -22.8957545, "lon": -43.3011505 },
+    { "lat": -22.8954005, "lon": -43.3010940 },
+    { "lat": -22.8953800, "lon": -43.3011552 }
+  ],
+  "tags": {
+    "highway": "footway",
+    "layer": "-1",
+    "name": "Travessa Linha Amarela",
+    "tunnel": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 189247719,
+  "bounds": {
+    "minlat": -22.8781085,
+    "minlon": -43.2773648,
+    "maxlat": -22.8765602,
+    "maxlon": -43.2767357
+  },
+  "nodes": [
+    1364650501,
+    1364650499,
+    1364650572,
+    2807708350,
+    3804744077,
+    1364650543,
+    1364650578,
+    8035240187,
+    1364650590,
+    163546973
+  ],
+  "geometry": [
+    { "lat": -22.8765602, "lon": -43.2767999 },
+    { "lat": -22.8766867, "lon": -43.2767504 },
+    { "lat": -22.8767720, "lon": -43.2767357 },
+    { "lat": -22.8768560, "lon": -43.2767411 },
+    { "lat": -22.8769759, "lon": -43.2767800 },
+    { "lat": -22.8771390, "lon": -43.2768738 },
+    { "lat": -22.8775616, "lon": -43.2771461 },
+    { "lat": -22.8776802, "lon": -43.2772091 },
+    { "lat": -22.8778210, "lon": -43.2772737 },
+    { "lat": -22.8781085, "lon": -43.2773648 }
+  ],
+  "tags": {
+    "destination": "Méier;Barra",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "80",
+    "name": "Linha Amarela",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 189260317,
+  "bounds": {
+    "minlat": -22.8714111,
+    "minlon": -43.2638228,
+    "maxlat": -22.8712496,
+    "maxlon": -43.2616838
+  },
+  "nodes": [
+    1679205265,
+    1679205272,
+    163546954,
+    163546956
+  ],
+  "geometry": [
+    { "lat": -22.8712496, "lon": -43.2616838 },
+    { "lat": -22.8712857, "lon": -43.2625174 },
+    { "lat": -22.8713277, "lon": -43.2631949 },
+    { "lat": -22.8714111, "lon": -43.2638228 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 189260318,
+  "bounds": {
+    "minlat": -22.8714780,
+    "minlon": -43.2643099,
+    "maxlat": -22.8714111,
+    "maxlon": -43.2638228
+  },
+  "nodes": [
+    163546956,
+    524850345
+  ],
+  "geometry": [
+    { "lat": -22.8714111, "lon": -43.2638228 },
+    { "lat": -22.8714780, "lon": -43.2643099 }
+  ],
+  "tags": {
+    "bridge": "yes",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 189261689,
+  "bounds": {
+    "minlat": -22.8755347,
+    "minlon": -43.2722157,
+    "maxlat": -22.8749383,
+    "maxlon": -43.2706860
+  },
+  "nodes": [
+    163559193,
+    8058223390,
+    1999058636,
+    8058223389,
+    3804744042,
+    3804744036,
+    1998904165
+  ],
+  "geometry": [
+    { "lat": -22.8755347, "lon": -43.2722157 },
+    { "lat": -22.8755018, "lon": -43.2720083 },
+    { "lat": -22.8754749, "lon": -43.2718834 },
+    { "lat": -22.8754301, "lon": -43.2717347 },
+    { "lat": -22.8753102, "lon": -43.2714263 },
+    { "lat": -22.8750290, "lon": -43.2708863 },
+    { "lat": -22.8749383, "lon": -43.2706860 }
+  ],
+  "tags": {
+    "destination": "Del Castilho;Maria da Graça",
+    "highway": "motorway_link",
+    "lanes": "1",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "80",
+    "name": "Linha Amarela",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 209941088,
+  "bounds": {
+    "minlat": -22.9068550,
+    "minlon": -43.3113861,
+    "maxlat": -22.9068100,
+    "maxlon": -43.3107700
+  },
+  "nodes": [
+    2200931111,
+    163548318
+  ],
+  "geometry": [
+    { "lat": -22.9068550, "lon": -43.3107700 },
+    { "lat": -22.9068100, "lon": -43.3113861 }
+  ],
+  "tags": {
+    "hgv": "discouraged",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 209941089,
+  "bounds": {
+    "minlat": -22.9070042,
+    "minlon": -43.3108157,
+    "maxlat": -22.9069849,
+    "maxlon": -43.3106368
+  },
+  "nodes": [
+    2200931040,
+    7889442605
+  ],
+  "geometry": [
+    { "lat": -22.9069849, "lon": -43.3108157 },
+    { "lat": -22.9070042, "lon": -43.3106368 }
+  ],
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "motorway",
+    "lanes": "4",
+    "layer": "1",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 209941091,
+  "bounds": {
+    "minlat": -22.9068799,
+    "minlon": -43.3107700,
+    "maxlat": -22.9068550,
+    "maxlon": -43.3105531
+  },
+  "nodes": [
+    163548316,
+    2200931111
+  ],
+  "geometry": [
+    { "lat": -22.9068799, "lon": -43.3105531 },
+    { "lat": -22.9068550, "lon": -43.3107700 }
+  ],
+  "tags": {
+    "bridge": "viaduct",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 261322962,
+  "bounds": {
+    "minlat": -22.8851482,
+    "minlon": -43.2858669,
+    "maxlat": -22.8821275,
+    "maxlon": -43.2799276
+  },
+  "nodes": [
+    2669558376,
+    2669558377,
+    3802280058,
+    3802280061,
+    2669558378,
+    2669558379,
+    12096182224,
+    12096182225,
+    12096182226,
+    12096182227,
+    2669558380,
+    12096182178,
+    2669558381,
+    2669558382,
+    12096182228,
+    2669558383,
+    2669558384,
+    8884059171,
+    8884059172,
+    2669558385,
+    8884059174,
+    2669558386,
+    2669558387,
+    2669558388,
+    2669558389,
+    2669558390,
+    2669558391,
+    3804744181,
+    3804744183,
+    3804744184,
+    2669558392,
+    3804744202,
+    3804744203,
+    3804744204,
+    3804744206,
+    3804744210,
+    3804744218,
+    3804744217,
+    3804744216,
+    3524466453,
+    2669558376
+  ],
+  "geometry": [
+    { "lat": -22.8831329, "lon": -43.2858503 },
+    { "lat": -22.8844760, "lon": -43.2858669 },
+    { "lat": -22.8845237, "lon": -43.2858320 },
+    { "lat": -22.8845527, "lon": -43.2857643 },
+    { "lat": -22.8845551, "lon": -43.2853671 },
+    { "lat": -22.8845657, "lon": -43.2851686 },
+    { "lat": -22.8844283, "lon": -43.2845885 },
+    { "lat": -22.8843745, "lon": -43.2845235 },
+    { "lat": -22.8844443, "lon": -43.2844336 },
+    { "lat": -22.8843813, "lon": -43.2843672 },
+    { "lat": -22.8843844, "lon": -43.2842549 },
+    { "lat": -22.8844133, "lon": -43.2842562 },
+    { "lat": -22.8848194, "lon": -43.2842743 },
+    { "lat": -22.8849996, "lon": -43.2841301 },
+    { "lat": -22.8849379, "lon": -43.2840353 },
+    { "lat": -22.8851079, "lon": -43.2838995 },
+    { "lat": -22.8851482, "lon": -43.2824221 },
+    { "lat": -22.8849497, "lon": -43.2824178 },
+    { "lat": -22.8848391, "lon": -43.2824155 },
+    { "lat": -22.8843970, "lon": -43.2824060 },
+    { "lat": -22.8838604, "lon": -43.2824995 },
+    { "lat": -22.8838274, "lon": -43.2825053 },
+    { "lat": -22.8832751, "lon": -43.2800671 },
+    { "lat": -22.8830626, "lon": -43.2799276 },
+    { "lat": -22.8827957, "lon": -43.2799330 },
+    { "lat": -22.8825338, "lon": -43.2800349 },
+    { "lat": -22.8821433, "lon": -43.2806143 },
+    { "lat": -22.8821275, "lon": -43.2807815 },
+    { "lat": -22.8821911, "lon": -43.2810243 },
+    { "lat": -22.8822758, "lon": -43.2811956 },
+    { "lat": -22.8824989, "lon": -43.2815129 },
+    { "lat": -22.8826669, "lon": -43.2822601 },
+    { "lat": -22.8826802, "lon": -43.2827861 },
+    { "lat": -22.8826798, "lon": -43.2829516 },
+    { "lat": -22.8826940, "lon": -43.2830871 },
+    { "lat": -22.8828318, "lon": -43.2835715 },
+    { "lat": -22.8829766, "lon": -43.2841863 },
+    { "lat": -22.8829731, "lon": -43.2843014 },
+    { "lat": -22.8829377, "lon": -43.2843909 },
+    { "lat": -22.8828244, "lon": -43.2844965 },
+    { "lat": -22.8831329, "lon": -43.2858503 }
+  ],
+  "tags": {
+    "landuse": "retail",
+    "name": "Power Center Linha Amarela"
+  }
+},
+{
+  "type": "way",
+  "id": 295641981,
+  "bounds": {
+    "minlat": -22.8717595,
+    "minlon": -43.2479568,
+    "maxlat": -22.8713380,
+    "maxlon": -43.2468054
+  },
+  "nodes": [
+    163559220,
+    3804835444,
+    163559221,
+    163559222
+  ],
+  "geometry": [
+    { "lat": -22.8717595, "lon": -43.2479568 },
+    { "lat": -22.8716537, "lon": -43.2475868 },
+    { "lat": -22.8715391, "lon": -43.2472569 },
+    { "lat": -22.8713380, "lon": -43.2468054 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 376848179,
+  "bounds": {
+    "minlat": -22.8933048,
+    "minlon": -43.2997525,
+    "maxlat": -22.8915620,
+    "maxlon": -43.2981785
+  },
+  "nodes": [
+    482503092,
+    8011991435,
+    1679221536,
+    3211749253,
+    163559155,
+    3802280265,
+    3802280263,
+    8011991434,
+    163559156,
+    1999089016
+  ],
+  "geometry": [
+    { "lat": -22.8933048, "lon": -43.2997525 },
+    { "lat": -22.8930750, "lon": -43.2996149 },
+    { "lat": -22.8928674, "lon": -43.2994755 },
+    { "lat": -22.8926673, "lon": -43.2993333 },
+    { "lat": -22.8924091, "lon": -43.2991308 },
+    { "lat": -22.8922089, "lon": -43.2989471 },
+    { "lat": -22.8920681, "lon": -43.2987995 },
+    { "lat": -22.8919260, "lon": -43.2986507 },
+    { "lat": -22.8917777, "lon": -43.2984737 },
+    { "lat": -22.8915620, "lon": -43.2981785 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 376848180,
+  "bounds": {
+    "minlat": -22.9036620,
+    "minlon": -43.3042428,
+    "maxlat": -22.8981477,
+    "maxlon": -43.3022891
+  },
+  "nodes": [
+    163559139,
+    1782140339,
+    163559140,
+    799921915,
+    8011991453,
+    3802280295,
+    8011991452,
+    163559142,
+    3211749252,
+    8011991451,
+    8011991450,
+    3211749249
+  ],
+  "geometry": [
+    { "lat": -22.9036620, "lon": -43.3042428 },
+    { "lat": -22.9027441, "lon": -43.3039308 },
+    { "lat": -22.9017243, "lon": -43.3036175 },
+    { "lat": -22.9001886, "lon": -43.3031192 },
+    { "lat": -22.8992806, "lon": -43.3028296 },
+    { "lat": -22.8990835, "lon": -43.3027572 },
+    { "lat": -22.8988865, "lon": -43.3026847 },
+    { "lat": -22.8987037, "lon": -43.3026043 },
+    { "lat": -22.8985146, "lon": -43.3025144 },
+    { "lat": -22.8983516, "lon": -43.3024219 },
+    { "lat": -22.8982330, "lon": -43.3023441 },
+    { "lat": -22.8981477, "lon": -43.3022891 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 377112717,
+  "bounds": {
+    "minlat": -22.8728808,
+    "minlon": -43.2669969,
+    "maxlat": -22.8717079,
+    "maxlon": -43.2638178
+  },
+  "nodes": [
+    1999058652,
+    1999058662,
+    1999058630,
+    1999058660,
+    7848592926,
+    7848592925,
+    1999058658,
+    1999058650,
+    3804743975,
+    1999058640
+  ],
+  "geometry": [
+    { "lat": -22.8728808, "lon": -43.2669969 },
+    { "lat": -22.8727779, "lon": -43.2668135 },
+    { "lat": -22.8724761, "lon": -43.2662187 },
+    { "lat": -22.8723105, "lon": -43.2658219 },
+    { "lat": -22.8722026, "lon": -43.2655442 },
+    { "lat": -22.8721421, "lon": -43.2653940 },
+    { "lat": -22.8721094, "lon": -43.2652843 },
+    { "lat": -22.8719341, "lon": -43.2646432 },
+    { "lat": -22.8718513, "lon": -43.2643101 },
+    { "lat": -22.8717079, "lon": -43.2638178 }
+  ],
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 377112718,
+  "bounds": {
+    "minlat": -22.8814039,
+    "minlon": -43.2818027,
+    "maxlat": -22.8792281,
+    "maxlon": -43.2779205
+  },
+  "nodes": [
+    442044301,
+    3804744158,
+    163559180,
+    8035184588,
+    163559182,
+    8035184605,
+    3804744141,
+    8035184604,
+    12745233783,
+    163559183,
+    3804744124,
+    8035184603,
+    8035184602,
+    8035184601,
+    163559185
+  ],
+  "geometry": [
+    { "lat": -22.8814039, "lon": -43.2818027 },
+    { "lat": -22.8811893, "lon": -43.2811640 },
+    { "lat": -22.8810596, "lon": -43.2808288 },
+    { "lat": -22.8809718, "lon": -43.2806275 },
+    { "lat": -22.8808890, "lon": -43.2804533 },
+    { "lat": -22.8807716, "lon": -43.2802426 },
+    { "lat": -22.8806172, "lon": -43.2799597 },
+    { "lat": -22.8803762, "lon": -43.2795587 },
+    { "lat": -22.8801378, "lon": -43.2791591 },
+    { "lat": -22.8799154, "lon": -43.2787957 },
+    { "lat": -22.8797522, "lon": -43.2785610 },
+    { "lat": -22.8796262, "lon": -43.2783987 },
+    { "lat": -22.8795051, "lon": -43.2782498 },
+    { "lat": -22.8793222, "lon": -43.2780285 },
+    { "lat": -22.8792281, "lon": -43.2779205 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 377112719,
+  "bounds": {
+    "minlat": -22.8732313,
+    "minlon": -43.2674278,
+    "maxlat": -22.8731222,
+    "maxlon": -43.2673073
+  },
+  "nodes": [
+    486762129,
+    486762386
+  ],
+  "geometry": [
+    { "lat": -22.8732313, "lon": -43.2674278 },
+    { "lat": -22.8731222, "lon": -43.2673073 }
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "80",
+    "name": "Linha Amarela",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 377112720,
+  "bounds": {
+    "minlat": -22.8749383,
+    "minlon": -43.2706860,
+    "maxlat": -22.8735941,
+    "maxlon": -43.2680002
+  },
+  "nodes": [
+    1998904165,
+    3804744032,
+    1999058654,
+    8058012280,
+    1999058644
+  ],
+  "geometry": [
+    { "lat": -22.8749383, "lon": -43.2706860 },
+    { "lat": -22.8746282, "lon": -43.2701089 },
+    { "lat": -22.8744453, "lon": -43.2697606 },
+    { "lat": -22.8742797, "lon": -43.2694280 },
+    { "lat": -22.8735941, "lon": -43.2680002 }
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "80",
+    "name": "Linha Amarela",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 492211772,
+  "bounds": {
+    "minlat": -22.9077373,
+    "minlon": -43.3104250,
+    "maxlat": -22.9070293,
+    "maxlon": -43.3087696
+  },
+  "nodes": [
+    163552100,
+    1782117459,
+    1782117477,
+    1782117443,
+    1782117466,
+    1782117472,
+    8247664436
+  ],
+  "geometry": [
+    { "lat": -22.9070293, "lon": -43.3104250 },
+    { "lat": -22.9070719, "lon": -43.3103401 },
+    { "lat": -22.9071844, "lon": -43.3100555 },
+    { "lat": -22.9072697, "lon": -43.3098448 },
+    { "lat": -22.9076722, "lon": -43.3089975 },
+    { "lat": -22.9077084, "lon": -43.3089034 },
+    { "lat": -22.9077373, "lon": -43.3087696 }
+  ],
+  "tags": {
+    "access": "designated",
+    "highway": "motorway",
+    "lanes": "3",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "tool": "yes",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 794911153,
+  "bounds": {
+    "minlat": -22.9261085,
+    "minlon": -43.3404114,
+    "maxlat": -22.9255974,
+    "maxlon": -43.3394961
+  },
+  "nodes": [
+    163549599,
+    163549600,
+    163549601
+  ],
+  "geometry": [
+    { "lat": -22.9261085, "lon": -43.3404114 },
+    { "lat": -22.9260070, "lon": -43.3402384 },
+    { "lat": -22.9255974, "lon": -43.3394961 }
+  ],
+  "tags": {
+    "hgv": "discouraged",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 794911155,
+  "bounds": {
+    "minlat": -22.9258111,
+    "minlon": -43.3401451,
+    "maxlat": -22.9254955,
+    "maxlon": -43.3395552
+  },
+  "nodes": [
+    163550721,
+    163550723
+  ],
+  "geometry": [
+    { "lat": -22.9254955, "lon": -43.3395552 },
+    { "lat": -22.9258111, "lon": -43.3401451 }
+  ],
+  "tags": {
+    "hgv": "discouraged",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 794922386,
+  "bounds": {
+    "minlat": -22.9387432,
+    "minlon": -43.3498359,
+    "maxlat": -22.9386750,
+    "maxlon": -43.3497656
+  },
+  "nodes": [
+    1999137987,
+    995524828
+  ],
+  "geometry": [
+    { "lat": -22.9386750, "lon": -43.3497656 },
+    { "lat": -22.9387432, "lon": -43.3498359 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 794922387,
+  "bounds": {
+    "minlat": -22.9396144,
+    "minlon": -43.3503946,
+    "maxlat": -22.9387557,
+    "maxlon": -43.3496663
+  },
+  "nodes": [
+    163546716,
+    163546717
+  ],
+  "geometry": [
+    { "lat": -22.9396144, "lon": -43.3503946 },
+    { "lat": -22.9387557, "lon": -43.3496663 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "4",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 794933612,
+  "bounds": {
+    "minlat": -22.8878944,
+    "minlon": -43.2935373,
+    "maxlat": -22.8861272,
+    "maxlon": -43.2919509
+  },
+  "nodes": [
+    475768561,
+    163559162,
+    163559164,
+    3802280172,
+    8875284943,
+    163559165
+  ],
+  "geometry": [
+    { "lat": -22.8878944, "lon": -43.2935373 },
+    { "lat": -22.8873290, "lon": -43.2928765 },
+    { "lat": -22.8869761, "lon": -43.2925547 },
+    { "lat": -22.8866345, "lon": -43.2922962 },
+    { "lat": -22.8861671, "lon": -43.2919768 },
+    { "lat": -22.8861272, "lon": -43.2919509 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 794933623,
+  "bounds": {
+    "minlat": -22.8935664,
+    "minlon": -43.3000614,
+    "maxlat": -22.8921664,
+    "maxlon": -43.2991349
+  },
+  "nodes": [
+    163547017,
+    8011991462,
+    482501823,
+    8011991463,
+    163547019,
+    8011991464,
+    163547020,
+    1679221537
+  ],
+  "geometry": [
+    { "lat": -22.8921664, "lon": -43.2991349 },
+    { "lat": -22.8923708, "lon": -43.2993132 },
+    { "lat": -22.8925515, "lon": -43.2994513 },
+    { "lat": -22.8927711, "lon": -43.2996216 },
+    { "lat": -22.8929749, "lon": -43.2997571 },
+    { "lat": -22.8931948, "lon": -43.2998818 },
+    { "lat": -22.8933888, "lon": -43.2999784 },
+    { "lat": -22.8935664, "lon": -43.3000614 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 794933624,
+  "bounds": {
+    "minlat": -22.8941820,
+    "minlon": -43.3002815,
+    "maxlat": -22.8935664,
+    "maxlon": -43.3000614
+  },
+  "nodes": [
+    1679221537,
+    8011991466,
+    8011991465,
+    1999089037
+  ],
+  "geometry": [
+    { "lat": -22.8935664, "lon": -43.3000614 },
+    { "lat": -22.8937014, "lon": -43.3001219 },
+    { "lat": -22.8938385, "lon": -43.3001715 },
+    { "lat": -22.8941820, "lon": -43.3002815 }
+  ],
+  "tags": {
+    "bridge": "viaduct",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 794936650,
+  "bounds": {
+    "minlat": -22.9354203,
+    "minlon": -43.3467843,
+    "maxlat": -22.9346150,
+    "maxlon": -43.3461028
+  },
+  "nodes": [
+    163546720,
+    3508603775,
+    163546723
+  ],
+  "geometry": [
+    { "lat": -22.9354203, "lon": -43.3467843 },
+    { "lat": -22.9350633, "lon": -43.3464785 },
+    { "lat": -22.9346150, "lon": -43.3461028 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 798412304,
+  "bounds": {
+    "minlat": -22.8717472,
+    "minlon": -43.2559812,
+    "maxlat": -22.8717036,
+    "maxlon": -43.2555918
+  },
+  "nodes": [
+    529727103,
+    8227843491,
+    524850867
+  ],
+  "geometry": [
+    { "lat": -22.8717472, "lon": -43.2555918 },
+    { "lat": -22.8717222, "lon": -43.2558146 },
+    { "lat": -22.8717036, "lon": -43.2559812 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 798412307,
+  "bounds": {
+    "minlat": -22.8718434,
+    "minlon": -43.2557189,
+    "maxlat": -22.8718319,
+    "maxlon": -43.2556070
+  },
+  "nodes": [
+    1679205301,
+    529727107
+  ],
+  "geometry": [
+    { "lat": -22.8718319, "lon": -43.2557189 },
+    { "lat": -22.8718434, "lon": -43.2556070 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 798475789,
+  "bounds": {
+    "minlat": -22.9519076,
+    "minlon": -43.3569002,
+    "maxlat": -22.9507739,
+    "maxlon": -43.3567071
+  },
+  "nodes": [
+    495308875,
+    1765432768,
+    163546704
+  ],
+  "geometry": [
+    { "lat": -22.9519076, "lon": -43.3569002 },
+    { "lat": -22.9511457, "lon": -43.3567862 },
+    { "lat": -22.9507739, "lon": -43.3567071 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 798615329,
+  "bounds": {
+    "minlat": -22.8717079,
+    "minlon": -43.2638178,
+    "maxlat": -22.8716531,
+    "maxlon": -43.2623814
+  },
+  "nodes": [
+    1999058640,
+    163559204,
+    1679205695
+  ],
+  "geometry": [
+    { "lat": -22.8717079, "lon": -43.2638178 },
+    { "lat": -22.8716656, "lon": -43.2626377 },
+    { "lat": -22.8716531, "lon": -43.2623814 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 798615330,
+  "bounds": {
+    "minlat": -22.8755347,
+    "minlon": -43.2722157,
+    "maxlat": -22.8732606,
+    "maxlon": -43.2678898
+  },
+  "nodes": [
+    163559193,
+    8058012250,
+    163559194,
+    3804744039,
+    8058012249,
+    163559196,
+    1679216860,
+    8058012248,
+    163559197,
+    1679216901
+  ],
+  "geometry": [
+    { "lat": -22.8755347, "lon": -43.2722157 },
+    { "lat": -22.8754301, "lon": -43.2719506 },
+    { "lat": -22.8753362, "lon": -43.2717347 },
+    { "lat": -22.8751978, "lon": -43.2714517 },
+    { "lat": -22.8750446, "lon": -43.2711580 },
+    { "lat": -22.8748596, "lon": -43.2708168 },
+    { "lat": -22.8745219, "lon": -43.2702032 },
+    { "lat": -22.8743020, "lon": -43.2697968 },
+    { "lat": -22.8739115, "lon": -43.2690820 },
+    { "lat": -22.8732606, "lon": -43.2678898 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 798615332,
+  "bounds": {
+    "minlat": -22.8716531,
+    "minlon": -43.2623814,
+    "maxlat": -22.8716001,
+    "maxlon": -43.2615815
+  },
+  "nodes": [
+    1679205695,
+    524850471
+  ],
+  "geometry": [
+    { "lat": -22.8716531, "lon": -43.2623814 },
+    { "lat": -22.8716001, "lon": -43.2615815 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 798615333,
+  "bounds": {
+    "minlat": -22.8712496,
+    "minlon": -43.2616838,
+    "maxlat": -22.8712323,
+    "maxlon": -43.2611720
+  },
+  "nodes": [
+    163546953,
+    1679205265
+  ],
+  "geometry": [
+    { "lat": -22.8712323, "lon": -43.2611720 },
+    { "lat": -22.8712496, "lon": -43.2616838 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 798915990,
+  "bounds": {
+    "minlat": -22.8714720,
+    "minlon": -43.2473367,
+    "maxlat": -22.8712302,
+    "maxlon": -43.2468538
+  },
+  "nodes": [
+    163581611,
+    163581612
+  ],
+  "geometry": [
+    { "lat": -22.8712302, "lon": -43.2468538 },
+    { "lat": -22.8714720, "lon": -43.2473367 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 813687370,
+  "bounds": {
+    "minlat": -22.8753992,
+    "minlon": -43.2722027,
+    "maxlat": -22.8731283,
+    "maxlon": -43.2679520
+  },
+  "nodes": [
+    1679216886,
+    8058012245,
+    163546961,
+    163546962,
+    3804744037,
+    8058012246,
+    163546963,
+    8058012247,
+    1679216890
+  ],
+  "geometry": [
+    { "lat": -22.8731283, "lon": -43.2679520 },
+    { "lat": -22.8738781, "lon": -43.2693207 },
+    { "lat": -22.8744157, "lon": -43.2702863 },
+    { "lat": -22.8747404, "lon": -43.2708812 },
+    { "lat": -22.8750538, "lon": -43.2714381 },
+    { "lat": -22.8751855, "lon": -43.2717012 },
+    { "lat": -22.8752678, "lon": -43.2718718 },
+    { "lat": -22.8753263, "lon": -43.2720096 },
+    { "lat": -22.8753992, "lon": -43.2722027 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 817917966,
+  "bounds": {
+    "minlat": -22.8735941,
+    "minlon": -43.2680002,
+    "maxlat": -22.8732313,
+    "maxlon": -43.2674278
+  },
+  "nodes": [
+    1999058644,
+    8058200255,
+    8058012282,
+    8058012281,
+    3804744006,
+    3804744004,
+    486762129
+  ],
+  "geometry": [
+    { "lat": -22.8735941, "lon": -43.2680002 },
+    { "lat": -22.8735310, "lon": -43.2679155 },
+    { "lat": -22.8734444, "lon": -43.2677383 },
+    { "lat": -22.8733801, "lon": -43.2676323 },
+    { "lat": -22.8733159, "lon": -43.2675424 },
+    { "lat": -22.8732739, "lon": -43.2674848 },
+    { "lat": -22.8732313, "lon": -43.2674278 }
+  ],
+  "tags": {
+    "highway": "secondary",
+    "lanes": "2",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "80",
+    "name": "Linha Amarela",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 817940864,
+  "bounds": {
+    "minlat": -22.8721241,
+    "minlon": -43.2511134,
+    "maxlat": -22.8719431,
+    "maxlon": -43.2499458
+  },
+  "nodes": [
+    165249955,
+    529727122
+  ],
+  "geometry": [
+    { "lat": -22.8719431, "lon": -43.2499458 },
+    { "lat": -22.8721241, "lon": -43.2511134 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 823468863,
+  "bounds": {
+    "minlat": -22.8722411,
+    "minlon": -43.2511548,
+    "maxlat": -22.8721815,
+    "maxlon": -43.2506743
+  },
+  "nodes": [
+    1679205300,
+    163559218
+  ],
+  "geometry": [
+    { "lat": -22.8722411, "lon": -43.2511548 },
+    { "lat": -22.8721815, "lon": -43.2506743 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 833532527,
+  "bounds": {
+    "minlat": -22.8726911,
+    "minlon": -43.2671531,
+    "maxlat": -22.8725256,
+    "maxlon": -43.2668299
+  },
+  "nodes": [
+    1679216854,
+    1679216853
+  ],
+  "geometry": [
+    { "lat": -22.8725256, "lon": -43.2668299 },
+    { "lat": -22.8726911, "lon": -43.2671531 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 845621895,
+  "bounds": {
+    "minlat": -22.9046966,
+    "minlon": -43.3047486,
+    "maxlat": -22.9044291,
+    "maxlon": -43.3046588
+  },
+  "nodes": [
+    7889442597,
+    1782140345
+  ],
+  "geometry": [
+    { "lat": -22.9044291, "lon": -43.3046588 },
+    { "lat": -22.9046966, "lon": -43.3047486 }
+  ],
+  "tags": {
+    "bridge": "viaduct",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 845621896,
+  "bounds": {
+    "minlat": -22.9070293,
+    "minlon": -43.3106368,
+    "maxlat": -22.9070042,
+    "maxlon": -43.3104250
+  },
+  "nodes": [
+    7889442605,
+    163552100
+  ],
+  "geometry": [
+    { "lat": -22.9070042, "lon": -43.3106368 },
+    { "lat": -22.9070293, "lon": -43.3104250 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 886263344,
+  "bounds": {
+    "minlat": -22.9292836,
+    "minlon": -43.3433956,
+    "maxlat": -22.9292052,
+    "maxlon": -43.3433499
+  },
+  "nodes": [
+    8240981145,
+    8240981144
+  ],
+  "geometry": [
+    { "lat": -22.9292052, "lon": -43.3433499 },
+    { "lat": -22.9292836, "lon": -43.3433956 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "layer": "-1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "tunnel": "yes",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 886263345,
+  "bounds": {
+    "minlat": -22.9292052,
+    "minlon": -43.3433499,
+    "maxlat": -22.9277989,
+    "maxlon": -43.3424840
+  },
+  "nodes": [
+    546028878,
+    7892013614,
+    7803504531,
+    163550730,
+    8240981145
+  ],
+  "geometry": [
+    { "lat": -22.9277989, "lon": -43.3424840 },
+    { "lat": -22.9279169, "lon": -43.3425759 },
+    { "lat": -22.9280639, "lon": -43.3426765 },
+    { "lat": -22.9285128, "lon": -43.3429776 },
+    { "lat": -22.9292052, "lon": -43.3433499 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 886966978,
+  "bounds": {
+    "minlat": -22.9077507,
+    "minlon": -43.3085125,
+    "maxlat": -22.9074212,
+    "maxlon": -43.3075537
+  },
+  "nodes": [
+    8247664435,
+    1782117445,
+    1782117448,
+    1782117440,
+    1782117462,
+    1782117450,
+    3656253836,
+    1679230314
+  ],
+  "geometry": [
+    { "lat": -22.9077480, "lon": -43.3085125 },
+    { "lat": -22.9077507, "lon": -43.3083659 },
+    { "lat": -22.9077468, "lon": -43.3083164 },
+    { "lat": -22.9077187, "lon": -43.3081568 },
+    { "lat": -22.9076689, "lon": -43.3080100 },
+    { "lat": -22.9076052, "lon": -43.3078413 },
+    { "lat": -22.9075157, "lon": -43.3077024 },
+    { "lat": -22.9074212, "lon": -43.3075537 }
+  ],
+  "tags": {
+    "access": "designated",
+    "highway": "motorway",
+    "lanes": "3",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "tool": "yes",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 886966979,
+  "bounds": {
+    "minlat": -22.9077480,
+    "minlon": -43.3087696,
+    "maxlat": -22.9077373,
+    "maxlon": -43.3085125
+  },
+  "nodes": [
+    8247664436,
+    1782117460,
+    8247664435
+  ],
+  "geometry": [
+    { "lat": -22.9077373, "lon": -43.3087696 },
+    { "lat": -22.9077427, "lon": -43.3086401 },
+    { "lat": -22.9077480, "lon": -43.3085125 }
+  ],
+  "tags": {
+    "access": "designated",
+    "covered": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "maxspeed": "30",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "tool": "yes",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 886966980,
+  "bounds": {
+    "minlat": -22.9075496,
+    "minlon": -43.3086435,
+    "maxlat": -22.9074212,
+    "maxlon": -43.3075537
+  },
+  "nodes": [
+    8247664437,
+    7889442606,
+    163559130,
+    1782117463,
+    1782117446,
+    1679230314
+  ],
+  "geometry": [
+    { "lat": -22.9075312, "lon": -43.3086435 },
+    { "lat": -22.9075496, "lon": -43.3082946 },
+    { "lat": -22.9075428, "lon": -43.3080994 },
+    { "lat": -22.9075274, "lon": -43.3079573 },
+    { "lat": -22.9075026, "lon": -43.3078507 },
+    { "lat": -22.9074212, "lon": -43.3075537 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "7",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "tool": "yes",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 886966981,
+  "bounds": {
+    "minlat": -22.9075312,
+    "minlon": -43.3089083,
+    "maxlat": -22.9075030,
+    "maxlon": -43.3086435
+  },
+  "nodes": [
+    8247664438,
+    163565909,
+    8247664437
+  ],
+  "geometry": [
+    { "lat": -22.9075030, "lon": -43.3089083 },
+    { "lat": -22.9075174, "lon": -43.3087731 },
+    { "lat": -22.9075312, "lon": -43.3086435 }
+  ],
+  "tags": {
+    "covered": "yes",
+    "highway": "motorway",
+    "lanes": "7",
+    "maxspeed": "30",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "tool": "yes",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 886966982,
+  "bounds": {
+    "minlat": -22.9071519,
+    "minlon": -43.3100557,
+    "maxlat": -22.9069035,
+    "maxlon": -43.3091409
+  },
+  "nodes": [
+    8247664440,
+    1782117454,
+    1782117479,
+    3656253831,
+    1782117449
+  ],
+  "geometry": [
+    { "lat": -22.9071519, "lon": -43.3091409 },
+    { "lat": -22.9071265, "lon": -43.3092736 },
+    { "lat": -22.9070845, "lon": -43.3094372 },
+    { "lat": -22.9070272, "lon": -43.3096476 },
+    { "lat": -22.9069035, "lon": -43.3100557 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "7",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "tool": "yes",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 886966983,
+  "bounds": {
+    "minlat": -22.9071842,
+    "minlon": -43.3091409,
+    "maxlat": -22.9071519,
+    "maxlon": -43.3088524
+  },
+  "nodes": [
+    8247664439,
+    163565688,
+    8247664440
+  ],
+  "geometry": [
+    { "lat": -22.9071842, "lon": -43.3088524 },
+    { "lat": -22.9071717, "lon": -43.3089882 },
+    { "lat": -22.9071519, "lon": -43.3091409 }
+  ],
+  "tags": {
+    "covered": "yes",
+    "highway": "motorway",
+    "lanes": "7",
+    "maxspeed": "30",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "tool": "yes",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 886966984,
+  "bounds": {
+    "minlat": -22.9069275,
+    "minlon": -43.3100557,
+    "maxlat": -22.9069035,
+    "maxlon": -43.3092661
+  },
+  "nodes": [
+    8247664442,
+    4842599088,
+    1782117449
+  ],
+  "geometry": [
+    { "lat": -22.9069275, "lon": -43.3092661 },
+    { "lat": -22.9069172, "lon": -43.3095707 },
+    { "lat": -22.9069035, "lon": -43.3100557 }
+  ],
+  "tags": {
+    "access": "designated",
+    "highway": "motorway",
+    "lanes": "3",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "tool": "yes",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 886966985,
+  "bounds": {
+    "minlat": -22.9069440,
+    "minlon": -43.3092661,
+    "maxlat": -22.9069275,
+    "maxlon": -43.3089931
+  },
+  "nodes": [
+    4842599086,
+    1782117475,
+    8247664442
+  ],
+  "geometry": [
+    { "lat": -22.9069440, "lon": -43.3089931 },
+    { "lat": -22.9069353, "lon": -43.3091365 },
+    { "lat": -22.9069275, "lon": -43.3092661 }
+  ],
+  "tags": {
+    "access": "designated",
+    "covered": "yes",
+    "highway": "motorway",
+    "lanes": "3",
+    "maxspeed": "30",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "tool": "yes",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 952744367,
+  "bounds": {
+    "minlat": -22.8861272,
+    "minlon": -43.2919509,
+    "maxlat": -22.8844584,
+    "maxlon": -43.2905902
+  },
+  "nodes": [
+    163559165,
+    163559167,
+    3802280129,
+    163559168,
+    3802280074,
+    1679220132
+  ],
+  "geometry": [
+    { "lat": -22.8861272, "lon": -43.2919509 },
+    { "lat": -22.8856102, "lon": -43.2916131 },
+    { "lat": -22.8853579, "lon": -43.2914279 },
+    { "lat": -22.8849977, "lon": -43.2911343 },
+    { "lat": -22.8846346, "lon": -43.2907912 },
+    { "lat": -22.8844584, "lon": -43.2905902 }
+  ],
+  "tags": {
+    "bridge": "viaduct",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 952745762,
+  "bounds": {
+    "minlat": -22.8826351,
+    "minlon": -43.2865023,
+    "maxlat": -22.8814039,
+    "maxlon": -43.2818027
+  },
+  "nodes": [
+    1999089024,
+    8227843496,
+    3804744193,
+    163559176,
+    8046928209,
+    3211750774,
+    8046928208,
+    163559177,
+    12745233784,
+    3804744165,
+    442044301
+  ],
+  "geometry": [
+    { "lat": -22.8826351, "lon": -43.2865023 },
+    { "lat": -22.8826067, "lon": -43.2863379 },
+    { "lat": -22.8825162, "lon": -43.2858139 },
+    { "lat": -22.8823801, "lon": -43.2851408 },
+    { "lat": -22.8822271, "lon": -43.2845168 },
+    { "lat": -22.8821419, "lon": -43.2841922 },
+    { "lat": -22.8820517, "lon": -43.2838731 },
+    { "lat": -22.8819443, "lon": -43.2835072 },
+    { "lat": -22.8817267, "lon": -43.2828042 },
+    { "lat": -22.8815010, "lon": -43.2821109 },
+    { "lat": -22.8814039, "lon": -43.2818027 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 954742650,
+  "bounds": {
+    "minlat": -22.8825894,
+    "minlon": -43.2869876,
+    "maxlat": -22.8825394,
+    "maxlon": -43.2867380
+  },
+  "nodes": [
+    1999088966,
+    8836942832
+  ],
+  "geometry": [
+    { "lat": -22.8825394, "lon": -43.2867380 },
+    { "lat": -22.8825894, "lon": -43.2869876 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 955809425,
+  "bounds": {
+    "minlat": -22.8716199,
+    "minlon": -43.2649541,
+    "maxlat": -22.8714780,
+    "maxlon": -43.2643099
+  },
+  "nodes": [
+    524850345,
+    163546957
+  ],
+  "geometry": [
+    { "lat": -22.8714780, "lon": -43.2643099 },
+    { "lat": -22.8716199, "lon": -43.2649541 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 955811814,
+  "bounds": {
+    "minlat": -22.8825394,
+    "minlon": -43.2867380,
+    "maxlat": -22.8818786,
+    "maxlon": -43.2839886
+  },
+  "nodes": [
+    442044190,
+    3211750773,
+    163546985,
+    3804744185,
+    163546987,
+    1999088966
+  ],
+  "geometry": [
+    { "lat": -22.8818786, "lon": -43.2839886 },
+    { "lat": -22.8820349, "lon": -43.2844756 },
+    { "lat": -22.8821600, "lon": -43.2849016 },
+    { "lat": -22.8822878, "lon": -43.2854190 },
+    { "lat": -22.8824240, "lon": -43.2860372 },
+    { "lat": -22.8825394, "lon": -43.2867380 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 955814413,
+  "bounds": {
+    "minlat": -22.8832489,
+    "minlon": -43.2890588,
+    "maxlat": -22.8825894,
+    "maxlon": -43.2869876
+  },
+  "nodes": [
+    8836942832,
+    3804744205,
+    1679220119,
+    163546990,
+    3802279784,
+    3802279791,
+    163546992
+  ],
+  "geometry": [
+    { "lat": -22.8825894, "lon": -43.2869876 },
+    { "lat": -22.8826848, "lon": -43.2874649 },
+    { "lat": -22.8827595, "lon": -43.2877610 },
+    { "lat": -22.8828486, "lon": -43.2880526 },
+    { "lat": -22.8829535, "lon": -43.2883509 },
+    { "lat": -22.8830871, "lon": -43.2887149 },
+    { "lat": -22.8832489, "lon": -43.2890588 }
+  ],
+  "tags": {
+    "bridge": "viaduct",
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "layer": "1",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 955816518,
+  "bounds": {
+    "minlat": -22.8921664,
+    "minlon": -43.2991349,
+    "maxlat": -22.8914664,
+    "maxlon": -43.2983798
+  },
+  "nodes": [
+    8011991459,
+    163547016,
+    8011991460,
+    8011991461,
+    8227843500,
+    163547017
+  ],
+  "geometry": [
+    { "lat": -22.8914664, "lon": -43.2983798 },
+    { "lat": -22.8916591, "lon": -43.2986265 },
+    { "lat": -22.8918160, "lon": -43.2988116 },
+    { "lat": -22.8919519, "lon": -43.2989457 },
+    { "lat": -22.8920296, "lon": -43.2990143 },
+    { "lat": -22.8921664, "lon": -43.2991349 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 955816520,
+  "bounds": {
+    "minlat": -22.8879065,
+    "minlon": -43.2938332,
+    "maxlat": -22.8863580,
+    "maxlon": -43.2922817
+  },
+  "nodes": [
+    3802280167,
+    163547001,
+    163547003,
+    3802280182,
+    163547005,
+    163547006,
+    8846146600
+  ],
+  "geometry": [
+    { "lat": -22.8863580, "lon": -43.2922817 },
+    { "lat": -22.8866405, "lon": -43.2924718 },
+    { "lat": -22.8867620, "lon": -43.2925679 },
+    { "lat": -22.8869558, "lon": -43.2927416 },
+    { "lat": -22.8872216, "lon": -43.2930055 },
+    { "lat": -22.8875728, "lon": -43.2934192 },
+    { "lat": -22.8879065, "lon": -43.2938332 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 955816522,
+  "bounds": {
+    "minlat": -22.8863580,
+    "minlon": -43.2922817,
+    "maxlat": -22.8860605,
+    "maxlon": -43.2920712
+  },
+  "nodes": [
+    163547000,
+    3802280167
+  ],
+  "geometry": [
+    { "lat": -22.8860605, "lon": -43.2920712 },
+    { "lat": -22.8863580, "lon": -43.2922817 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 959895225,
+  "bounds": {
+    "minlat": -22.9366365,
+    "minlon": -43.3478248,
+    "maxlat": -22.9354203,
+    "maxlon": -43.3467843
+  },
+  "nodes": [
+    8881196236,
+    163546720
+  ],
+  "geometry": [
+    { "lat": -22.9366365, "lon": -43.3478248 },
+    { "lat": -22.9354203, "lon": -43.3467843 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 960796529,
+  "bounds": {
+    "minlat": -22.9422921,
+    "minlon": -43.3524317,
+    "maxlat": -22.9406648,
+    "maxlon": -43.3515092
+  },
+  "nodes": [
+    163552625,
+    163552626,
+    163552628
+  ],
+  "geometry": [
+    { "lat": -22.9406648, "lon": -43.3515092 },
+    { "lat": -22.9413286, "lon": -43.3519194 },
+    { "lat": -22.9422921, "lon": -43.3524317 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 960796530,
+  "bounds": {
+    "minlat": -22.9406648,
+    "minlon": -43.3515092,
+    "maxlat": -22.9387432,
+    "maxlon": -43.3498359
+  },
+  "nodes": [
+    995524828,
+    163552624,
+    163552625
+  ],
+  "geometry": [
+    { "lat": -22.9387432, "lon": -43.3498359 },
+    { "lat": -22.9397380, "lon": -43.3506963 },
+    { "lat": -22.9406648, "lon": -43.3515092 }
+  ],
+  "tags": {
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 960819493,
+  "bounds": {
+    "minlat": -22.9061518,
+    "minlon": -43.3053455,
+    "maxlat": -22.9047341,
+    "maxlon": -43.3045988
+  },
+  "nodes": [
+    163559134,
+    6029842582,
+    163559135,
+    1782140365,
+    163559136,
+    1782140420
+  ],
+  "geometry": [
+    { "lat": -22.9061518, "lon": -43.3053455 },
+    { "lat": -22.9059616, "lon": -43.3051872 },
+    { "lat": -22.9057515, "lon": -43.3050357 },
+    { "lat": -22.9055576, "lon": -43.3049297 },
+    { "lat": -22.9052982, "lon": -43.3048104 },
+    { "lat": -22.9047341, "lon": -43.3045988 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 960819494,
+  "bounds": {
+    "minlat": -22.9089354,
+    "minlon": -43.3148386,
+    "maxlat": -22.9078813,
+    "maxlon": -43.3141324
+  },
+  "nodes": [
+    163552091,
+    799825289,
+    3656253842,
+    3656253841,
+    163552093,
+    3656253839
+  ],
+  "geometry": [
+    { "lat": -22.9089354, "lon": -43.3148386 },
+    { "lat": -22.9087222, "lon": -43.3147304 },
+    { "lat": -22.9084808, "lon": -43.3146071 },
+    { "lat": -22.9083161, "lon": -43.3145039 },
+    { "lat": -22.9081024, "lon": -43.3143483 },
+    { "lat": -22.9078813, "lon": -43.3141324 }
+  ],
+  "tags": {
+    "hgv": "discouraged",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 964071304,
+  "bounds": {
+    "minlat": -22.9250217,
+    "minlon": -43.3383808,
+    "maxlat": -22.9216256,
+    "maxlon": -43.3304871
+  },
+  "nodes": [
+    163551312,
+    1776099439,
+    163551314,
+    163551315,
+    163551316,
+    7874343769,
+    163551317,
+    163551319
+  ],
+  "geometry": [
+    { "lat": -22.9250217, "lon": -43.3383808 },
+    { "lat": -22.9244280, "lon": -43.3372206 },
+    { "lat": -22.9239139, "lon": -43.3361642 },
+    { "lat": -22.9236091, "lon": -43.3354700 },
+    { "lat": -22.9229836, "lon": -43.3338602 },
+    { "lat": -22.9222730, "lon": -43.3319980 },
+    { "lat": -22.9220016, "lon": -43.3313123 },
+    { "lat": -22.9216256, "lon": -43.3304871 }
+  ],
+  "tags": {
+    "hgv": "discouraged",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "parking:lane:both": "no_stopping",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 964746102,
+  "bounds": {
+    "minlat": -22.8721918,
+    "minlon": -43.2526026,
+    "maxlat": -22.8721818,
+    "maxlon": -43.2525392
+  },
+  "nodes": [
+    8923927570,
+    529727094
+  ],
+  "geometry": [
+    { "lat": -22.8721818, "lon": -43.2526026 },
+    { "lat": -22.8721918, "lon": -43.2525392 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "4",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 972903325,
+  "bounds": {
+    "minlat": -22.8720834,
+    "minlon": -43.2525898,
+    "maxlat": -22.8720766,
+    "maxlon": -43.2525235
+  },
+  "nodes": [
+    8923927571,
+    529727102
+  ],
+  "geometry": [
+    { "lat": -22.8720834, "lon": -43.2525235 },
+    { "lat": -22.8720766, "lon": -43.2525898 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+},
+{
+  "type": "way",
+  "id": 1003748449,
+  "bounds": {
+    "minlat": -22.8731222,
+    "minlon": -43.2673073,
+    "maxlat": -22.8728808,
+    "maxlon": -43.2669969
+  },
+  "nodes": [
+    486762386,
+    3804743996,
+    1999058652
+  ],
+  "geometry": [
+    { "lat": -22.8731222, "lon": -43.2673073 },
+    { "lat": -22.8729665, "lon": -43.2671134 },
+    { "lat": -22.8728808, "lon": -43.2669969 }
+  ],
+  "tags": {
+    "highway": "motorway_link",
+    "lanes": "1",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Novo Rio",
+    "oneway": "yes",
+    "surface": "asphalt"
+  }
+},
+{
+  "type": "way",
+  "id": 1013233471,
+  "bounds": {
+    "minlat": -22.8915620,
+    "minlon": -43.2981785,
+    "maxlat": -22.8878944,
+    "maxlon": -43.2935373
+  },
+  "nodes": [
+    1999089016,
+    475763575,
+    13502974937,
+    12691296832,
+    475768561
+  ],
+  "geometry": [
+    { "lat": -22.8915620, "lon": -43.2981785 },
+    { "lat": -22.8893481, "lon": -43.2953304 },
+    { "lat": -22.8889900, "lon": -43.2948887 },
+    { "lat": -22.8889562, "lon": -43.2948470 },
+    { "lat": -22.8878944, "lon": -43.2935373 }
+  ],
+  "tags": {
+    "colour": "#ffcc00",
+    "highway": "motorway",
+    "lanes": "3",
+    "lit": "yes",
+    "maxheight": "4.5",
+    "maxspeed": "100",
+    "maxspeed:hgv": "80",
+    "name": "Linha Amarela",
+    "official_name": "Avenida Governador Carlos Lacerda",
+    "oneway": "yes",
+    "operator": "LAMSA",
+    "parking:lane:both": "no_stopping",
+    "smoothness": "good",
+    "surface": "asphalt",
+    "url": "http://www.lamsa.com.br"
+  }
+}
+
+  ]
+}

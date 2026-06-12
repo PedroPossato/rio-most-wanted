@@ -1,0 +1,2427 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-08T06:09:44Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1613993015,
+  "lat": -22.8861614,
+  "lon": -43.2998457,
+  "tags": {
+    "name": "Abolição",
+    "place": "suburb",
+    "wikidata": "Q3603749",
+    "wikimedia_commons": "Category:Abolição",
+    "wikipedia": "pt:Abolição (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993019,
+  "lat": -22.8221528,
+  "lon": -43.3406743,
+  "tags": {
+    "name": "Acari",
+    "place": "suburb",
+    "wikidata": "Q3603915",
+    "wikimedia_commons": "Category:Acari (Rio de Janeiro)",
+    "wikipedia": "pt:Acari (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993023,
+  "lat": -22.9621126,
+  "lon": -43.2535816,
+  "tags": {
+    "name": "Alto da Boa Vista",
+    "place": "suburb",
+    "wikidata": "Q3613313",
+    "wikipedia": "pt:Alto da Boa Vista (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993025,
+  "lat": -22.8231903,
+  "lon": -43.3991069,
+  "tags": {
+    "name": "Anchieta",
+    "place": "suburb",
+    "wikidata": "Q3615199",
+    "wikimedia_commons": "Category:Anchieta (Rio de Janeiro)",
+    "wikipedia": "pt:Anchieta (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993028,
+  "lat": -22.9290845,
+  "lon": -43.2534858,
+  "tags": {
+    "name": "Andaraí",
+    "place": "suburb",
+    "wikidata": "Q3615313",
+    "wikimedia_commons": "Category:Andaraí (Rio de Janeiro)",
+    "wikipedia": "pt:Andaraí (bairro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993030,
+  "lat": -22.9558133,
+  "lon": -43.3384123,
+  "tags": {
+    "name": "Anil",
+    "place": "suburb",
+    "wikidata": "Q1762194",
+    "wikimedia_commons": "Category:Anil",
+    "wikipedia": "pt:Anil (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993046,
+  "lat": -22.9997404,
+  "lon": -43.3659929,
+  "tags": {
+    "name": "Barra da Tijuca",
+    "place": "suburb",
+    "population": "135924",
+    "wikidata": "Q808789",
+    "wikimedia_commons": "Category:Barra da Tijuca",
+    "wikipedia": "pt:Barra da Tijuca (bairro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993050,
+  "lat": -22.8348857,
+  "lon": -43.3631878,
+  "tags": {
+    "name": "Barros Filho",
+    "place": "suburb",
+    "wikidata": "Q3635210",
+    "wikipedia": "pt:Barros Filho"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993053,
+  "lat": -22.8922965,
+  "lon": -43.2403410,
+  "tags": {
+    "name": "Benfica",
+    "place": "suburb",
+    "wikidata": "Q3638174",
+    "wikimedia_commons": "Category:Benfica (Rio de Janeiro)",
+    "wikipedia": "pt:Benfica (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993063,
+  "lat": -22.8666607,
+  "lon": -43.3608367,
+  "tags": {
+    "name": "Bento Ribeiro",
+    "place": "suburb",
+    "wikidata": "Q818325",
+    "wikimedia_commons": "Category:Bento Ribeiro (Rio de Janeiro)",
+    "wikipedia": "pt:Bento Ribeiro (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993065,
+  "lat": -22.8659317,
+  "lon": -43.2533180,
+  "tags": {
+    "name": "Bonsucesso",
+    "place": "suburb",
+    "wikidata": "Q3642236",
+    "wikimedia_commons": "Category:Bonsucesso",
+    "wikipedia": "pt:Bonsucesso"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993067,
+  "lat": -22.9515096,
+  "lon": -43.1862969,
+  "tags": {
+    "name": "Botafogo",
+    "name:etymology:wikidata": "Q28039282",
+    "place": "suburb",
+    "population": "82890",
+    "wikidata": "Q894624",
+    "wikimedia_commons": "Category:Botafogo",
+    "wikipedia": "pt:Botafogo (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993069,
+  "lat": -22.8318880,
+  "lon": -43.2977309,
+  "tags": {
+    "name": "Brás de Pina",
+    "place": "suburb",
+    "wikidata": "Q3646176",
+    "wikipedia": "pt:Brás de Pina"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993078,
+  "lat": -22.8897728,
+  "lon": -43.2743347,
+  "tags": {
+    "name": "Cachambi",
+    "place": "suburb",
+    "wikidata": "Q1759973",
+    "wikipedia": "pt:Cachambi"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993081,
+  "lat": -22.8217028,
+  "lon": -43.1837917,
+  "tags": {
+    "name": "Cacuia",
+    "place": "suburb",
+    "wikidata": "Q3649413",
+    "wikipedia": "pt:Cacuia (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993085,
+  "lat": -22.8803063,
+  "lon": -43.2214936,
+  "tags": {
+    "name": "Caju",
+    "place": "suburb",
+    "wikidata": "Q3649978",
+    "wikipedia": "pt:Caju (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993093,
+  "lat": -22.8852187,
+  "lon": -43.3477380,
+  "tags": {
+    "name": "Campinho",
+    "place": "suburb",
+    "wikidata": "Q738454",
+    "wikimedia_commons": "Category:Campinho",
+    "wikipedia": "pt:Campinho (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993100,
+  "lat": -22.8795186,
+  "lon": -43.3803636,
+  "tags": {
+    "name": "Campo dos Afonsos",
+    "place": "suburb",
+    "wikidata": "Q15207043",
+    "wikipedia": "pt:Campo dos Afonsos"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993102,
+  "lat": -22.8841816,
+  "lon": -43.3283969,
+  "tags": {
+    "name": "Cascadura",
+    "place": "suburb",
+    "wikidata": "Q992840",
+    "wikimedia_commons": "Category:Cascadura",
+    "wikipedia": "pt:Cascadura (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993107,
+  "lat": -22.9269199,
+  "lon": -43.1802186,
+  "tags": {
+    "name": "Catete",
+    "place": "suburb",
+    "population": "24057",
+    "wikidata": "Q991717",
+    "wikimedia_commons": "Category:Catete",
+    "wikipedia": "pt:Catete (bairro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993109,
+  "lat": -22.9194542,
+  "lon": -43.1970806,
+  "tags": {
+    "name": "Catumbi",
+    "place": "suburb",
+    "population": "12556",
+    "wikidata": "Q9711630",
+    "wikimedia_commons": "Category:Catumbi",
+    "wikipedia": "pt:Catumbi"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993111,
+  "lat": -22.8705266,
+  "lon": -43.3165261,
+  "tags": {
+    "name": "Cavalcanti",
+    "place": "suburb",
+    "population": "16141",
+    "wikidata": "Q3663870",
+    "wikipedia": "pt:Cavalcanti (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993112,
+  "lat": -22.9043934,
+  "lon": -43.1830653,
+  "tags": {
+    "name": "Centro",
+    "place": "suburb",
+    "population": "41142",
+    "wikidata": "Q2946148",
+    "wikimedia_commons": "Category:Centro (Rio de Janeiro)",
+    "wikipedia": "pt:Centro (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993114,
+  "lat": -22.9100508,
+  "lon": -43.2017560,
+  "tags": {
+    "name": "Cidade Nova",
+    "place": "suburb",
+    "wikidata": "Q3676550",
+    "wikipedia": "pt:Cidade Nova (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993125,
+  "lat": -22.8558233,
+  "lon": -43.2309583,
+  "tags": {
+    "name": "Cidade Universitária",
+    "place": "suburb",
+    "wikidata": "Q2428695",
+    "wikipedia": "pt:Cidade Universitária da Universidade Federal do Rio de Janeiro"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993129,
+  "lat": -22.9480300,
+  "lon": -43.3629030,
+  "tags": {
+    "name": "Cidade de Deus",
+    "place": "suburb",
+    "wikidata": "Q1091739",
+    "wikimedia_commons": "Category:Cidade de Deus",
+    "wikipedia": "pt:Cidade de Deus (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993132,
+  "lat": -22.8322449,
+  "lon": -43.3501913,
+  "tags": {
+    "name": "Coelho Neto",
+    "place": "suburb",
+    "wikidata": "Q3682263",
+    "wikipedia": "pt:Coelho Neto (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993136,
+  "lat": -22.8397900,
+  "lon": -43.3357623,
+  "tags": {
+    "name": "Colégio",
+    "place": "suburb",
+    "wikidata": "Q3683884",
+    "wikimedia_commons": "Category:Colégio (bairro do Rio de Janeiro)",
+    "wikipedia": "pt:Colégio (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993138,
+  "lat": -22.8592368,
+  "lon": -43.2425729,
+  "tags": {
+    "alt_name": "Complexo da Maré",
+    "name": "Maré",
+    "place": "suburb",
+    "wikidata": "Q924981",
+    "wikimedia_commons": "Category:Maré (Rio de Janeiro)",
+    "wikipedia": "pt:Maré (bairro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993143,
+  "lat": -22.8606097,
+  "lon": -43.2737506,
+  "tags": {
+    "GNS:id": "10873341",
+    "name": "Complexo do Alemão",
+    "place": "suburb",
+    "wikidata": "Q1121664",
+    "wikimedia_commons": "Category:Complexo do Alemão",
+    "wikipedia": "pt:Complexo do Alemão"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993147,
+  "lat": -22.9719740,
+  "lon": -43.1842997,
+  "tags": {
+    "name": "Copacabana",
+    "place": "suburb",
+    "population": "146392",
+    "wikidata": "Q202730",
+    "wikimedia_commons": "Category:Copacabana (Rio de Janeiro)",
+    "wikipedia": "pt:Copacabana"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993155,
+  "lat": -22.9415143,
+  "lon": -43.2006244,
+  "tags": {
+    "name": "Cosme Velho",
+    "place": "suburb",
+    "wikidata": "Q2408889",
+    "wikimedia_commons": "Category:Cosme Velho",
+    "wikipedia": "pt:Cosme Velho"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993159,
+  "lat": -22.8246995,
+  "lon": -43.3698395,
+  "tags": {
+    "name": "Costa Barros",
+    "place": "suburb",
+    "wikidata": "Q3695260",
+    "wikimedia_commons": "Category:Costa Barros",
+    "wikipedia": "pt:Costa Barros"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993171,
+  "lat": -22.9519909,
+  "lon": -43.3872901,
+  "tags": {
+    "name": "Curicica",
+    "place": "suburb",
+    "wikidata": "Q1762245",
+    "wikimedia_commons": "Category:Curicica",
+    "wikipedia": "pt:Curicica"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993173,
+  "lat": -22.8795618,
+  "lon": -43.2724202,
+  "tags": {
+    "name": "Del Castilho",
+    "place": "suburb",
+    "wikidata": "Q3704854",
+    "wikimedia_commons": "Category:Del Castilho",
+    "wikipedia": "pt:Del Castilho"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993175,
+  "lat": -22.8512010,
+  "lon": -43.3870315,
+  "tags": {
+    "name": "Deodoro",
+    "place": "suburb",
+    "wikidata": "Q1762433",
+    "wikimedia_commons": "Category:Deodoro (bairro do Rio de Janeiro)",
+    "wikipedia": "pt:Deodoro (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993178,
+  "lat": -22.8974743,
+  "lon": -43.3042461,
+  "tags": {
+    "name": "Encantado",
+    "place": "suburb",
+    "wikidata": "Q3724939",
+    "wikipedia": "pt:Encantado (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993182,
+  "lat": -22.8743923,
+  "lon": -43.3255315,
+  "tags": {
+    "name": "Engenheiro Leal",
+    "place": "suburb",
+    "wikidata": "Q3725342",
+    "wikipedia": "pt:Engenheiro Leal"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993189,
+  "lat": -22.9090942,
+  "lon": -43.2678381,
+  "tags": {
+    "name": "Engenho Novo",
+    "place": "suburb",
+    "wikidata": "Q3725343",
+    "wikimedia_commons": "Category:Engenho Novo",
+    "wikipedia": "pt:Engenho Novo"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993190,
+  "lat": -22.8626496,
+  "lon": -43.2937874,
+  "tags": {
+    "name": "Engenho da Rainha",
+    "place": "suburb",
+    "wikidata": "Q3725345",
+    "wikipedia": "pt:Engenho da Rainha"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993191,
+  "lat": -22.9026591,
+  "lon": -43.2967757,
+  "tags": {
+    "name": "Engenho de Dentro",
+    "place": "suburb",
+    "wikidata": "Q1761642",
+    "wikipedia": "pt:Engenho de Dentro"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993192,
+  "lat": -22.9166265,
+  "lon": -43.2036300,
+  "tags": {
+    "name": "Estácio",
+    "place": "suburb",
+    "wikidata": "Q453462",
+    "wikimedia_commons": "Category:Estácio",
+    "wikipedia": "pt:Estácio (bairro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993201,
+  "lat": -22.9339841,
+  "lon": -43.1745744,
+  "tags": {
+    "name": "Flamengo",
+    "place": "suburb",
+    "population": "50043",
+    "wikidata": "Q995561",
+    "wikimedia_commons": "Category:Flamengo (Rio de Janeiro neighborhood)",
+    "wikipedia": "pt:Flamengo (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993211,
+  "lat": -22.8977491,
+  "lon": -43.1929041,
+  "tags": {
+    "name": "Gamboa",
+    "place": "suburb",
+    "population": "13108",
+    "wikidata": "Q3757943",
+    "wikimedia_commons": "Category:Gamboa",
+    "wikipedia": "pt:Gamboa (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993214,
+  "lat": -22.9582866,
+  "lon": -43.3512241,
+  "tags": {
+    "name": "Gardênia Azul",
+    "place": "suburb",
+    "wikidata": "Q290350",
+    "wikipedia": "pt:Gardênia Azul"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993218,
+  "lat": -22.9183225,
+  "lon": -43.1739232,
+  "tags": {
+    "name": "Glória",
+    "place": "suburb",
+    "population": "9661",
+    "wikidata": "Q1532671",
+    "wikimedia_commons": "Category:Glória (Rio de Janeiro)",
+    "wikipedia": "pt:Glória (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993223,
+  "lat": -22.9225217,
+  "lon": -43.2645145,
+  "tags": {
+    "name": "Grajaú",
+    "place": "suburb",
+    "wikidata": "Q761849",
+    "wikipedia": "pt:Grajaú (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993228,
+  "lat": -22.8376208,
+  "lon": -43.3751608,
+  "tags": {
+    "name": "Guadalupe",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993232,
+  "lat": -22.9814243,
+  "lon": -43.2383245,
+  "tags": {
+    "name": "Gávea",
+    "place": "suburb",
+    "wikidata": "Q1558720",
+    "wikipedia": "pt:Gávea (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993236,
+  "lat": -22.8739990,
+  "lon": -43.2613682,
+  "tags": {
+    "name": "Higienópolis",
+    "place": "suburb",
+    "wikidata": "Q3785572",
+    "wikipedia": "pt:Higienópolis (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993239,
+  "lat": -22.8465751,
+  "lon": -43.3561294,
+  "tags": {
+    "name": "Honório Gurgel",
+    "place": "suburb",
+    "wikidata": "Q3786692",
+    "wikimedia_commons": "Category:Honório Gurgel",
+    "wikipedia": "pt:Honório Gurgel (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993241,
+  "lat": -22.9546413,
+  "lon": -43.2004797,
+  "tags": {
+    "name": "Humaitá",
+    "place": "suburb",
+    "population": "13285",
+    "wikidata": "Q1012576",
+    "wikimedia_commons": "Category:Humaitá (Rio de Janeiro)",
+    "wikipedia": "pt:Humaitá (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993243,
+  "lat": -22.8715476,
+  "lon": -43.2823466,
+  "tags": {
+    "name": "Inhaúma",
+    "place": "suburb",
+    "wikidata": "Q3798753",
+    "wikimedia_commons": "Category:Inhaúma (Rio de Janeiro)",
+    "wikipedia": "pt:Inhaúma (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993246,
+  "lat": -22.9839557,
+  "lon": -43.2022163,
+  "tags": {
+    "name": "Ipanema",
+    "place": "suburb",
+    "wikidata": "Q468540",
+    "wikimedia_commons": "Category:Ipanema",
+    "wikipedia": "pt:Ipanema"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993249,
+  "lat": -22.8351129,
+  "lon": -43.3233619,
+  "tags": {
+    "name": "Irajá",
+    "place": "suburb",
+    "wikidata": "Q1759951",
+    "wikimedia_commons": "Category:Irajá",
+    "wikipedia": "pt:Irajá (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993258,
+  "lat": -22.9531726,
+  "lon": -43.3715825,
+  "tags": {
+    "name": "Jacarepaguá",
+    "place": "suburb",
+    "wikidata": "Q2618570",
+    "wikimedia_commons": "Category:Jacarepaguá",
+    "wikipedia": "pt:Jacarepaguá"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993259,
+  "lat": -22.8875068,
+  "lon": -43.2578789,
+  "tags": {
+    "name": "Jacarezinho",
+    "place": "suburb",
+    "wikidata": "Q1764883",
+    "wikipedia": "pt:Jacarezinho (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993260,
+  "lat": -22.8931174,
+  "lon": -43.2571998,
+  "tags": {
+    "name": "Jacaré",
+    "place": "suburb",
+    "wikidata": "Q3805510",
+    "wikipedia": "pt:Jacaré (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993266,
+  "lat": -22.9636362,
+  "lon": -43.2233457,
+  "tags": {
+    "name": "Jardim Botânico",
+    "place": "suburb",
+    "wikidata": "Q2383714",
+    "wikimedia_commons": "Category:Jardim Botânico (Rio de Janeiro)",
+    "wikipedia": "pt:Jardim Botânico (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993273,
+  "lat": -22.8956799,
+  "lon": -43.3929967,
+  "tags": {
+    "name": "Jardim Sulacap",
+    "place": "suburb",
+    "wikidata": "Q3807314",
+    "wikipedia": "pt:Jardim Sulacap"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993276,
+  "lat": -23.0077797,
+  "lon": -43.2872344,
+  "tags": {
+    "name": "Joá",
+    "place": "suburb",
+    "wikidata": "Q519320",
+    "wikipedia": "pt:Joá"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993278,
+  "lat": -22.9624658,
+  "lon": -43.2024884,
+  "tags": {
+    "name": "Lagoa",
+    "place": "suburb",
+    "population": "21198",
+    "wikidata": "Q3049535",
+    "wikimedia_commons": "Category:Lagoa (Rio de Janeiro)",
+    "wikipedia": "pt:Lagoa (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993280,
+  "lat": -22.9343173,
+  "lon": -43.1878165,
+  "tags": {
+    "name": "Laranjeiras",
+    "place": "suburb",
+    "population": "45554",
+    "wikidata": "Q727335",
+    "wikimedia_commons": "Category:Laranjeiras (Rio de Janeiro)",
+    "wikipedia": "pt:Laranjeiras (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993282,
+  "lat": -22.9834608,
+  "lon": -43.2249656,
+  "tags": {
+    "name": "Leblon",
+    "place": "suburb",
+    "population": "46044",
+    "wikidata": "Q187817",
+    "wikimedia_commons": "Category:Leblon",
+    "wikipedia": "pt:Leblon"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993288,
+  "lat": -22.9140512,
+  "lon": -43.2843528,
+  "tags": {
+    "name": "Lins de Vasconcelos",
+    "place": "suburb",
+    "wikidata": "Q3833125",
+    "wikipedia": "pt:Lins de Vasconcelos (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993289,
+  "lat": -22.8716580,
+  "lon": -43.3371976,
+  "tags": {
+    "name": "Madureira",
+    "place": "suburb",
+    "wikidata": "Q649372",
+    "wikimedia_commons": "Category:Madureira",
+    "wikipedia": "pt:Madureira (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993290,
+  "lat": -22.8725117,
+  "lon": -43.4136384,
+  "tags": {
+    "name": "Magalhães Bastos",
+    "place": "suburb",
+    "wikidata": "Q3843074",
+    "wikipedia": "pt:Magalhães Bastos"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993292,
+  "lat": -22.9031898,
+  "lon": -43.2357105,
+  "tags": {
+    "name": "Mangueira",
+    "place": "suburb",
+    "wikidata": "Q3844583",
+    "wikipedia": "pt:Mangueira (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993303,
+  "lat": -22.8799736,
+  "lon": -43.2457223,
+  "tags": {
+    "name": "Manguinhos",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993306,
+  "lat": -22.9137043,
+  "lon": -43.2279972,
+  "tags": {
+    "name": "Maracanã",
+    "place": "suburb",
+    "wikidata": "Q2712903",
+    "wikipedia": "pt:Maracanã (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993307,
+  "lat": -22.8599658,
+  "lon": -43.3704561,
+  "tags": {
+    "name": "Marechal Hermes",
+    "place": "suburb",
+    "wikidata": "Q1764106",
+    "wikipedia": "pt:Marechal Hermes"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993308,
+  "lat": -22.8830403,
+  "lon": -43.2638849,
+  "tags": {
+    "name": "Maria da Graça",
+    "place": "suburb",
+    "wikidata": "Q3847606",
+    "wikipedia": "pt:Maria da Graça (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993315,
+  "lat": -22.9017300,
+  "lon": -43.2797093,
+  "tags": {
+    "name": "Méier",
+    "place": "suburb",
+    "wikidata": "Q3869228",
+    "wikimedia_commons": "Category:Méier",
+    "wikipedia": "pt:Méier"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993318,
+  "lat": -22.8484866,
+  "lon": -43.2706124,
+  "tags": {
+    "name": "Olaria",
+    "place": "suburb",
+    "wikidata": "Q15263716",
+    "wikipedia": "pt:Olaria (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993320,
+  "lat": -22.8705266,
+  "lon": -43.3501940,
+  "tags": {
+    "name": "Oswaldo Cruz",
+    "place": "suburb",
+    "population": "34040",
+    "wikidata": "Q1393348",
+    "wikipedia": "pt:Oswaldo Cruz (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993325,
+  "lat": -22.8351687,
+  "lon": -43.4155827,
+  "tags": {
+    "name": "Parque Anchieta",
+    "place": "suburb",
+    "wikidata": "Q3896387",
+    "wikipedia": "pt:Parque Anchieta"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993330,
+  "lat": -22.8326425,
+  "lon": -43.2842228,
+  "tags": {
+    "name": "Penha Circular",
+    "place": "suburb",
+    "wikidata": "Q3899053",
+    "wikimedia_commons": "Category:Penha Circular",
+    "wikipedia": "pt:Penha Circular"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993331,
+  "lat": -22.8381127,
+  "lon": -43.2764454,
+  "tags": {
+    "GNS:id": "-661131",
+    "name": "Penha",
+    "place": "suburb",
+    "wikidata": "Q586378",
+    "wikimedia_commons": "Category:Penha (Rio de Janeiro)",
+    "wikipedia": "pt:Penha (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993332,
+  "lat": -22.8926665,
+  "lon": -43.3110001,
+  "tags": {
+    "name": "Piedade",
+    "place": "suburb",
+    "wikidata": "Q3902731",
+    "wikipedia": "pt:Piedade (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993333,
+  "lat": -22.8790904,
+  "lon": -43.2955477,
+  "tags": {
+    "name": "Pilares",
+    "place": "suburb",
+    "wikidata": "Q3904964",
+    "wikimedia_commons": "Category:Pilares",
+    "wikipedia": "pt:Pilares"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993337,
+  "lat": -22.8992621,
+  "lon": -43.3527794,
+  "tags": {
+    "name": "Praça Seca",
+    "place": "suburb",
+    "wikidata": "Q3909991",
+    "wikimedia_commons": "Category:Praça Seca",
+    "wikipedia": "pt:Praça Seca"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993338,
+  "lat": -22.9112162,
+  "lon": -43.2131983,
+  "tags": {
+    "name": "Praça da Bandeira",
+    "place": "suburb",
+    "wikidata": "Q3909992",
+    "wikipedia": "pt:Praça da Bandeira (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993340,
+  "lat": -22.8955889,
+  "lon": -43.3253269,
+  "tags": {
+    "name": "Quintino Bocaiúva",
+    "place": "suburb",
+    "wikidata": "Q2416235",
+    "wikimedia_commons": "Category:Quintino Bocaiuva (Rio de Janeiro)",
+    "wikipedia": "pt:Quintino Bocaiuva (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993341,
+  "lat": -22.8519758,
+  "lon": -43.2555693,
+  "tags": {
+    "name": "Ramos",
+    "place": "suburb",
+    "wikidata": "Q1759656",
+    "wikipedia": "pt:Ramos"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993345,
+  "lat": -22.9026953,
+  "lon": -43.2551750,
+  "tags": {
+    "name": "Riachuelo",
+    "place": "suburb",
+    "wikidata": "Q3934201",
+    "wikipedia": "pt:Riachuelo (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993347,
+  "lat": -22.8252399,
+  "lon": -43.1705907,
+  "tags": {
+    "name": "Ribeira",
+    "place": "suburb",
+    "wikidata": "Q1759958",
+    "wikipedia": "pt:Ribeira (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993350,
+  "lat": -22.9279449,
+  "lon": -43.2088566,
+  "tags": {
+    "name": "Rio Comprido",
+    "place": "suburb",
+    "wikidata": "Q3936161",
+    "wikimedia_commons": "Category:Rio Comprido (Rio de Janeiro)",
+    "wikipedia": "pt:Rio Comprido (bairro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993355,
+  "lat": -22.8503472,
+  "lon": -43.3463053,
+  "tags": {
+    "name": "Rocha Miranda",
+    "place": "suburb",
+    "wikidata": "Q3939620",
+    "wikimedia_commons": "Category:Rocha Miranda",
+    "wikipedia": "pt:Rocha Miranda"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993357,
+  "lat": -22.8995624,
+  "lon": -43.2488072,
+  "tags": {
+    "name": "Rocha",
+    "place": "suburb",
+    "wikidata": "Q587227",
+    "wikipedia": "pt:Rocha (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993360,
+  "lat": -22.9022287,
+  "lon": -43.2602402,
+  "tags": {
+    "name": "Sampaio",
+    "place": "suburb",
+    "wikidata": "Q3946543",
+    "wikimedia_commons": "Category:Sampaio (Rio de Janeiro)",
+    "wikipedia": "pt:Sampaio (bairro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993363,
+  "lat": -22.9215542,
+  "lon": -43.1860269,
+  "tags": {
+    "alt_name": "Santa Tereza",
+    "name": "Santa Teresa",
+    "old_name": "Santa Thereza",
+    "place": "suburb",
+    "population": "40926",
+    "wikidata": "Q980992",
+    "wikimedia_commons": "Category:Santa Teresa (Rio de Janeiro)",
+    "wikipedia": "pt:Santa Teresa (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993365,
+  "lat": -22.9007657,
+  "lon": -43.2033933,
+  "tags": {
+    "name": "Santo Cristo",
+    "place": "suburb",
+    "wikidata": "Q3949480",
+    "wikimedia_commons": "Category:Santo Cristo (Rio de Janeiro)",
+    "wikipedia": "pt:Santo Cristo (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993372,
+  "lat": -22.8971835,
+  "lon": -43.1841545,
+  "tags": {
+    "name": "Saúde",
+    "place": "suburb",
+    "population": "2749",
+    "wikidata": "Q3951222",
+    "wikimedia_commons": "Category:Saúde (Rio de Janeiro)",
+    "wikipedia": "pt:Saúde (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993379,
+  "lat": -22.9913592,
+  "lon": -43.2675329,
+  "tags": {
+    "name": "São Conrado",
+    "place": "suburb",
+    "wikidata": "Q2540325",
+    "wikimedia_commons": "Category:São Conrado",
+    "wikipedia": "pt:São Conrado (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993382,
+  "lat": -22.8993180,
+  "lon": -43.2219346,
+  "tags": {
+    "alt_name": "Bairro Imperial de São Cristóvão",
+    "name": "São Cristóvão",
+    "place": "suburb",
+    "population": "41056",
+    "wikidata": "Q2408175",
+    "wikipedia": "pt:São Cristóvão (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993383,
+  "lat": -22.9047617,
+  "lon": -43.2440314,
+  "tags": {
+    "name": "São Francisco Xavier",
+    "place": "suburb",
+    "wikidata": "Q3979247",
+    "wikimedia_commons": "Category:São Francisco Xavier (bairro do Rio de Janeiro)",
+    "wikipedia": "pt:São Francisco Xavier (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993385,
+  "lat": -22.9151927,
+  "lon": -43.3557471,
+  "tags": {
+    "name": "Tanque",
+    "place": "suburb",
+    "wikidata": "Q3980899",
+    "wikipedia": "pt:Tanque (bairro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993387,
+  "lat": -22.9218864,
+  "lon": -43.3846460,
+  "tags": {
+    "name": "Taquara",
+    "place": "suburb",
+    "wikidata": "Q3981016",
+    "wikimedia_commons": "Category:Taquara (Rio de Janeiro)",
+    "wikipedia": "pt:Taquara (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993393,
+  "lat": -22.9247351,
+  "lon": -43.2327165,
+  "tags": {
+    "name": "Tijuca",
+    "place": "suburb",
+    "wikidata": "Q2107829",
+    "wikimedia_commons": "Category:Tijuca (Rio de Janeiro)",
+    "wikipedia": "pt:Tijuca"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993394,
+  "lat": -22.8945630,
+  "lon": -43.2850600,
+  "tags": {
+    "name": "Todos os Santos",
+    "place": "suburb",
+    "wikidata": "Q3992181",
+    "wikipedia": "pt:Todos os Santos (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993395,
+  "lat": -22.8676979,
+  "lon": -43.3060881,
+  "tags": {
+    "name": "Tomás Coelho",
+    "place": "suburb",
+    "wikidata": "Q2107038",
+    "wikimedia_commons": "Category:Tomás Coelho",
+    "wikipedia": "pt:Tomás Coelho (bairro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993399,
+  "lat": -22.8616631,
+  "lon": -43.3418026,
+  "tags": {
+    "name": "Turiaçu",
+    "place": "suburb",
+    "wikidata": "Q4000605",
+    "wikipedia": "pt:Turiaçu (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993409,
+  "lat": -22.8915219,
+  "lon": -43.2267195,
+  "tags": {
+    "name": "Vasco da Gama",
+    "place": "suburb",
+    "wikidata": "Q4008878",
+    "wikipedia": "pt:Vasco da Gama (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993410,
+  "lat": -22.8589721,
+  "lon": -43.3278646,
+  "tags": {
+    "name": "Vaz Lobo",
+    "place": "suburb",
+    "wikidata": "Q2428617",
+    "wikipedia": "pt:Vaz Lobo"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993411,
+  "lat": -22.8571804,
+  "lon": -43.3157892,
+  "tags": {
+    "name": "Vicente de Carvalho",
+    "place": "suburb",
+    "wikidata": "Q4011135",
+    "wikimedia_commons": "Category:Vicente de Carvalho (Rio de Janeiro)",
+    "wikipedia": "pt:Vicente de Carvalho (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993420,
+  "lat": -22.9166993,
+  "lon": -43.2508354,
+  "tags": {
+    "name": "Vila Isabel",
+    "place": "suburb",
+    "wikidata": "Q4011694",
+    "wikimedia_commons": "Category:Vila Isabel",
+    "wikipedia": "pt:Vila Isabel"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993422,
+  "lat": -22.8535970,
+  "lon": -43.3032021,
+  "tags": {
+    "name": "Vila Kosmos",
+    "place": "suburb",
+    "wikidata": "Q4011695",
+    "wikimedia_commons": "Category:Vila Kosmos",
+    "wikipedia": "pt:Vila Kosmos"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993424,
+  "lat": -22.8603480,
+  "lon": -43.4028933,
+  "tags": {
+    "name": "Vila Militar",
+    "place": "suburb",
+    "wikidata": "Q4011698",
+    "wikimedia_commons": "Category:Vila Militar (Rio de Janeiro)",
+    "wikipedia": "pt:Vila Militar (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993425,
+  "lat": -22.8886093,
+  "lon": -43.3657758,
+  "tags": {
+    "name": "Vila Valqueire",
+    "place": "suburb",
+    "wikidata": "Q4011702",
+    "wikipedia": "pt:Vila Valqueire"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993427,
+  "lat": -22.8435065,
+  "lon": -43.3100585,
+  "tags": {
+    "name": "Vila da Penha",
+    "place": "suburb",
+    "wikidata": "Q4011704",
+    "wikipedia": "pt:Vila da Penha"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993430,
+  "lat": -22.8296244,
+  "lon": -43.3151276,
+  "tags": {
+    "name": "Vista Alegre",
+    "place": "suburb",
+    "wikidata": "Q592884",
+    "wikipedia": "pt:Vista Alegre (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993432,
+  "lat": -22.8212784,
+  "lon": -43.1758609,
+  "tags": {
+    "name": "Zumbi",
+    "place": "suburb",
+    "wikidata": "Q1764503",
+    "wikipedia": "pt:Zumbi (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1613993434,
+  "lat": -22.9111428,
+  "lon": -43.3121258,
+  "tags": {
+    "name": "Água Santa",
+    "place": "suburb",
+    "wikidata": "Q4025151",
+    "wikipedia": "pt:Água Santa (bairro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1762779917,
+  "lat": -22.9430591,
+  "lon": -43.2540096,
+  "tags": {
+    "name": "Usina",
+    "place": "quarter",
+    "wikidata": "Q7901995",
+    "wikipedia": "pt:Usina (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1762779918,
+  "lat": -22.9663939,
+  "lon": -43.2341827,
+  "tags": {
+    "name": "Horto",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1762779920,
+  "lat": -22.9665791,
+  "lon": -43.1903709,
+  "tags": {
+    "name": "Bairro Peixoto",
+    "place": "neighbourhood",
+    "wikidata": "Q10347976",
+    "wikipedia": "pt:Peixoto"
+  }
+},
+{
+  "type": "node",
+  "id": 1762779922,
+  "lat": -22.9130257,
+  "lon": -43.1822358,
+  "tags": {
+    "name": "Lapa",
+    "place": "suburb",
+    "wikidata": "Q522559",
+    "wikimedia_commons": "Category:Lapa (Rio de Janeiro)",
+    "wikipedia": "pt:Lapa (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1762779924,
+  "lat": -22.9395419,
+  "lon": -43.3984504,
+  "tags": {
+    "name": "Colônia Juliano Moreira",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 1762779925,
+  "lat": -22.9045459,
+  "lon": -43.3566062,
+  "tags": {
+    "name": "Mato Alto",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1762779928,
+  "lat": -22.9327449,
+  "lon": -43.2444845,
+  "tags": {
+    "name": "Muda",
+    "place": "quarter",
+    "wikidata": "Q6931497",
+    "wikipedia": "pt:Muda (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1762779931,
+  "lat": -23.0083992,
+  "lon": -43.2971685,
+  "tags": {
+    "alt_name": "Largo da Barra",
+    "name": "Barrinha",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 1762779935,
+  "lat": -22.9089754,
+  "lon": -43.1733545,
+  "tags": {
+    "name": "Castelo",
+    "place": "quarter",
+    "wikidata": "Q5049720",
+    "wikipedia": "pt:Castelo (bairro do Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1762798008,
+  "lat": -22.9202411,
+  "lon": -43.2436949,
+  "tags": {
+    "name": "Aldeia Campista",
+    "place": "quarter",
+    "wikidata": "Q4713513",
+    "wikimedia_commons": "Category:Aldeia Campista",
+    "wikipedia": "pt:Aldeia Campista (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1783168338,
+  "lat": -22.9098447,
+  "lon": -43.2941178,
+  "tags": {
+    "name": "Boca do Mato",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1797566537,
+  "lat": -22.8821277,
+  "lon": -43.4118061,
+  "tags": {
+    "name": "Mallet",
+    "place": "neighbourhood",
+    "wikidata": "Q10323371",
+    "wikipedia": "pt:Mallet (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1797566538,
+  "lat": -22.8919734,
+  "lon": -43.3326482,
+  "tags": {
+    "name": "Fazenda da Bica",
+    "place": "neighbourhood",
+    "wikidata": "Q15217506",
+    "wikimedia_commons": "Category:Fazenda da Bica",
+    "wikipedia": "en:Fazenda da Bica"
+  }
+},
+{
+  "type": "node",
+  "id": 1797566539,
+  "lat": -22.8274260,
+  "lon": -43.3520459,
+  "tags": {
+    "name": "Fazenda Botafogo",
+    "place": "neighbourhood",
+    "wikidata": "Q5439194",
+    "wikipedia": "pt:Fazenda Botafogo"
+  }
+},
+{
+  "type": "node",
+  "id": 1797566540,
+  "lat": -22.9051874,
+  "lon": -43.2991420,
+  "tags": {
+    "name": "Chave de Ouro",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1797597869,
+  "lat": -22.8245865,
+  "lon": -43.4140216,
+  "tags": {
+    "name": "Mariópolis",
+    "place": "neighbourhood",
+    "wikidata": "Q10326562",
+    "wikipedia": "pt:Mariópolis (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1797630277,
+  "lat": -22.9434989,
+  "lon": -43.2091384,
+  "tags": {
+    "name": "Silvestre",
+    "place": "neighbourhood",
+    "wikidata": "Q15277811",
+    "wikipedia": "pt:Silvestre (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 1797639094,
+  "lat": -22.8939299,
+  "lon": -43.2461298,
+  "tags": {
+    "name": "Triagem",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 1797648815,
+  "lat": -22.9157740,
+  "lon": -43.1882517,
+  "tags": {
+    "name": "Bairro de Fátima",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 1834998355,
+  "lat": -22.9756309,
+  "lon": -43.2770666,
+  "tags": {
+    "name": "Gávea Pequena",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 1988620295,
+  "lat": -22.8727535,
+  "lon": -43.2403671,
+  "tags": {
+    "name": "Vila do João",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2158128617,
+  "lat": -22.8244861,
+  "lon": -43.3213454,
+  "tags": {
+    "name": "Bairro Araújo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2396939078,
+  "lat": -22.9071130,
+  "lon": -43.3798810,
+  "tags": {
+    "name": "Catonho",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2396939079,
+  "lat": -22.9148055,
+  "lon": -43.3975213,
+  "tags": {
+    "name": "Boiúna",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2499297826,
+  "lat": -22.9408899,
+  "lon": -43.3422564,
+  "tags": {
+    "name": "Freguesia",
+    "place": "suburb",
+    "wikidata": "Q3752985",
+    "wikipedia": "pt:Freguesia (Jacarepaguá)"
+  }
+},
+{
+  "type": "node",
+  "id": 2519053174,
+  "lat": -22.9870911,
+  "lon": -43.3049379,
+  "tags": {
+    "name": "Itanhangá",
+    "place": "suburb",
+    "wikidata": "Q3804496",
+    "wikipedia": "pt:Itanhangá (bairro)"
+  }
+},
+{
+  "type": "node",
+  "id": 2519056904,
+  "lat": -22.9952094,
+  "lon": -43.2408556,
+  "tags": {
+    "GNS:id": "10873564",
+    "name": "Vidigal",
+    "place": "suburb",
+    "wikidata": "Q1754633",
+    "wikimedia_commons": "Category:Vidigal",
+    "wikipedia": "pt:Vidigal"
+  }
+},
+{
+  "type": "node",
+  "id": 2707745396,
+  "lat": -23.0019551,
+  "lon": -43.3900036,
+  "tags": {
+    "name": "Américas Park",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2707745400,
+  "lat": -23.0017246,
+  "lon": -43.3930859,
+  "tags": {
+    "name": "Mundo Novo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 2767789389,
+  "lat": -22.9289880,
+  "lon": -43.3534191,
+  "tags": {
+    "name": "Pechincha",
+    "place": "suburb",
+    "wikidata": "Q3898523",
+    "wikipedia": "pt:Pechincha (bairro)"
+  }
+},
+{
+  "type": "node",
+  "id": 3750046498,
+  "lat": -22.9679043,
+  "lon": -43.3706595,
+  "tags": {
+    "name": "Centro Metropolitano",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 3757979846,
+  "lat": -22.8222718,
+  "lon": -43.4193642,
+  "tags": {
+    "name": "Cabral",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4356559429,
+  "lat": -22.9004203,
+  "lon": -43.2247746,
+  "tags": {
+    "name": "Largo da Cancela",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4371621858,
+  "lat": -22.8422543,
+  "lon": -43.2778542,
+  "tags": {
+    "name": "Largo da Penha",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 4538593331,
+  "lat": -22.9038046,
+  "lon": -43.1825512,
+  "tags": {
+    "description": "open-air street market",
+    "name": "Saara",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 6470680535,
+  "lat": -22.9885204,
+  "lon": -43.2482058,
+  "tags": {
+    "GNS:id": "10873562",
+    "name": "Rocinha",
+    "place": "suburb",
+    "wikidata": "Q1238732",
+    "wikimedia_commons": "Category:Rocinha",
+    "wikipedia": "pt:Rocinha"
+  }
+},
+{
+  "type": "node",
+  "id": 7638183260,
+  "lat": -22.9885801,
+  "lon": -43.1916762,
+  "tags": {
+    "name": "Arpoador",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 7638183261,
+  "lat": -22.9756211,
+  "lon": -43.3352709,
+  "tags": {
+    "name": "Rio das Pedras",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 8516972295,
+  "lat": -22.8799680,
+  "lon": -43.2623993,
+  "tags": {
+    "name": "Bairro dos Ingleses",
+    "place": "quarter",
+    "wikipedia": "pt:Bairro dos Ingleses"
+  }
+},
+{
+  "type": "node",
+  "id": 9458740593,
+  "lat": -22.9472084,
+  "lon": -43.1946481,
+  "tags": {
+    "name": "Segunda mina",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9458740594,
+  "lat": -22.9594646,
+  "lon": -43.1920240,
+  "tags": {
+    "name": "Cocheira",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9458740595,
+  "lat": -22.9482626,
+  "lon": -43.1942858,
+  "tags": {
+    "name": "Primeira Mina",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9458740597,
+  "lat": -22.9605394,
+  "lon": -43.1911034,
+  "tags": {
+    "name": "Vila Rica",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9458740599,
+  "lat": -22.9477753,
+  "lon": -43.1939857,
+  "tags": {
+    "name": "Santa Marta",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 9458740603,
+  "lat": -22.9620864,
+  "lon": -43.1886857,
+  "tags": {
+    "name": "Estradinha",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9458740604,
+  "lat": -22.9601493,
+  "lon": -43.1919753,
+  "tags": {
+    "alt_name": "Mangueira",
+    "name": "Mangueirinha",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9458740605,
+  "lat": -22.9462970,
+  "lon": -43.1943765,
+  "tags": {
+    "name": "Pico",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9458740606,
+  "lat": -22.9626490,
+  "lon": -43.1906524,
+  "tags": {
+    "name": "Barro",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9458740607,
+  "lat": -22.9628574,
+  "lon": -43.1894806,
+  "tags": {
+    "name": "Figueira",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11346649971,
+  "lat": -22.8759466,
+  "lon": -43.2384527,
+  "tags": {
+    "name": "Conjunto Esperança",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11346649972,
+  "lat": -22.8712841,
+  "lon": -43.2364236,
+  "tags": {
+    "alt_name": "Conjunto Novo Pinheiro",
+    "name": "Salsa e Merengue",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11346649973,
+  "lat": -22.8658976,
+  "lon": -43.2360561,
+  "tags": {
+    "alt_name": "Parque Ecológico",
+    "name": "Vila do Pinheiro",
+    "old_name": "Ilha do Pinheiro",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11346649974,
+  "lat": -22.8692495,
+  "lon": -43.2403019,
+  "tags": {
+    "name": "Conjunto Pinheiros",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11346649975,
+  "lat": -22.8636591,
+  "lon": -43.2402771,
+  "tags": {
+    "name": "Morro do Timbau",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11346649976,
+  "lat": -22.8615417,
+  "lon": -43.2423859,
+  "tags": {
+    "name": "Baixa do Sapateiro",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11346649977,
+  "lat": -22.8585274,
+  "lon": -43.2445351,
+  "tags": {
+    "name": "Parque Maré",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11346649978,
+  "lat": -22.8560611,
+  "lon": -43.2431158,
+  "tags": {
+    "name": "Nova Holanda",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11346649979,
+  "lat": -22.8501318,
+  "lon": -43.2440080,
+  "tags": {
+    "name": "Parque União",
+    "place": "neighbourhood",
+    "short_name": "P.U."
+  }
+},
+{
+  "type": "node",
+  "id": 11346649980,
+  "lat": -22.8669847,
+  "lon": -43.2417641,
+  "tags": {
+    "alt_name": "Conjunto Bento Ribeiro Dantas",
+    "name": "Bento Ribeiro Dantas",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11346649981,
+  "lat": -22.8523951,
+  "lon": -43.2433523,
+  "tags": {
+    "name": "Parque Rubens Vaz",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11346649982,
+  "lat": -22.8591276,
+  "lon": -43.2397796,
+  "tags": {
+    "alt_name": "Conjunto Nova Maré",
+    "name": "Nova Maré",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11374701812,
+  "lat": -22.8656179,
+  "lon": -43.2163725,
+  "tags": {
+    "name": "Parque Tecnológico da UFRJ",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11388662695,
+  "lat": -22.8203435,
+  "lon": -43.2716480,
+  "tags": {
+    "alt_name": "Kelson's",
+    "name": "Kelson",
+    "official_name": "Conjunto Marcílio Dias",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11610929496,
+  "lat": -22.9708379,
+  "lon": -43.3852382,
+  "tags": {
+    "name": "Rio 2",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 11702603765,
+  "lat": -22.8678121,
+  "lon": -43.3877594,
+  "tags": {
+    "name": "Paraquedista",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 11766381601,
+  "lat": -22.9783474,
+  "lon": -43.3946821,
+  "tags": {
+    "name": "Parque Olímpico do Rio de Janeiro",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 11877070808,
+  "lat": -22.9713529,
+  "lon": -43.3867245,
+  "tags": {
+    "name": "Barra Olímpica",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 11892392259,
+  "lat": -22.9685324,
+  "lon": -43.2954409,
+  "tags": {
+    "name": "Vale Encantado",
+    "old_name": "Taquara da Tijuca",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 12059976644,
+  "lat": -22.9891690,
+  "lon": -43.3212283,
+  "tags": {
+    "name": "Muzema",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 12127921876,
+  "lat": -22.9855120,
+  "lon": -43.4179234,
+  "tags": {
+    "name": "Ilha Pura",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 12212040255,
+  "lat": -22.8262527,
+  "lon": -43.3878975,
+  "tags": {
+    "name": "Final Feliz",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12212040256,
+  "lat": -22.8284535,
+  "lon": -43.3850142,
+  "tags": {
+    "name": "Criança Esperança",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12212040257,
+  "lat": -22.8270552,
+  "lon": -43.3807289,
+  "tags": {
+    "name": "Cova da Onça",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12212040258,
+  "lat": -22.8259411,
+  "lon": -43.3839921,
+  "tags": {
+    "name": "Suvaquinho",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12212040259,
+  "lat": -22.8303802,
+  "lon": -43.3792122,
+  "tags": {
+    "name": "Gogó da Ema",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12212040260,
+  "lat": -22.8206822,
+  "lon": -43.3742863,
+  "tags": {
+    "name": "Chapadão",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12212040264,
+  "lat": -22.8202932,
+  "lon": -43.3866387,
+  "tags": {
+    "name": "Himalaia",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12212040265,
+  "lat": -22.8243806,
+  "lon": -43.3943850,
+  "tags": {
+    "name": "Parque Esperança",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12212040266,
+  "lat": -22.8287712,
+  "lon": -43.3900076,
+  "tags": {
+    "name": "Tiradentes",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12212040267,
+  "lat": -22.8316454,
+  "lon": -43.3874041,
+  "tags": {
+    "name": "Cavaleiro",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12212040268,
+  "lat": -22.8242454,
+  "lon": -43.3821905,
+  "tags": {
+    "name": "Bom Tempo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12212040269,
+  "lat": -22.8271588,
+  "lon": -43.3756269,
+  "tags": {
+    "name": "Manhama",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12212040270,
+  "lat": -22.8250650,
+  "lon": -43.3756484,
+  "tags": {
+    "name": "Bomba Sem Pino",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12212052415,
+  "lat": -22.8205650,
+  "lon": -43.3825066,
+  "tags": {
+    "name": "Torre",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12212052492,
+  "lat": -22.8310418,
+  "lon": -43.3842246,
+  "tags": {
+    "name": "Lote",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12216455716,
+  "lat": -22.8300723,
+  "lon": -43.3691761,
+  "tags": {
+    "name": "Terra Nostra",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12216455717,
+  "lat": -22.8246530,
+  "lon": -43.3641740,
+  "tags": {
+    "name": "Lagartixa",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12216455718,
+  "lat": -22.8221303,
+  "lon": -43.3574543,
+  "tags": {
+    "name": "Pedreira",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12216457830,
+  "lat": -22.8319847,
+  "lon": -43.3938344,
+  "tags": {
+    "name": "Santa Edwiges",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 12254482669,
+  "lat": -22.9039450,
+  "lon": -43.2361967,
+  "tags": {
+    "name": "Mangueira",
+    "place": "suburb",
+    "wikidata": "Q3844583",
+    "wikipedia": "pt:Mangueira (Rio de Janeiro)"
+  }
+},
+{
+  "type": "node",
+  "id": 12768804887,
+  "lat": -22.8348350,
+  "lon": -43.3078158,
+  "tags": {
+    "alt_name": "Bairro Argentino",
+    "name": "Argentino",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13717778625,
+  "lat": -22.9438675,
+  "lon": -43.3931154,
+  "tags": {
+    "name": "Complexo da Texeira Brandão",
+    "place": "quarter",
+    "population": "12000"
+  }
+}
+
+  ]
+}
