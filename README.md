@@ -66,11 +66,18 @@ python -m http.server 8123
 | W / ↑ | acelerar |
 | S / ↓ | frear / ré |
 | A D / ← → | direção |
-| SHIFT | nitro (NOS) |
+| SHIFT | nitro — arma a partir de 50% da carga; uma vez armado, usa até o fim |
 | ESPAÇO | freio de mão (drift) |
 | C | alternar câmera |
 | M | som liga/desliga |
+| P | pausa |
 | R | reiniciar corrida |
+
+A barra de nitro mostra o estado: **cinza** = carregando (abaixo de 50%, não dá
+para usar), **verde** = carregado (pronto para armar) e **azul** = em uso. Ele só
+**arma** ao atingir a marca de 50%; depois você usa até esvaziar (mesmo abaixo de
+50%) e, ao soltar ou esvaziar, recarrega sempre. Isso premia rajadas bem
+cronometradas nas retas em vez de segurar o boost o tempo todo.
 
 ## Objetivo
 
@@ -111,5 +118,13 @@ por carro + trânsito + trajeto + polícia + dificuldade.
 - `map_data.js` — geometria real processada (rota + vias + túneis)
 - `process_map.py` — regenera `map_data.js` a partir dos dados OSM brutos
 - `linha_amarela_raw.json` / `roads_raw.json` — dados brutos da Overpass API
+
+## Versão e leaderboards
+
+A versão da mecânica aparece no rodapé do menu (ex.: `build POL-9.3`). Cada
+mudança de funcionamento que afete os tempos bumpa essa versão e **reseta
+automaticamente** os leaderboards e ghosts (tempos de versões diferentes não são
+comparáveis). O jogo carrega sempre a versão fresca (cache-busting), então basta
+recarregar a página após uma atualização.
 
 Dados de mapa © colaboradores do [OpenStreetMap](https://www.openstreetmap.org/copyright) (ODbL).
