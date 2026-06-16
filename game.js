@@ -6,6 +6,21 @@ import * as THREE from 'https://unpkg.com/three@0.160.0/build/three.module.js';
 
 window.__GAME_OK__ = true;
 
+// Versão do JOGO (mecânica). BUMPAR a cada mudança de funcionamento que afete
+// os tempos — isso reseta todos os leaderboards e ghosts automaticamente
+// (a versão faz parte da chave de armazenamento; chaves de versões antigas
+// são apagadas no boot). Também é o que aparece no rodapé do menu.
+const GAME_VERSION = 'POL-9.1';
+{
+  const tag = document.getElementById('buildtag');
+  if (tag) tag.textContent = 'build ' + GAME_VERSION;
+  // limpa leaderboards/ghosts de versões anteriores (mecânica mudou)
+  for (const key of Object.keys(localStorage))
+    if ((key.startsWith('rmw_lb') || key.startsWith('rmw_ghost')) &&
+        !key.includes('::v' + GAME_VERSION + '::'))
+      localStorage.removeItem(key);
+}
+
 // ================================================================ rotas
 const DECK = 6.0; // altura de viadutos/alças
 
@@ -56,6 +71,28 @@ function buildRouteData(rd) {
     let dx = p1.x - p0.x, dz = p1.z - p0.z;
     const L = Math.hypot(dx, dz) || 1;
     pts[i].nx = -dz / L; pts[i].nz = dx / L; // aponta para a direita
+  }
+  // perfil de pilotagem ideal: velocidade máxima por curvatura (vcurve) e o
+  // teto de aproximação com frenagem antecipada (vapp) — usado pela polícia
+  // (piloto perfeito) e pela calibração do contra-relógio
+  const BRAKE = 22; // m/s^2 de frenagem do piloto ideal
+  for (let i = 0; i < pts.length; i++) {
+    let R = 5000;
+    if (i > 0 && i < pts.length - 1) {
+      const h1 = Math.atan2(pts[i + 1].x - pts[i].x, pts[i + 1].z - pts[i].z);
+      const h0 = Math.atan2(pts[i].x - pts[i - 1].x, pts[i].z - pts[i - 1].z);
+      let dh = Math.abs(h1 - h0);
+      if (dh > Math.PI) dh = 2 * Math.PI - dh;
+      const ds = (cum[i + 1] - cum[i - 1]) / 2;
+      R = Math.max(8, ds / Math.max(1e-4, dh));
+    }
+    pts[i].vcurve = Math.sqrt(13 * R); // aderência lateral ~1.3g
+  }
+  pts[pts.length - 1].vapp = pts[pts.length - 1].vcurve;
+  for (let i = pts.length - 2; i >= 0; i--) {
+    const ds = cum[i + 1] - cum[i];
+    pts[i].vapp = Math.min(pts[i].vcurve,
+      Math.sqrt(pts[i + 1].vapp * pts[i + 1].vapp + 2 * BRAKE * ds));
   }
   return { pts, cum, total: cum[cum.length - 1],
            from: rd.from, to: rd.to, exits: rd.exits || [],
@@ -1142,21 +1179,43 @@ for (let i = 0; i < POLICE_MAX; i++) {
   const mesh = buildPoliceCar();
   mesh.visible = false;
   scene.add(mesh);
-  policeCars.push({ mesh, active: false, s: 0, off: 0 });
+  policeCars.push({ mesh, active: false, s: 0, v: 0, off: 0 });
 }
 let pursuit = null;
+
+// parâmetros da fuga (distância ao longo da rota, em metros)
+// IMPORTANTE: o spawn máximo precisa ficar bem abaixo de ESCAPE_DIST, senão a
+// viatura nasce longe o bastante para a fuga disparar sem você abrir distância.
+// A margem (ESCAPE_DIST - spawn) só se fecha pilotando: no MW a polícia iguala
+// sua vmax, então só nitro em estirada longa vence; nos níveis fáceis ela é
+// mais lenta e você abre na própria reta.
+const ESCAPE_DIST = 340, ESCAPE_HOLD = 3.0; // > spawn máx (290): sem fuga por spawn
+const CATCH_DIST = 8, CATCH_HOLD = 3.6;
 
 function startPursuit(playerS) {
   if (!policeOn || state !== 'race') return;
   const want = pursuit ? Math.min(POLICE_MAX, pursuit.n + 1) : 2;
-  if (!pursuit) pursuit = { t: 0, escapeT: 0, catchT: 0, n: 0, grace: 0 };
+  const fresh = !pursuit;
+  if (fresh) {
+    pursuit = { t: 0, escapeT: 0, catchT: 0, n: 0, grace: 0 };
+    // o tempo de recuperar (grace, polícia não fecha o gap) vale SÓ na batida
+    // que ATIVA a perseguição; batidas durante a fuga não dão folga nenhuma
+    pursuit.grace = 4.0;
+  }
   pursuit.escapeT = 0;
-  pursuit.grace = 4.5; // viaturas "chegando ao local": tempo de recuperar da batida
+  const polF = DIFF_LEVELS[diffIdx].pol;
+  const polVmax = spec.vmax * polF;
   for (const pc of policeCars) {
     if (pursuit.n >= want) break;
     if (pc.active) continue;
     pc.active = true; pc.mesh.visible = true;
-    pc.s = Math.max(30, playerS - 240 - Math.random() * 120);
+    // novas batidas: a viatura entra mais perto (você já está lento).
+    // teto (290) < ESCAPE_DIST (340) para o spawn nunca virar fuga sozinho;
+    // o grace segura o gap durante a recuperação, então não precisa nascer longe
+    const back = fresh ? 230 + Math.random() * 60
+                       : 120 + Math.random() * 60;
+    pc.s = Math.max(20, playerS - back);
+    pc.v = polF * Math.min(spec.vmax, ROUTE.pts[routeSample(pc.s).idx].vapp);
     pc.off = 0;
     pursuit.n++;
   }
@@ -1173,24 +1232,40 @@ function endPursuit(escaped) {
   if (actx) sirenGain.gain.setTargetAtTime(0, actx.currentTime, 0.25);
 }
 
+// ritmo de um piloto ideal em pc.s (vmax do seu carro, freando p/ as curvas
+// à frente), escalado pelo fator da dificuldade: MW = ideal pleno; níveis
+// menores ficam proporcionalmente mais lentos em TUDO (reta e curva)
+function idealSpeedAt(s, polF) {
+  const i = routeSample(s).idx;
+  return polF * Math.min(spec.vmax, ROUTE.pts[i].vapp);
+}
+
 function stepPolice(dt, playerS, playerLat, playerSpd) {
   if (!pursuit || state !== 'race') return;
   pursuit.t += dt;
   pursuit.grace = Math.max(0, pursuit.grace - dt);
-  // teto da viatura escala com a dificuldade, mas NUNCA supera o nitro:
-  // em vmax+nitro o jogador sempre abre vantagem
-  const chaseTop = spec.vmax * DIFF_LEVELS[diffIdx].pol;
-  let minD = 1e9;
+  // a polícia é um piloto perfeito num carro IGUAL ao seu, sem nitro
+  const polF = DIFF_LEVELS[diffIdx].pol;
+  const polVmax = spec.vmax * polF;
+  // piloto perfeito: anda no ritmo ideal das curvas, MAS nunca mais devagar que
+  // você (até o teto dele). Assim você não ganha distância "cortando" curva
+  // melhor que ela — só com velocidade de ponta maior (níveis fáceis) ou nitro.
+  const keepUp = Math.min(playerSpd, polVmax);
+  let nearGap = 1e9, pcNear = 0; // menor distância ao longo da rota até uma viatura
   for (const pc of policeCars) {
     if (!pc.active) continue;
-    const gap = playerS - pc.s;
-    let vt;
-    if (gap > 200) vt = chaseTop + 7;                  // se aproxima a fundo
-    else if (gap > 45) vt = Math.min(Math.max(playerSpd + 3, 32), chaseTop + 2);
-    else vt = Math.min(Math.max(playerSpd * 0.98, 22), chaseTop); // cola
-    pc.s += vt * dt;
-    pc.s = Math.min(pc.s, playerS + 3); // não ultrapassa: encurrala
-    if (pc.s > ROUTE.total - 30) pc.s = ROUTE.total - 30;
+    let target = Math.max(idealSpeedAt(pc.s, polF), keepUp);
+    // durante a recuperação da batida (grace), a viatura NÃO fecha distância:
+    // anda no seu ritmo e preserva o gap, te dando tempo de acelerar de volta.
+    // Sem isso ela chega a toda enquanto você está lento e prende na hora.
+    if (pursuit.grace > 0) target = Math.min(target, playerSpd + 2);
+    if (pc.v < target)
+      pc.v = Math.min(target, pc.v + spec.acc * 1.2 * Math.max(0.25, 1 - pc.v / polVmax) * dt);
+    else
+      pc.v = Math.max(target, pc.v - 24 * dt); // frenagem para a curva
+    pc.s += pc.v * dt;
+    pc.s = Math.min(pc.s, playerS + 3);           // não ultrapassa: encurrala
+    if (pc.s > ROUTE.total - 25) pc.s = ROUTE.total - 25;
     const c = routeSample(pc.s);
     pc.off += (playerLat - pc.off) * Math.min(1, 1.5 * dt);
     const wl = ROUTE.pts[c.idx].wall - 0.6;
@@ -1200,24 +1275,25 @@ function stepPolice(dt, playerS, playerLat, playerSpd) {
     const ph = Math.floor(performance.now() / 120) % 2;
     pc.mesh.userData.red.visible = ph === 0;
     pc.mesh.userData.blue.visible = ph === 1;
+    const g = playerS - pc.s;
+    if (g < nearGap) { nearGap = g; pcNear = pc.v; }
+    // contato físico: a viatura encostada te segura
     const d = Math.hypot(pc.mesh.position.x - player.x, pc.mesh.position.z - player.z);
-    minD = Math.min(minD, d);
-    if (d < 3.4 && pursuit.grace <= 0) { // encostou: vai te travando
-      player.vx *= 0.985; player.vz *= 0.985;
-      pursuit.catchT += dt * 2.0;
-    }
+    if (d < 3.4 && pursuit.grace <= 0) { player.vx *= 0.99; player.vz *= 0.99; }
   }
-  if (pursuit.grace <= 0) {
-    if (minD < 9) pursuit.catchT += dt;
-    else pursuit.catchT = Math.max(0, pursuit.catchT - dt * 0.9);
-  }
-  // fuga só conta se você estiver de fato fugindo (movendo), após a chegada
-  if (pursuit.grace <= 0 && minD > 110 && playerSpd > 15) pursuit.escapeT += dt;
-  else pursuit.escapeT = Math.max(0, pursuit.escapeT - dt * 0.5);
-  updateSiren(Math.max(0.18, 1 - minD / 320));
-  if (pursuit.escapeT > 4.5) {
+  pursuit.nearGap = nearGap;
+  pursuit.pcSpd = pcNear; // velocidade da viatura mais próxima
+  pursuit.playerSpd = playerSpd;
+  // prisão e fuga decididas pela distância ao longo da rota (sem elástico):
+  // só o nitro abre vantagem; bater/desacelerar deixa a polícia colar
+  if (pursuit.grace <= 0 && nearGap < CATCH_DIST) pursuit.catchT += dt;
+  else pursuit.catchT = Math.max(0, pursuit.catchT - dt * 0.7);
+  if (pursuit.grace <= 0 && nearGap > ESCAPE_DIST && playerSpd > 12) pursuit.escapeT += dt;
+  else pursuit.escapeT = Math.max(0, pursuit.escapeT - dt * 0.35);
+  updateSiren(Math.max(0.15, 1 - nearGap / 380));
+  if (pursuit.escapeT > ESCAPE_HOLD) {
     endPursuit(true);
-  } else if (pursuit.catchT > 2.6) {
+  } else if (pursuit.catchT > CATCH_HOLD) {
     endPursuit(false);
     state = 'fail';
     document.getElementById('failTitle').textContent = 'VOCÊ FOI PRESO';
@@ -1282,13 +1358,15 @@ let wpStart = 0, wpEnd = 0;
 }
 let accelAuto = localStorage.getItem('rmw_auto') === '1';
 let policeOn = localStorage.getItem('rmw_police') !== '0';
-// m = margem sobre o tempo ideal simulado do SEU carro no trecho (0 = sem relógio)
+// m   = margem sobre o tempo ideal simulado do SEU carro (0 = sem relógio)
+// pol = velocidade-teto da polícia como fração do SEU vmax (1.0 = igual, MW)
+//       a polícia pilota perfeitamente e freia nas curvas, mas não tem nitro
 const DIFF_LEVELS = [
-  { n: 'PASSEIO', d: 'sem contra-relógio — só você, a pista e a polícia', m: 0, pol: 0.90 },
-  { n: 'FÁCIL', d: 'checkpoints folgados, polícia preguiçosa', m: 1.55, pol: 0.88 },
-  { n: 'NORMAL', d: 'o equilíbrio padrão', m: 1.32, pol: 0.97 },
-  { n: 'DIFÍCIL', d: 'pé embaixo o tempo todo', m: 1.16, pol: 1.01 },
-  { n: 'MOST WANTED', d: 'sem margem de erro', m: 1.04, pol: 1.04 },
+  { n: 'PASSEIO', d: 'sem contra-relógio — só você, a pista e a polícia', m: 0, pol: 0.72 },
+  { n: 'FÁCIL', d: 'checkpoints folgados, polícia mais lenta', m: 1.55, pol: 0.80 },
+  { n: 'NORMAL', d: 'o equilíbrio padrão', m: 1.32, pol: 0.87 },
+  { n: 'DIFÍCIL', d: 'pé embaixo o tempo todo', m: 1.16, pol: 0.94 },
+  { n: 'MOST WANTED', d: 'polícia com a sua máxima — só o nitro te salva', m: 1.04, pol: 1.0 },
 ];
 let diffIdx = Math.min(DIFF_LEVELS.length - 1, parseInt(localStorage.getItem('rmw_diff') || '2', 10) || 0);
 
@@ -1303,19 +1381,8 @@ function computePace(spawnS, fimS) {
   const n = i1 - i0 + 1;
   if (n < 2) return { tAt: () => 0 };
   const vlim = new Array(n);
-  for (let k = 0; k < n; k++) {
-    const i = i0 + k;
-    let R = 5000;
-    if (i > 0 && i < P.length - 1) {
-      const h1 = Math.atan2(P[i + 1].x - P[i].x, P[i + 1].z - P[i].z);
-      const h0 = Math.atan2(P[i].x - P[i - 1].x, P[i].z - P[i - 1].z);
-      let dh = Math.abs(h1 - h0);
-      if (dh > Math.PI) dh = 2 * Math.PI - dh;
-      const ds = (C[i + 1] - C[i - 1]) / 2;
-      R = Math.max(8, ds / Math.max(1e-4, dh));
-    }
-    vlim[k] = Math.min(spec.vmax, Math.sqrt(13 * R));
-  }
+  for (let k = 0; k < n; k++)
+    vlim[k] = Math.min(spec.vmax, P[i0 + k].vcurve); // curvatura pré-computada
   const v = new Array(n);
   v[0] = 8;
   for (let k = 1; k < n; k++) {
@@ -1359,6 +1426,7 @@ let stunT = 0, stunSpin = 0, crashImmunity = 0;
 let state = 'intro';
 let timeLeft = 55, raceTime = 0, nextCp = 0, countT = 0;
 let camMode = 0, muted = false;
+let DEBUG = false; // HUD de monitoramento da perseguição (F2 ou B alterna)
 let finishGate = null;
 
 function resetGame() {
@@ -1434,7 +1502,7 @@ function resetGame() {
 let ghostRec = [], ghostRecT = 0;
 let ghostData = null, ghostCar = null, ghostIdx = 0;
 
-function ghostKey() { return 'rmw_ghost2::' + lbKey(); }
+function ghostKey() { return 'rmw_ghost::' + lbKey(); } // lbKey já traz a versão
 
 function loadGhost() {
   try { ghostData = JSON.parse(localStorage.getItem(ghostKey())); }
@@ -1529,7 +1597,9 @@ function renderMenu() {
 // agrupado por carro + trânsito + trajeto + polícia + dificuldade
 // (prefixo novo: leaderboards antigos ficam órfãos = "limpos")
 function lbKey() {
-  return 'rmw_lb3::' + CARS[carIdx].name + '::' + TRAF_LEVELS[trafIdx].n +
+  // o token ::v<GAME_VERSION>:: faz a versão da mecânica fazer parte da chave,
+  // então qualquer bump de versão reseta os leaderboards (e os ghosts)
+  return 'rmw_lb::v' + GAME_VERSION + '::' + CARS[carIdx].name + '::' + TRAF_LEVELS[trafIdx].n +
     '::' + RACE_POINTS[wpStart].n + '>' + RACE_POINTS[wpEnd].n +
     '::POL' + (policeOn ? 1 : 0) + '::' + DIFF_LEVELS[diffIdx].n;
 }
@@ -1625,6 +1695,11 @@ addEventListener('keydown', e => {
   if (e.code === 'KeyR' && state !== 'intro') { initAudio(); resetGame(); }
   if (e.code === 'KeyC') camMode = 1 - camMode;
   if (e.code === 'KeyM') muted = !muted;
+  if (e.code === 'F2' || e.code === 'KeyB') { // DEBUG: monitor da perseguição
+    DEBUG = !DEBUG;
+    document.getElementById('dbg').style.display = DEBUG ? 'block' : 'none';
+    e.preventDefault();
+  }
   if (['ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'Space'].includes(e.code)) e.preventDefault();
 });
 addEventListener('keyup', e => keys[e.code] = false);
@@ -1826,7 +1901,7 @@ function drawMinimap() {
 
 // ================================================================ física
 function stepPlayer(dt) {
-  const VMAX = spec.vmax, VMAX_NOS = spec.vmax + 10;
+  const VMAX = spec.vmax, VMAX_NOS = spec.vmax + 13;
   const fX = Math.sin(player.h), fZ = Math.cos(player.h);
   const rX = fZ, rZ = -fX;
   let fwd = player.vx * fX + player.vz * fZ;
@@ -1850,12 +1925,16 @@ function stepPlayer(dt) {
 
   const vmax = nosOn ? VMAX_NOS : VMAX;
   if (state === 'race') {
-    if (up) fwd += (nosOn ? spec.acc * 1.8 : spec.acc) * Math.max(0.15, 1 - fwd / vmax) * dt;
+    if (up && fwd < vmax) fwd = Math.min(vmax, fwd + (nosOn ? spec.acc * 1.8 : spec.acc) * Math.max(0.15, 1 - fwd / vmax) * dt);
     if (dn) fwd -= (fwd > 0.5 ? 26 : 9) * dt;
     if (!up && !dn) fwd -= Math.sign(fwd) * 1.1 * dt;
-    fwd = Math.max(-13, Math.min(vmax, fwd));
-    if (nosOn) player.nos = Math.max(0, player.nos - 30 * dt);
-    else player.nos = Math.min(100, player.nos + 7.5 * dt);
+    // a sobre-velocidade do nitro desce bem devagar (coast ~2.5 m/s²): ela
+    // PERSISTE alguns segundos após o tanque, então o nitro abre distância de
+    // verdade e a fuga fica possível. Cortar na hora (como antes) zerava o ganho.
+    if (fwd > vmax) fwd = Math.max(vmax, fwd - 2.5 * dt);
+    fwd = Math.max(-13, fwd);
+    if (nosOn) player.nos = Math.max(0, player.nos - 22 * dt);
+    else player.nos = Math.min(100, player.nos + 9 * dt);
   } else if (state !== 'count') {
     fwd *= Math.exp(-1.2 * dt);
   }
@@ -2127,15 +2206,45 @@ function frame() {
   }
   if (msgT > 0) { msgT -= dt; if (msgT <= 0) elMsg.style.opacity = 0; }
 
+  if (DEBUG) updateDebug(r);
+
   drawMinimap();
   renderer.render(scene, camera);
 }
+// ---- HUD de DEBUG da perseguição (F2 / B alterna) ----
+const elDbg = document.getElementById('dbg');
+function updateDebug(r) {
+  if (elDbg.style.display !== 'block') elDbg.style.display = 'block';
+  const kmh = (Math.hypot(player.vx, player.vz) * 3.6) | 0;
+  const nosOn = (keys.ShiftLeft || keys.ShiftRight) && player.nos > 0;
+  let s = `build ${GAME_VERSION}  ${DIFF_LEVELS[diffIdx].n}  ${CARS[carIdx].name}\n`;
+  s += `vel ${kmh} km/h   nitro ${player.nos.toFixed(0)}%${nosOn ? ' [ON]' : ''}\n`;
+  if (pursuit) {
+    const gap = pursuit.nearGap === undefined ? 0 : pursuit.nearGap;
+    const pcKmh = ((pursuit.pcSpd || 0) * 3.6) | 0;
+    const ate = Math.max(0, ESCAPE_DIST - gap);
+    const escPct = ((pursuit.escapeT / ESCAPE_HOLD) * 100) | 0;
+    const catchPct = ((pursuit.catchT / CATCH_HOLD) * 100) | 0;
+    s += `--- PERSEGUICAO (${pursuit.n} viaturas) ---\n`;
+    s += pursuit.grace > 0 ? `GRACE ${pursuit.grace.toFixed(1)}s (recuperando, nada conta)\n`
+                           : `gap ${gap.toFixed(0)}m   viatura ${pcKmh} km/h\n`;
+    s += `FUGA: precisa gap > ${ESCAPE_DIST}m por ${ESCAPE_HOLD}s\n`;
+    s += `  falta abrir: ${ate.toFixed(0)}m   contador fuga: ${escPct}%\n`;
+    s += `PRISAO: gap < ${CATCH_DIST}m por ${CATCH_HOLD}s   contador: ${catchPct}%`;
+  } else {
+    s += `--- sem perseguicao (bata em um carro p/ iniciar) ---`;
+  }
+  elDbg.textContent = s;
+}
+
 frame();
 
 // exposição para depuração/testes automatizados
 window.__DBG = { player, keys, routeClosest, routeSample, scene, camera, THREE, traffic,
   ROUTES, RACE_POINTS, resolveRace, startPursuit, policeCars,
   get pursuit() { return pursuit; },
+  get spec() { return spec; },
+  get diffIdx() { return diffIdx; },
   get cpGrants() { return cpGrants; },
   get noTimer() { return noTimer; },
   get ROUTE() { return ROUTE; },

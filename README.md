@@ -82,8 +82,13 @@ Porsche recebem relógios diferentes, e trechos sinuosos valem mais tempo.
 O tráfego tem **carros e motos**: as motos são mais rápidas e costuram pelo
 corredor entre as faixas — cuidado ao mudar de faixa.
 **Batida forte capota o outro carro, te deixa atordoado — e chama a POLÍCIA**:
-sirene tocando, viaturas na cola; fuja (nitro ajuda) até despistar, ou seja
-cercado e preso. Dá para desligar a polícia no menu. Ultrapassar **pelo
+as viaturas são **pilotos perfeitos num carro igual ao seu, sem nitro** (freiam
+nas curvas no traçado ideal), com velocidade-teto igual à sua no MOST WANTED e
+gradualmente mais lentas nos níveis fáceis. Elas nascem bem atrás (dando tempo de
+se recuperar da batida), e a distância é pura física: **só o nitro em estiradas
+longas abre vantagem**; bater de novo ou frear à toa cola a polícia de volta.
+Fuja o suficiente e elas desistem; deixe-as encostar e te cercam — você é preso.
+Dá para desligar a polícia no menu. Ultrapassar **pelo
 acostamento** faz o carro perder velocidade na zebra — use as faixas.
 Vença um cenário e o seu melhor tempo vira uma **sombra (ghost)** translúcida
 que corre contra você nas próximas tentativas. O leaderboard top 5 é separado

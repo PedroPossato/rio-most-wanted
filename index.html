@@ -36,6 +36,10 @@
     letter-spacing:2px; display:none; animation:sirene .5s infinite; }
   @keyframes sirene { 0%,49% { color:#ff4040; } 50%,100% { color:#5599ff; } }
   #local { left:24px; top:16px; font-size:14px; letter-spacing:2px; color:#cfc093; }
+  #dbg { position:fixed; left:18px; top:44px; z-index:30; margin:0; display:none;
+    font-family:Consolas,monospace; font-size:13px; line-height:1.5; color:#9dff9d;
+    background:rgba(0,0,0,.62); padding:8px 11px; border:1px solid #2f6b2f;
+    border-radius:6px; white-space:pre; pointer-events:none; }
 
   #minimapa { position:fixed; left:18px; bottom:18px; z-index:10;
     border:2px solid rgba(242,212,137,.7); border-radius:8px;
@@ -92,6 +96,7 @@
 </div>
 <div class="hud" id="vel"><div class="num">0</div><div class="kmh">KM/H</div></div>
 <div class="hud" id="heat">&#128680; FUGA DA POL&Iacute;CIA</div>
+<pre id="dbg"></pre>
 <div class="hud" id="nos"><div id="nosfill"></div></div>
 <div class="hud" id="msg"></div>
 <canvas id="minimapa" width="240" height="240"></canvas>
@@ -141,7 +146,7 @@
   </div>
   <div class="go">PRESSIONE ENTER</div>
   <div class="lb" id="lbIntro"></div>
-  <small>tra&ccedil;ado, t&uacute;neis, sa&iacute;das e ped&aacute;gio reais &mdash; dados OpenStreetMap &copy; colaboradores OSM</small>
+  <small>tra&ccedil;ado, t&uacute;neis, sa&iacute;das e ped&aacute;gio reais &mdash; dados OpenStreetMap &copy; colaboradores OSM &nbsp;&middot;&nbsp; <b id="buildtag">build &hellip;</b></small>
 </div>
 
 <div class="tela" id="fim">
@@ -160,8 +165,22 @@
   <div class="go">R TENTAR DE NOVO &nbsp;&middot;&nbsp; ESC MENU</div>
 </div>
 
-<script src="map_data.js"></script>
-<script type="module" src="game.js"></script>
+<!-- carrega sempre a versão fresca (o python http.server não manda no-cache,
+     e o navegador guardava o game.js antigo) -->
+<script>
+  (function () {
+    var v = Date.now();
+    var md = document.createElement('script');
+    md.src = 'map_data.js?v=' + v;
+    md.onload = function () {
+      var g = document.createElement('script');
+      g.type = 'module';
+      g.src = 'game.js?v=' + v;
+      document.body.appendChild(g);
+    };
+    document.body.appendChild(md);
+  })();
+</script>
 <script>
   if (location.protocol === 'file:') {
     // módulos ES não carregam via file:// — avisa para usar o servidor local
