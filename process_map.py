@@ -336,6 +336,57 @@ def build_route(path, name_a, name_b):
             np_.append(proj[i]); nll.append(ll[i]); ntu.append(tun_f[i])
             nln.append(ln_f[i]); nbr.append(br_f[i]); non.append(onc_f[i])
         proj, ll, tun_f, ln_f, br_f, onc_f = np_, nll, ntu, nln, nbr, non
+    # despike: remove vértices com inversão de direção (>120°) — "dedos" que
+    # saem da pista e voltam (artefatos do Dijkstra), que o chamfer não suaviza
+    # e a remoção de laço não pega (arco curto). O chamfer depois alisa o resto.
+    def despike():
+        nonlocal proj, ll, tun_f, ln_f, br_f, onc_f
+        for _ in range(20):
+            rm = -1
+            for i in range(1, len(proj) - 1):
+                ax, az = proj[i - 1]; bx, bz = proj[i]; cx, cz = proj[i + 1]
+                h0 = math.atan2(bx - ax, bz - az)
+                h1 = math.atan2(cx - bx, cz - bz)
+                dh = abs((h1 - h0 + math.pi) % (2 * math.pi) - math.pi)
+                if math.degrees(dh) > 120:
+                    rm = i; break
+            if rm < 0:
+                break
+            for arr in (proj, ll, tun_f, ln_f, br_f, onc_f):
+                del arr[rm]
+            print(f'  despike em {name_a}->{name_b} (vértice {rm})')
+    despike()
+
+    # remove laços (autocruzamentos no chão): a rota volta a passar a <22 m de
+    # onde já esteve >120 m antes -> o corredor seria desenhado cruzado consigo
+    # mesmo (asfalto/faixas em leque). Atalha do 1o ponto próximo direto p/ o 2o.
+    def remove_loops():
+        nonlocal proj, ll, tun_f, ln_f, br_f, onc_f
+        for _ in range(8):
+            cumv = [0.0]
+            for i in range(1, len(proj)):
+                cumv.append(cumv[-1] + math.hypot(proj[i][0] - proj[i - 1][0],
+                                                  proj[i][1] - proj[i - 1][1]))
+            n, cut = len(proj), None
+            for i in range(n):
+                jmax = -1
+                for j in range(i + 2, n):
+                    if cumv[j] - cumv[i] < 120:
+                        continue
+                    dx = proj[i][0] - proj[j][0]; dz = proj[i][1] - proj[j][1]
+                    if dx * dx + dz * dz < 22 * 22:
+                        jmax = j
+                if jmax >= 0:
+                    cut = (i, jmax); break
+            if not cut:
+                break
+            i, j = cut
+            for arr in (proj, ll, tun_f, ln_f, br_f, onc_f):
+                del arr[i + 1:j]
+            print(f'  laço removido em {name_a}->{name_b}: '
+                  f'{round(cumv[i])}m -> {round(cumv[j])}m')
+    remove_loops()
+
     chamfer()
     chamfer()  # segunda passada suaviza o que sobrou
 

@@ -10,7 +10,7 @@ window.__GAME_OK__ = true;
 // os tempos — isso reseta todos os leaderboards e ghosts automaticamente
 // (a versão faz parte da chave de armazenamento; chaves de versões antigas
 // são apagadas no boot). Também é o que aparece no rodapé do menu.
-const GAME_VERSION = 'POL-9.1';
+const GAME_VERSION = 'POL-9.3';
 {
   const tag = document.getElementById('buildtag');
   if (tag) tag.textContent = 'build ' + GAME_VERSION;
@@ -251,9 +251,11 @@ function ribbonInto(pos, col, nrm, pts, width, y, r, g, b) {
     const st = STYLE[rd.t];
     const j = (Math.random() - 0.5) * 0.015;
     const y = rd.b ? DECK + Math.random() * 0.05 : st.y + Math.random() * 0.006;
-    if (rd.b) {
-      // viadutos do entorno: pula trechos colados a qualquer rota jogável
-      // (senão a fita plana a 6 m vira "teto fantasma" sobre as rampas)
+    // desenha a fita PULANDO os trechos colados a qualquer rota jogável: senão a
+    // via (Linha Amarela, motorways, pista contrária) aparece duplicada por cima
+    // do corredor — o leque de "pistas erradas" e a defensa com asfalto dos dois
+    // lados ("parede no meio da pista"). Vale p/ viaduto (teto fantasma) e plana.
+    {
       let run = [];
       const flush = () => {
         if (run.length >= 2)
@@ -266,8 +268,6 @@ function ribbonInto(pos, col, nrm, pts, width, y, r, g, b) {
         else run.push(rd.p[i]);
       }
       flush();
-    } else {
-      ribbonInto(pos, col, nrm, rd.p, st.w, y, ASF[0] + j, ASF[1] + j, ASF[2] + j);
     }
     if (rd.b) {
       let acc = 0;
@@ -1196,10 +1196,13 @@ function startPursuit(playerS) {
   if (!policeOn || state !== 'race') return;
   const want = pursuit ? Math.min(POLICE_MAX, pursuit.n + 1) : 2;
   const fresh = !pursuit;
+  const isMW = diffIdx === DIFF_LEVELS.length - 1;
   if (fresh) {
     pursuit = { t: 0, escapeT: 0, catchT: 0, n: 0, grace: 0 };
-    // o tempo de recuperar (grace, polícia não fecha o gap) vale SÓ na batida
-    // que ATIVA a perseguição; batidas durante a fuga não dão folga nenhuma
+    pursuit.grace = 4.0;
+  } else if (!isMW) {
+    // só no MOST WANTED a batida durante a fuga NÃO dá folga; nos demais níveis
+    // qualquer batida reativa o tempo de recuperação (polícia desacelera)
     pursuit.grace = 4.0;
   }
   pursuit.escapeT = 0;
@@ -1418,14 +1421,15 @@ function raceKm() {
   return ((finishS - raceS0) / 1000).toFixed(1).replace('.', ',');
 }
 
+const NOS_ARM = 50; // % de carga necessária para ARMAR o nitro (anti-feathering)
 const player = {
   x: 0, z: 0, h: 0, vx: 0, vz: 0, hint: 0,
-  nos: 100, steer: 0,
+  nos: 100, steer: 0, nosArmed: false,
 };
 let stunT = 0, stunSpin = 0, crashImmunity = 0;
 let state = 'intro';
 let timeLeft = 55, raceTime = 0, nextCp = 0, countT = 0;
-let camMode = 0, muted = false;
+let camMode = 0, muted = false, paused = false;
 let DEBUG = false; // HUD de monitoramento da perseguição (F2 ou B alterna)
 let finishGate = null;
 
@@ -1455,7 +1459,7 @@ function resetGame() {
   player.x = c.x + -c.dz * own; player.z = c.z + c.dx * own;
   player.h = Math.atan2(c.dx, c.dz);
   player.vx = player.vz = 0;
-  player.hint = c.idx; player.nos = 100; player.steer = 0;
+  player.hint = c.idx; player.nos = 100; player.steer = 0; player.nosArmed = false;
   camPos.set(player.x - Math.sin(player.h) * 9, c.y + 4, player.z - Math.cos(player.h) * 9);
   raceTime = 0; nextCp = 0;
   stunT = 0; stunSpin = 0; crashImmunity = 0;
@@ -1562,7 +1566,8 @@ function backToMenu() {
 }
 
 function hideTelas() {
-  for (const id of ['intro', 'fim', 'fail'])
+  paused = false;
+  for (const id of ['intro', 'fim', 'fail', 'pause'])
     document.getElementById(id).style.display = 'none';
 }
 
@@ -1695,6 +1700,14 @@ addEventListener('keydown', e => {
   if (e.code === 'KeyR' && state !== 'intro') { initAudio(); resetGame(); }
   if (e.code === 'KeyC') camMode = 1 - camMode;
   if (e.code === 'KeyM') muted = !muted;
+  if (e.code === 'KeyP' && state === 'race') {
+    paused = !paused;
+    document.getElementById('pause').style.display = paused ? 'flex' : 'none';
+    if (paused && actx) { // silencia motor e sirene na pausa
+      oscGain.gain.setTargetAtTime(0, actx.currentTime, 0.05);
+      if (sirenGain) sirenGain.gain.setTargetAtTime(0, actx.currentTime, 0.05);
+    }
+  }
   if (e.code === 'F2' || e.code === 'KeyB') { // DEBUG: monitor da perseguição
     DEBUG = !DEBUG;
     document.getElementById('dbg').style.display = DEBUG ? 'block' : 'none';
@@ -1914,7 +1927,11 @@ function stepPlayer(dt) {
   const lf = !stunned && (keys.KeyA || keys.ArrowLeft);
   const rt = !stunned && (keys.KeyD || keys.ArrowRight);
   const hb = !stunned && keys.Space;
-  const nosOn = !stunned && (keys.ShiftLeft || keys.ShiftRight) && player.nos > 0 && fwd > 5 && state === 'race';
+  // nitro travado (anti-feathering): só ARMA quando carrega até NOS_ARM%; uma
+  // vez armado pode usar até zerar; ao esvaziar, desarma e recarrega do zero
+  const wantNos = !stunned && (keys.ShiftLeft || keys.ShiftRight) && fwd > 5 && state === 'race';
+  if (!player.nosArmed && wantNos && player.nos >= NOS_ARM) player.nosArmed = true;
+  const nosOn = player.nosArmed && wantNos && player.nos > 0;
   if (stunned) {
     stunT -= dt;
     player.h += stunSpin * dt;
@@ -1933,8 +1950,15 @@ function stepPlayer(dt) {
     // verdade e a fuga fica possível. Cortar na hora (como antes) zerava o ganho.
     if (fwd > vmax) fwd = Math.max(vmax, fwd - 2.5 * dt);
     fwd = Math.max(-13, fwd);
-    if (nosOn) player.nos = Math.max(0, player.nos - 22 * dt);
-    else player.nos = Math.min(100, player.nos + 9 * dt);
+    if (nosOn) {
+      player.nos = Math.max(0, player.nos - 22 * dt); // usando: drena
+      if (player.nos <= 0) { player.nos = 0; player.nosArmed = false; }
+    } else {
+      // soltou (ou esvaziou): desarma e SEMPRE recarrega — parou de usar antes
+      // de acabar? o tanque volta a encher (e precisa atingir 50% p/ rearmar)
+      player.nosArmed = false;
+      player.nos = Math.min(100, player.nos + 9 * dt);
+    }
   } else if (state !== 'count') {
     fwd *= Math.exp(-1.2 * dt);
   }
@@ -2166,6 +2190,11 @@ function frame() {
   let dt = Math.min(0.05, (now - lastT) / 1000);
   lastT = now;
 
+  if (paused && state === 'race') { // congela física/relógio; só renderiza
+    renderer.render(scene, camera);
+    return;
+  }
+
   if (state === 'count') {
     countT -= dt;
     const n = Math.ceil(countT - 0.5);
@@ -2190,6 +2219,11 @@ function frame() {
 
   elVel.textContent = Math.round(Math.abs(r.fwd) * 3.6);
   elNos.style.width = player.nos + '%';
+  // cor da barra: em uso=azul, pronto p/ armar (>=50%)=verde, carregando=cinza
+  elNos.style.background = player.nosArmed
+    ? 'linear-gradient(90deg,#2da8ff,#9fe2ff)'
+    : (player.nos >= NOS_ARM ? 'linear-gradient(90deg,#3ad17a,#9fffba)'
+                             : 'linear-gradient(90deg,#7a7a7a,#a9a9a9)');
   if (state === 'race' || state === 'count') {
     if (noTimer) {
       elTempo.textContent = fmtT(raceTime);

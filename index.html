@@ -22,7 +22,10 @@
   #vel .kmh { font-size:18px; color:#f2d489; letter-spacing:4px; }
   #nos { right:28px; bottom:108px; width:170px; height:10px;
     border:2px solid #f2d489; border-radius:5px; background:rgba(0,0,0,.5);
-    transform:skewX(-18deg); }
+    transform:skewX(-18deg); position:fixed; }
+  /* marca o limiar de 50% (a partir daí dá pra armar o nitro) */
+  #nos::after { content:''; position:absolute; left:50%; top:-2px; bottom:-2px;
+    width:2px; background:#f2d489; opacity:.85; }
   #nosfill { height:100%; width:100%; border-radius:3px;
     background:linear-gradient(90deg,#2da8ff,#9fe2ff); }
   #topo { top:14px; left:50%; transform:translateX(-50%); text-align:center; }
@@ -142,11 +145,17 @@
   </div>
   <div class="ctl">
     &uarr;&darr; escolher op&ccedil;&atilde;o &nbsp;&nbsp; &larr;&rarr; mudar &nbsp;&nbsp;|&nbsp;&nbsp; W acelerar &nbsp; S frear &nbsp; A/D dire&ccedil;&atilde;o<br>
-    SHIFT nitro &nbsp;&nbsp; ESPA&Ccedil;O freio de m&atilde;o &nbsp;&nbsp; C c&acirc;mera &nbsp;&nbsp; M som &nbsp;&nbsp; R reiniciar
+    SHIFT nitro (carrega at&eacute; a marca p/ armar; depois vai at&eacute; o fim) &nbsp;&nbsp; ESPA&Ccedil;O freio de m&atilde;o<br>
+    C c&acirc;mera &nbsp;&nbsp; M som &nbsp;&nbsp; P pausa &nbsp;&nbsp; R reiniciar
   </div>
   <div class="go">PRESSIONE ENTER</div>
   <div class="lb" id="lbIntro"></div>
   <small>tra&ccedil;ado, t&uacute;neis, sa&iacute;das e ped&aacute;gio reais &mdash; dados OpenStreetMap &copy; colaboradores OSM &nbsp;&middot;&nbsp; <b id="buildtag">build &hellip;</b></small>
+</div>
+
+<div class="tela" id="pause" style="display:none">
+  <h1>PAUSA</h1>
+  <div class="go">P CONTINUAR &nbsp;&middot;&nbsp; ESC MENU &nbsp;&middot;&nbsp; R REINICIAR</div>
 </div>
 
 <div class="tela" id="fim">
