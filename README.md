@@ -1,10 +1,11 @@
 # RIO MOST WANTED — Linha Amarela
 
 Jogo de corrida arcade no estilo **Need for Speed Most Wanted (PS2)** ambientado no
-**Rio de Janeiro**, com uma malha real de vias (OSM) ligando **seis terminais**:
-**Muriqui (Mangaratiba)**, **Recreio dos Bandeirantes**, **Jardim Oceânico**,
-**Rio 2 (Barra Olímpica)**, **Norte Shopping** e **Ilha do Fundão (UFRJ)** —
-30 rotas direcionais reais (cada sentido usa a pista correta):
+**Rio de Janeiro**, com uma malha real de vias (OSM) ligando **sete terminais**:
+**Penedo (Itatiaia)**, **Muriqui (Mangaratiba)**, **Recreio dos Bandeirantes**,
+**Jardim Oceânico**, **Rio 2 (Barra Olímpica)**, **Norte Shopping** e
+**Ilha do Fundão (UFRJ)** — 42 rotas direcionais reais (cada sentido usa a pista
+correta):
 
 - Recreio ↔ Fundão (~36–39 km): orla da Barra → Av. Ayrton Senna → **Linha
   Amarela inteira** (túneis, pedágio LAMSA, 10 saídas numeradas) → Fundão.
@@ -14,6 +15,9 @@ Jogo de corrida arcade no estilo **Need for Speed Most Wanted (PS2)** ambientado
   a arrebentação, o mar e os coqueiros do calçadão no lado sul**.
 - Muriqui ↔ qualquer terminal (65–103 km): Costa Verde pela Rio-Santos/RJ-014,
   Túnel da Grota Funda e Guaratiba.
+- Penedo ↔ qualquer terminal (~145–176 km): **Via Dutra (BR-116)** pelo Vale do
+  Paraíba (Volta Redonda, Resende) até a Serra da Mantiqueira — as rotas mais
+  longas do jogo.
 
 **Mão dupla real**: trechos bidirecionais (orla, Rio-Santos) têm o nº exato de
 faixas por sentido do OSM (ex.: orla com 2 faixas → Recreio e 1 → Barra, coladas,
