@@ -66,7 +66,8 @@ def simplify(pts, tol):
 rd = load('roads_raw.json')
 seen_ids = {e['id'] for e in rd['elements'] if e['type'] == 'way'}
 for extra in ('ext_barra.json', 'ext_fundao.json', 'ext_praia.json',
-              'ext_recreio.json', 'ext_pepe.json', 'ext_costaverde.json'):
+              'ext_recreio.json', 'ext_pepe.json', 'ext_costaverde.json',
+              'ext_dutra_w.json', 'ext_dutra_e.json', 'ext_penedo.json'):
     try:
         for e in load(extra)['elements']:
             if e['type'] == 'way' and e['id'] not in seen_ids:
@@ -85,23 +86,54 @@ CLASS_W = {'motorway': 0.82, 'motorway_link': 1.0, 'trunk': 0.95,
 graph = {}      # node -> [(way, to_node, reversed?)]
 all_ways = {}
 node_coord = {}
+# o grafo liga só os nós das PONTAS de cada via. Para não perder junções que
+# caem no MEIO de uma via (T sem split no OSM), fazemos "noding": contamos em
+# quantas vias cada nó aparece e quebramos as vias nesses nós compartilhados.
+from collections import Counter as _Counter
+_node_ways = _Counter()
+_hw_ways = []
 for e in rd['elements']:
     if e['type'] != 'way' or 'geometry' not in e:
         continue
-    tags = e.get('tags', {})
-    if tags.get('highway') not in HW_GRAPH:
+    if e.get('tags', {}).get('highway') not in HW_GRAPH:
         continue
     all_ways[e['id']] = e
+    _hw_ways.append(e)
+    for nid in set(e['nodes']):
+        _node_ways[nid] += 1
+
+
+def _split_at_junctions(e):
+    nd, geo = e['nodes'], e['geometry']
+    cuts = [0]
+    for i in range(1, len(nd) - 1):
+        if _node_ways[nd[i]] >= 2:  # nó de junção interno -> quebra
+            cuts.append(i)
+    cuts.append(len(nd) - 1)
+    out = []
+    for s0, s1 in zip(cuts, cuts[1:]):
+        if s1 <= s0:
+            continue
+        sub = dict(e)               # herda todas as tags (tunnel, lanes, name...)
+        sub['nodes'] = nd[s0:s1 + 1]
+        sub['geometry'] = geo[s0:s1 + 1]
+        out.append(sub)
+    return out
+
+
+for e in _hw_ways:
     for nid, g in zip(e['nodes'], e['geometry']):
         node_coord[nid] = (g['lat'], g['lon'])
-    a, b = e['nodes'][0], e['nodes'][-1]
+    tags = e.get('tags', {})
     oneway = tags.get('oneway', 'yes' if tags['highway'].startswith('motorway') else 'no')
-    if oneway == '-1':
-        graph.setdefault(b, []).append((e, a, True))
-    else:
-        graph.setdefault(a, []).append((e, b, False))
-        if oneway == 'no':
-            graph.setdefault(b, []).append((e, a, True))
+    for sub in _split_at_junctions(e):
+        a, b = sub['nodes'][0], sub['nodes'][-1]
+        if oneway == '-1':
+            graph.setdefault(b, []).append((sub, a, True))
+        else:
+            graph.setdefault(a, []).append((sub, b, False))
+            if oneway == 'no':
+                graph.setdefault(b, []).append((sub, a, True))
 
 la_ways = {wid: w for wid, w in all_ways.items()
            if w['tags'].get('highway') == 'motorway'
@@ -169,6 +201,7 @@ TERMINALS = {
     'Muriqui': (-22.9202, -43.9440),
     'Norte Shopping': (-22.8875, -43.2880),
     'Rio 2': (-22.9680, -43.3900),
+    'Penedo': (-22.4410, -44.5241),  # Itatiaia, Serra da Mantiqueira (via Dutra)
 }
 PAIRS = [(a, b) for a in TERMINALS for b in TERMINALS if a != b]
 TERM_RADIUS = 1100
@@ -540,7 +573,8 @@ for r in routes_out:
     all_route_pts.extend((p[0], p[1]) for p in r['pts'][::4])
 places = []
 seen_names = set()
-for fn in ('places_raw.json', 'places_oeste.json', 'places_costaverde.json'):
+for fn in ('places_raw.json', 'places_oeste.json', 'places_costaverde.json',
+           'places_penedo.json'):
     try:
         pl = load(fn)
     except FileNotFoundError:

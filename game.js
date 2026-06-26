@@ -10,7 +10,7 @@ window.__GAME_OK__ = true;
 // os tempos — isso reseta todos os leaderboards e ghosts automaticamente
 // (a versão faz parte da chave de armazenamento; chaves de versões antigas
 // são apagadas no boot). Também é o que aparece no rodapé do menu.
-const GAME_VERSION = 'POL-9.3';
+const GAME_VERSION = 'POL-9.4';
 {
   const tag = document.getElementById('buildtag');
   if (tag) tag.textContent = 'build ' + GAME_VERSION;

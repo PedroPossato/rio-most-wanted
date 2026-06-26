@@ -4,3 +4,5 @@
 # respostas brutas/scratch da Overpass API (não versionar)
 query*.txt
 roads_raw2.json
+q_*.txt
+qpenedo.txt

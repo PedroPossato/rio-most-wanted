@@ -1,0 +1,892 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.11 87bfad18",
+  "osm3s": {
+    "timestamp_osm_base": "2026-06-26T17:10:15Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 338515452,
+  "lat": -22.4195607,
+  "lon": -44.2896491,
+  "tags": {
+    "name": "Porto Real",
+    "place": "town",
+    "population": "20373",
+    "population:date": "2023-08-31",
+    "source": "IBGE",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "wikidata": "Q765477",
+    "wikimedia_commons": "Category:Porto Real",
+    "wikipedia": "pt:Porto Real"
+  }
+},
+{
+  "type": "node",
+  "id": 338515463,
+  "lat": -22.4955278,
+  "lon": -44.5633108,
+  "tags": {
+    "name": "Itatiaia",
+    "place": "town",
+    "population": "30908",
+    "population:date": "2023-08-31",
+    "source": "IBGE",
+    "source:population": "IBGE, DOU de 31/08/2023",
+    "wikidata": "Q817223",
+    "wikimedia_commons": "Category:Itatiaia",
+    "wikipedia": "pt:Itatiaia"
+  }
+},
+{
+  "type": "node",
+  "id": 338515497,
+  "lat": -22.4066444,
+  "lon": -44.2577453,
+  "tags": {
+    "name": "Quatis",
+    "place": "town",
+    "population": "13682",
+    "population:date": "2023-08-31",
+    "source": "IBGE",
+    "source:population": "IBGE, DOU de 31/08/2023"
+  }
+},
+{
+  "type": "node",
+  "id": 416645377,
+  "lat": -22.4569000,
+  "lon": -44.4350000,
+  "tags": {
+    "name": "Agulhas Negras",
+    "place": "village",
+    "source": "IBGE"
+  }
+},
+{
+  "type": "node",
+  "id": 416645382,
+  "lat": -22.5822870,
+  "lon": -44.2649570,
+  "tags": {
+    "IBGE:GEOCODIGO": "330040730",
+    "name": "Rialto",
+    "place": "suburb",
+    "source": "IBGE"
+  }
+},
+{
+  "type": "node",
+  "id": 416657180,
+  "lat": -22.4300900,
+  "lon": -44.5047460,
+  "tags": {
+    "name": "Casa de Pedra",
+    "place": "hamlet",
+    "source": "IBGE"
+  }
+},
+{
+  "type": "node",
+  "id": 591764002,
+  "lat": -22.4409531,
+  "lon": -44.5240711,
+  "tags": {
+    "name": "Penedo",
+    "place": "village",
+    "wikidata": "Q1073075",
+    "wikimedia_commons": "Category:Penedo (Itatiaia)",
+    "wikipedia": "pt:Penedo (Itatiaia)"
+  }
+},
+{
+  "type": "node",
+  "id": 1910799458,
+  "lat": -22.4532808,
+  "lon": -44.5220391,
+  "tags": {
+    "name": "Bairro Martinelli",
+    "place": "suburb",
+    "source": "IBGE 3302254"
+  }
+},
+{
+  "type": "node",
+  "id": 2470096158,
+  "lat": -22.4638574,
+  "lon": -44.3559203,
+  "tags": {
+    "name": "Vila Marina",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 2470098032,
+  "lat": -22.4628780,
+  "lon": -44.3449115,
+  "tags": {
+    "name": "Vila Santo Antônio",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 2619254506,
+  "lat": -22.4527000,
+  "lon": -44.3014870,
+  "tags": {
+    "name": "Floriano",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 3741170725,
+  "lat": -22.4232119,
+  "lon": -44.5312795,
+  "tags": {
+    "name": "Jambeiro",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4325016932,
+  "lat": -22.5290149,
+  "lon": -44.2004228,
+  "tags": {
+    "alt_name": "Santa Maria 2",
+    "name": "Santa Maria II",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4325019805,
+  "lat": -22.5353734,
+  "lon": -44.2065534,
+  "tags": {
+    "name": "Colônia Santo Antônio",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4325020947,
+  "lat": -22.5498981,
+  "lon": -44.2042742,
+  "tags": {
+    "name": "Siderlândia",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4330792686,
+  "lat": -22.5285781,
+  "lon": -44.2062226,
+  "tags": {
+    "name": "Vila Ursulino",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4353322692,
+  "lat": -22.5351056,
+  "lon": -44.2010763,
+  "tags": {
+    "alt_name": "Morada da Colônia 1",
+    "name": "Morada da Colônia I",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4353322693,
+  "lat": -22.5353460,
+  "lon": -44.2171463,
+  "tags": {
+    "alt_name": "Morada da Colônia 2",
+    "name": "Morada da Colônia II",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 4353322695,
+  "lat": -22.5371793,
+  "lon": -44.2017156,
+  "tags": {
+    "name": "Nossa Senhora de Fátima",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 7140530103,
+  "lat": -22.4606556,
+  "lon": -44.4371411,
+  "tags": {
+    "name": "Paraíso",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 8199101810,
+  "lat": -22.5270195,
+  "lon": -44.2032153,
+  "tags": {
+    "name": "Santa Maria I",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 8199101811,
+  "lat": -22.5265813,
+  "lon": -44.2009733,
+  "tags": {
+    "name": "Santa Maria III",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 8199101812,
+  "lat": -22.5335799,
+  "lon": -44.2130658,
+  "tags": {
+    "name": "Conjunto Aymoré",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 8199101813,
+  "lat": -22.5356358,
+  "lon": -44.2149822,
+  "tags": {
+    "name": "Conjunto Village",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 8199101814,
+  "lat": -22.5365774,
+  "lon": -44.2182921,
+  "tags": {
+    "name": "Conjunto São Lucas",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 8199101815,
+  "lat": -22.5358745,
+  "lon": -44.2171278,
+  "tags": {
+    "name": "Conjunto 5",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 8199101816,
+  "lat": -22.5415099,
+  "lon": -44.2265141,
+  "tags": {
+    "name": "Conjunto Novo Horizonte",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 9641595202,
+  "lat": -22.4772064,
+  "lon": -44.4975767,
+  "tags": {
+    "name": "Nova Alegria",
+    "place": "suburb",
+    "source:name": "LM 2970/2012"
+  }
+},
+{
+  "type": "node",
+  "id": 9988975612,
+  "lat": -22.4883629,
+  "lon": -44.5042207,
+  "tags": {
+    "name": "Morada da Montanha",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9988978500,
+  "lat": -22.4726132,
+  "lon": -44.5033249,
+  "tags": {
+    "name": "Vila Izabel",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9988983122,
+  "lat": -22.4588646,
+  "lon": -44.5111824,
+  "tags": {
+    "name": "Jardim Martinelli",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9988985180,
+  "lat": -22.4880401,
+  "lon": -44.4893698,
+  "tags": {
+    "name": "Mirante das Agulhas",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9988987582,
+  "lat": -22.4610261,
+  "lon": -44.4812490,
+  "tags": {
+    "name": "São Caetano",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9988993140,
+  "lat": -22.4709347,
+  "lon": -44.4988348,
+  "tags": {
+    "name": "Jardim Beira Rio",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9988996573,
+  "lat": -22.4625133,
+  "lon": -44.4906904,
+  "tags": {
+    "name": "Jardim das Rosas",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9988996867,
+  "lat": -22.4770418,
+  "lon": -44.5066883,
+  "tags": {
+    "name": "Jardim Primavera",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989004463,
+  "lat": -22.4677524,
+  "lon": -44.5015672,
+  "tags": {
+    "name": "Marechal Jardim",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9989004464,
+  "lat": -22.4420142,
+  "lon": -44.5140707,
+  "tags": {
+    "name": "Nova Penedo",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9989004465,
+  "lat": -22.4629613,
+  "lon": -44.4647087,
+  "tags": {
+    "name": "Nova Liberdade",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9989004466,
+  "lat": -22.4685485,
+  "lon": -44.4586106,
+  "tags": {
+    "name": "Vila Santa Cecília",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989004467,
+  "lat": -22.4670374,
+  "lon": -44.4555983,
+  "tags": {
+    "name": "Jardim Jalisco",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989008801,
+  "lat": -22.4732150,
+  "lon": -44.5020106,
+  "tags": {
+    "name": "Jardim Aliança",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989014334,
+  "lat": -22.4843836,
+  "lon": -44.5029163,
+  "tags": {
+    "name": "Jardim d'Oeste",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989016584,
+  "lat": -22.4724548,
+  "lon": -44.4849115,
+  "tags": {
+    "name": "Baixada da Olaria",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9989019995,
+  "lat": -22.4839701,
+  "lon": -44.5061867,
+  "tags": {
+    "name": "Alto dos Passos",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989028538,
+  "lat": -22.4626630,
+  "lon": -44.4456320,
+  "tags": {
+    "name": "Jardim Tropical",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989028539,
+  "lat": -22.4631561,
+  "lon": -44.4512090,
+  "tags": {
+    "name": "Campos Elíseos",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9989028540,
+  "lat": -22.4599747,
+  "lon": -44.4512090,
+  "tags": {
+    "name": "Independência",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9989028541,
+  "lat": -22.4510823,
+  "lon": -44.4592991,
+  "tags": {
+    "name": "Monte Castelo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989028542,
+  "lat": -22.4658921,
+  "lon": -44.4409329,
+  "tags": {
+    "name": "Montese",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989028674,
+  "lat": -22.4880060,
+  "lon": -44.4979121,
+  "tags": {
+    "name": "Boa Vista",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989029932,
+  "lat": -22.4800576,
+  "lon": -44.4943786,
+  "tags": {
+    "name": "Cidade Alegria",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989049875,
+  "lat": -22.4548187,
+  "lon": -44.4413522,
+  "tags": {
+    "name": "Cabral",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9989049876,
+  "lat": -22.4552425,
+  "lon": -44.4333771,
+  "tags": {
+    "name": "Paraíso",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9989049877,
+  "lat": -22.4648421,
+  "lon": -44.4277348,
+  "tags": {
+    "name": "Monet",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989049878,
+  "lat": -22.4587249,
+  "lon": -44.4157523,
+  "tags": {
+    "name": "Jardim Esperança",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989049879,
+  "lat": -22.4548555,
+  "lon": -44.4146956,
+  "tags": {
+    "name": "Jardim do Sol",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989049880,
+  "lat": -22.4511334,
+  "lon": -44.3923056,
+  "tags": {
+    "name": "Fazenda da Barra 3",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989049881,
+  "lat": -22.4488301,
+  "lon": -44.3964925,
+  "tags": {
+    "name": "Campo Belo",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989049882,
+  "lat": -22.4625205,
+  "lon": -44.4039492,
+  "tags": {
+    "name": "Fazenda da Barra 2",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989049883,
+  "lat": -22.4625758,
+  "lon": -44.3832938,
+  "tags": {
+    "name": "Morada da Barra",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989049884,
+  "lat": -22.4725618,
+  "lon": -44.3808215,
+  "tags": {
+    "name": "Bulhões",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9989049885,
+  "lat": -22.4650032,
+  "lon": -44.3573545,
+  "tags": {
+    "name": "Vila Marina",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989049886,
+  "lat": -22.4527964,
+  "lon": -44.3547980,
+  "tags": {
+    "name": "Santo Antônio",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989049887,
+  "lat": -22.4425026,
+  "lon": -44.3216348,
+  "tags": {
+    "name": "Jardim das Acácias",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 9989051352,
+  "lat": -22.4906520,
+  "lon": -44.5541831,
+  "tags": {
+    "name": "Vila Niterói",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989051353,
+  "lat": -22.5001939,
+  "lon": -44.5555219,
+  "tags": {
+    "name": "Faz Belos Prados",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989051354,
+  "lat": -22.4999642,
+  "lon": -44.5596530,
+  "tags": {
+    "name": "Vila Paraíso",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989051355,
+  "lat": -22.5020846,
+  "lon": -44.5632103,
+  "tags": {
+    "name": "Vila Odete",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 9989051356,
+  "lat": -22.5002323,
+  "lon": -44.5668259,
+  "tags": {
+    "name": "Vila Magnólia",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 10037897413,
+  "lat": -22.4522000,
+  "lon": -44.3011000,
+  "tags": {
+    "name": "Floriano",
+    "place": "village"
+  }
+},
+{
+  "type": "node",
+  "id": 10057965153,
+  "lat": -22.4656097,
+  "lon": -44.4662061,
+  "tags": {
+    "name": "Liberdade",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 10605025446,
+  "lat": -22.5343306,
+  "lon": -44.2130562,
+  "tags": {
+    "name": "Conjunto Aymoré",
+    "place": "quarter"
+  }
+},
+{
+  "type": "node",
+  "id": 12385458771,
+  "lat": -22.4869327,
+  "lon": -44.2445975,
+  "tags": {
+    "name": "Vila Pombal",
+    "place": "hamlet"
+  }
+},
+{
+  "type": "node",
+  "id": 13500659824,
+  "lat": -22.4667607,
+  "lon": -44.4319624,
+  "tags": {
+    "name": "Bairro Surubí",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13500659825,
+  "lat": -22.4693469,
+  "lon": -44.4338317,
+  "tags": {
+    "name": "Alto do Surubí",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13500659826,
+  "lat": -22.4727787,
+  "lon": -44.4383595,
+  "tags": {
+    "name": "Novo Surubí",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13500659827,
+  "lat": -22.4779408,
+  "lon": -44.4373958,
+  "tags": {
+    "name": "Vila Verde",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13500659828,
+  "lat": -22.4846941,
+  "lon": -44.4625537,
+  "tags": {
+    "name": "Terras Alpha",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13500659896,
+  "lat": -22.4848907,
+  "lon": -44.4718969,
+  "tags": {
+    "name": "Limeira",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13500659897,
+  "lat": -22.4859262,
+  "lon": -44.4775382,
+  "tags": {
+    "name": "Morada da Colina",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13500696008,
+  "lat": -22.4870547,
+  "lon": -44.4880149,
+  "tags": {
+    "name": "Mirante das Agulhas",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13500696009,
+  "lat": -22.4931852,
+  "lon": -44.4893212,
+  "tags": {
+    "name": "Morada do Bosque",
+    "place": "neighbourhood"
+  }
+},
+{
+  "type": "node",
+  "id": 13500696021,
+  "lat": -22.4857196,
+  "lon": -44.4935756,
+  "tags": {
+    "name": "Nova Resende",
+    "place": "suburb"
+  }
+},
+{
+  "type": "node",
+  "id": 13753995410,
+  "lat": -22.4686020,
+  "lon": -44.3752730,
+  "tags": {
+    "name": "Bulhões",
+    "place": "village"
+  }
+}
+
+  ]
+}
