@@ -107,9 +107,10 @@ por carro + trânsito + trajeto + polícia + dificuldade.
 
 ## Contexto real (dados OSM)
 
-- O HUD mostra o **bairro real** por onde você está passando (Cidade de Deus,
-  Freguesia, Água Santa, Cachambi, Bonsucesso...) e o nome oficial dos túneis
-  (Túnel Eng. Raymundo de Paula Soares, o "Túnel da Covanca").
+- O HUD mostra a **rua/estrada atual** (Avenida Ayrton Senna, Linha Amarela,
+  Avenida Brasil, Rodovia Presidente Dutra, Túnel Eng. Raymundo de Paula
+  Soares...) e o **bairro real** por onde você passa (Cidade de Deus, Freguesia,
+  Água Santa, Cachambi, Bonsucesso...), tudo extraído das tags `name`/`ref` do OSM.
 - O minimapa exibe os bairros do entorno.
 - As **10 saídas reais** da via aparecem como aberturas no guard-rail com
   barreiras listradas (não dá para sair) e **placas verdes** 280 m antes

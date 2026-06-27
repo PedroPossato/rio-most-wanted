@@ -96,7 +96,8 @@ function buildRouteData(rd) {
   }
   return { pts, cum, total: cum[cum.length - 1],
            from: rd.from, to: rd.to, exits: rd.exits || [],
-           tunnels: rd.tunnels || [], toll: rd.toll || null };
+           tunnels: rd.tunnels || [], toll: rd.toll || null,
+           names: rd.names || [] };
 }
 
 const ROUTES = MAP_DATA.routes.map(buildRouteData);
@@ -1795,25 +1796,31 @@ function flash() {
 
 const PLACES = MAP_DATA.places || [];
 let localT = 0, localName = '';
+function roadNameAt(s) {
+  const N = ROUTE.names;
+  if (!N || !N.length) return '';
+  let lo = 0;
+  for (let i = 0; i < N.length; i++) { if (N[i][0] <= s) lo = i; else break; }
+  return N[lo][1].replace('Engenheiro', 'Eng.').replace('Arquiteto', 'Arq.');
+}
 function updateLocal(dt, s) {
   localT -= dt;
   if (localT > 0) return;
-  localT = 0.5;
-  let name = 'RIO DE JANEIRO';
-  const tun = ROUTE.tunnels.find(t => t[1] - t[0] > 300 && s >= t[0] - 30 && s <= t[1] + 30);
-  if (tun && tun[2] && tun[2] !== 'Linha Amarela') {
-    name = tun[2].replace('Engenheiro', 'Eng.').toUpperCase();
-  } else {
-    let bd = 2600, best = null;
-    for (const p of PLACES) {
-      const d = Math.hypot(p.p[0] - player.x, p.p[1] - player.z);
-      if (d < bd) { bd = d; best = p; }
-    }
-    if (best) name = best.n.toUpperCase();
+  localT = 0.4;
+  const road = roadNameAt(s).toUpperCase();         // rua/estrada atual
+  let bairro = '';                                  // bairro mais próximo
+  let bd = 2600, best = null;
+  for (const p of PLACES) {
+    const d = Math.hypot(p.p[0] - player.x, p.p[1] - player.z);
+    if (d < bd) { bd = d; best = p; }
   }
-  if (name !== localName) {
-    localName = name;
-    elLocal.textContent = name + ' · RIO DE JANEIRO';
+  if (best) bairro = best.n.toUpperCase();
+  const key = road + '|' + bairro;
+  if (key !== localName) {
+    localName = key;
+    const loc = (bairro ? bairro + ' · ' : '') + 'RIO DE JANEIRO';
+    elLocal.innerHTML = (road ? '<span class="road">' + road + '</span>' : '') +
+      '<span class="loc">' + loc + '</span>';
   }
 }
 

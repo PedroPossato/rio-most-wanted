@@ -249,7 +249,7 @@ except FileNotFoundError:
 def build_route(path, name_a, name_b):
     """Constrói o registro exportável de uma rota direcional."""
     # polilinha com flags por ponto
-    ll, tun_f, ln_f, br_f, onc_f = [], [], [], [], []
+    ll, tun_f, ln_f, br_f, onc_f, name_f = [], [], [], [], [], []
     node_s = {}
     s_acc = 0.0
 
@@ -259,6 +259,15 @@ def build_route(path, name_a, name_b):
         except (ValueError, TypeError):
             return None
 
+    _GENERIC = {'motorway': 'Via expressa', 'motorway_link': 'Acesso',
+                'trunk': 'Via expressa', 'trunk_link': 'Acesso', 'primary': 'Via',
+                'primary_link': 'Acesso', 'secondary': 'Via',
+                'secondary_link': 'Acesso', 'tertiary': 'Via'}
+
+    def road_name(tags):
+        nm = tags.get('name') or tags.get('ref') or _GENERIC.get(tags.get('highway'), 'Via')
+        return nm.split(';')[0].strip()
+
     for w, rev in path:
         g = list(reversed(w['geometry'])) if rev else w['geometry']
         nd = list(reversed(w['nodes'])) if rev else w['nodes']
@@ -267,6 +276,7 @@ def build_route(path, name_a, name_b):
         br = 1 if tags.get('bridge') else 0
         # faixas direcionais: vias de mão dupla têm contramão (onc)
         hw = tags.get('highway', '')
+        nm = road_name(tags)
         oneway = tags.get('oneway', 'yes' if hw.startswith('motorway') else 'no')
         total = iln(tags.get('lanes'))
         lf, lb = iln(tags.get('lanes:forward')), iln(tags.get('lanes:backward'))
@@ -293,6 +303,7 @@ def build_route(path, name_a, name_b):
                 ln_f.append(ln)
                 br_f.append(br)
                 onc_f.append(onc)
+                name_f.append(nm)
             else:
                 if tun:
                     tun_f[-1] = 1
@@ -342,10 +353,11 @@ def build_route(path, name_a, name_b):
         ln_f = ln_f[i0:i1 + 1]
         br_f = br_f[i0:i1 + 1]
         onc_f = onc_f[i0:i1 + 1]
+        name_f = name_f[i0:i1 + 1]
     # chanfra cantos agudos (>55°) — retornos e esquinas viram curvas dirigíveis
     def chamfer():
-        nonlocal proj, ll, tun_f, ln_f, br_f, onc_f
-        np_, nll, ntu, nln, nbr, non = [], [], [], [], [], []
+        nonlocal proj, ll, tun_f, ln_f, br_f, onc_f, name_f
+        np_, nll, ntu, nln, nbr, non, nnm = [], [], [], [], [], [], []
         for i in range(len(proj)):
             if 0 < i < len(proj) - 1:
                 ax, az = proj[i - 1]; bx, bz = proj[i]; cx, cz = proj[i + 1]
@@ -365,15 +377,17 @@ def build_route(path, name_a, name_b):
                         for pp in (pA, pM, pB):
                             np_.append(pp); nll.append(ll[i]); ntu.append(tun_f[i])
                             nln.append(ln_f[i]); nbr.append(br_f[i]); non.append(onc_f[i])
+                            nnm.append(name_f[i])
                         continue
             np_.append(proj[i]); nll.append(ll[i]); ntu.append(tun_f[i])
             nln.append(ln_f[i]); nbr.append(br_f[i]); non.append(onc_f[i])
-        proj, ll, tun_f, ln_f, br_f, onc_f = np_, nll, ntu, nln, nbr, non
+            nnm.append(name_f[i])
+        proj, ll, tun_f, ln_f, br_f, onc_f, name_f = np_, nll, ntu, nln, nbr, non, nnm
     # despike: remove vértices com inversão de direção (>120°) — "dedos" que
     # saem da pista e voltam (artefatos do Dijkstra), que o chamfer não suaviza
     # e a remoção de laço não pega (arco curto). O chamfer depois alisa o resto.
     def despike():
-        nonlocal proj, ll, tun_f, ln_f, br_f, onc_f
+        nonlocal proj, ll, tun_f, ln_f, br_f, onc_f, name_f
         for _ in range(20):
             rm = -1
             for i in range(1, len(proj) - 1):
@@ -385,7 +399,7 @@ def build_route(path, name_a, name_b):
                     rm = i; break
             if rm < 0:
                 break
-            for arr in (proj, ll, tun_f, ln_f, br_f, onc_f):
+            for arr in (proj, ll, tun_f, ln_f, br_f, onc_f, name_f):
                 del arr[rm]
             print(f'  despike em {name_a}->{name_b} (vértice {rm})')
     despike()
@@ -394,7 +408,7 @@ def build_route(path, name_a, name_b):
     # onde já esteve >120 m antes -> o corredor seria desenhado cruzado consigo
     # mesmo (asfalto/faixas em leque). Atalha do 1o ponto próximo direto p/ o 2o.
     def remove_loops():
-        nonlocal proj, ll, tun_f, ln_f, br_f, onc_f
+        nonlocal proj, ll, tun_f, ln_f, br_f, onc_f, name_f
         for _ in range(8):
             cumv = [0.0]
             for i in range(1, len(proj)):
@@ -414,7 +428,7 @@ def build_route(path, name_a, name_b):
             if not cut:
                 break
             i, j = cut
-            for arr in (proj, ll, tun_f, ln_f, br_f, onc_f):
+            for arr in (proj, ll, tun_f, ln_f, br_f, onc_f, name_f):
                 del arr[i + 1:j]
             print(f'  laço removido em {name_a}->{name_b}: '
                   f'{round(cumv[i])}m -> {round(cumv[j])}m')
@@ -431,16 +445,27 @@ def build_route(path, name_a, name_b):
         node_s = {nid: s - s_shift for nid, s in node_s.items()
                   if 0 <= s - s_shift <= total}
     kept = simplify(proj, 1.5)
-    ki, pts = 0, []
+    ki, pts, kept_name = 0, [], []
     for x, z in kept:
         while proj[ki] != (x, z):
             ki += 1
         pts.append([round(x, 1), round(z, 1), tun_f[ki], ln_f[ki], br_f[ki], onc_f[ki]])
+        kept_name.append(name_f[ki])
 
     cum_proj = [0.0]
     for i in range(1, len(proj)):
         cum_proj.append(cum_proj[-1] + math.hypot(proj[i][0] - proj[i - 1][0],
                                                   proj[i][1] - proj[i - 1][1]))
+
+    # faixas de nome de via (compacto): [s_inicio, nome] a cada troca de rua
+    names_spans = []
+    cum_pts = [0.0]
+    for i in range(1, len(pts)):
+        cum_pts.append(cum_pts[-1] + math.hypot(pts[i][0] - pts[i - 1][0],
+                                                pts[i][1] - pts[i - 1][1]))
+    for i, nmv in enumerate(kept_name):
+        if not names_spans or names_spans[-1][1] != nmv:
+            names_spans.append([round(cum_pts[i]), nmv])
 
     def dir_at(s):
         import bisect
@@ -527,7 +552,7 @@ def build_route(path, name_a, name_b):
 
     return {'from': name_a, 'to': name_b, 'pts': pts,
             'exits': exits, 'tunnels': [[round(a), round(b), n] for a, b, n in tun_spans],
-            'toll': toll_s}
+            'toll': toll_s, 'names': names_spans}
 
 
 routes_out = []
